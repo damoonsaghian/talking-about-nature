@@ -6,10 +6,10 @@ scalar product is a map which to every two vectors, associates a scalar, and
 , nonDegenerate Math("if x y = 0 then x=0 or y=0")
 
 a set of mutually orthonormal vectors are defined by
-  Math("
+  Math("""
   ev[i] ev[j] = g[i, j]
   g[i, j] = if i = j {+-1} else {0}
-  ")
+  """)
 for spacetime Math("g[i, j] = if i=j=0 {1} else if i=j=1 to 3 {-1} else {0}")
 those sets of orthonormal vectors that have the maximum possible number of elements, are called orthonormal bases of the vector space, and that maximum number is called the dimension of the vector space
 vector components with respect to an orthonormal basis are defined by Math("v[i] = v ev[i]")
@@ -17,10 +17,10 @@ vector components with respect to an orthonormal basis are defined by Math("v[i]
   (by convention repeated indices in a product means summing over those indices)
 
 vector transformations which leave the distance ie Math("sqrt((v2 - v1)^2)") invariant, are called symmetry transformations, they can be written as
-  Math("
+  Math("""
   v2[i] = st[i, j] v1[j] + st0[i]
   g[i, j] st[i, k] st[j, l] = g[k, l]
-  ")
+  """)
 
 # fields
 fields are functions on spacetime that transform linearly under symmetry transformation, this implies that they transform according to a representation of the spacetime symmetry group
@@ -36,10 +36,10 @@ fields are functions on spacetime that transform linearly under symmetry transfo
   ")
 
 linear field equation is an equation which its solutions are a superposition of plane waves
-  Math("
+  Math("""
   f(x) = sum(p, alpha[p] exp(imag g[i, j] p[i] x[j]))
   g[i, j] p[i] p[j] = m^2
-  ")
+  """)
 an example of a linear field equation (any kind of field, scalar, vector or spinor) that is invariant under spacetime symmetry transformations is
   Math("g[i, j] d[i] d[j] f + m^2 f = 0")
 in fact the most general form for a general vector space is
@@ -52,17 +52,17 @@ field equations have symmetry transformations that are not related to spacetime
 for example multiplying the field by a constant number leaves the equation invariant
 although this is a trivial property due to the equation being linear, it is a guide to nontrivial symmetries
 we can write a field equation that is invariant under a local phase transformation (spacetime dependent phase transformation) by introducing a gauge field, to compensate for the variations due to the derivative term
-  Math("
+  Math("""
   imag gamma[i] d[i] sf - m sf = e gf[i] gamma[i] sf
   g[i, j] d[i] d[j] gf[k] = e cross(sf) gamma[0] gamma[k] sf
-  ")
+  """)
   these equations describe how fields can interact with each other
 
 uncertainty principle is a property of fields
-  Math("
+  Math("""
   delta(x) delta(k) >= 1/2
   delta(t) delta(f) >= 1/2
-  ")
+  """)
 
 # quantum fields
 let us imagine a screen impermeable to electrons, in which two slits are cut
