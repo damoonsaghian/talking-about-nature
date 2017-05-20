@@ -14,9 +14,10 @@ keywords: physics, quantum theory, general relativity, Planck scales, strand mod
     font-family: Arial;
     font-size: 1em;
   }
-  pre {
+  div {
     margin-left: 1em;
     text-indent: -1em;
+    white-space: pre;
   }
   ul {
     list-style-type: none;
@@ -51,7 +52,7 @@ keywords: physics, quantum theory, general relativity, Planck scales, strand mod
 {% endfor %}
 </ul>
 
-<div style="margin-left:18%; padding:1em; max-width: 40em;">
+<div style="margin-left:18%; text-indent:0; padding:1em; max-width: 40em;">
 <h1>{{ page.title }}</h1>
 {% capture nl %}
 {% endcapture %}
@@ -61,7 +62,7 @@ keywords: physics, quantum theory, general relativity, Planck scales, strand mod
 {% for file in site.static_files %}
   <h2 id="{{ file.basename }}">{{ file.basename | replace: "--", ", " | replace: "-", " " }}</h2>
   {% capture content %}{% include_relative {{file.path}} %}{% endcapture %}
-  {{ content | replace: "<", "&lt;" | replace: ">", "&gt;" | prepend: "<pre>" | append: "</pre>" | replace: dnl, "</pre><p></p><pre>" | replace: nl, "</pre><pre>" }}
+  {{ content | replace: "<", "&lt;" | replace: ">", "&gt;" | prepend: "<div>" | append: "</div>" | replace: dnl, "</div><p></p><div>" | replace: nl, "</div><div>" }}
 {% endfor %}
 </div>
 
