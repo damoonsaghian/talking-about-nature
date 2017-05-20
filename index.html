@@ -61,7 +61,7 @@ keywords: physics, quantum theory, general relativity, Planck scales, strand mod
 {% for file in site.static_files %}
   <h2 id="{{ file.basename }}">{{ file.basename | replace: "--", ", " | replace: "-", " " }}</h2>
   {% capture content %}{% include_relative {{file.path}} %}{% endcapture %}
-  {{ content | replace: "<", "&lt;" | replace: ">", "&gt;" | prepend: "<div style='white-space: pre;'>" | append: "</div>" | replace: dnl, "</div><p></p><div style='white-space: pre;'>" | replace: nl, "</div><div style='white-space: pre;'>" }}
+  {{ content | replace: "<", "&lt;" | replace: ">", "&gt;" | prepend: "<div>" | append: "</div>" | replace: dnl, "</div><p></p><div>" | replace: nl, "</div><div>" }}
 {% endfor %}
 </div>
 
