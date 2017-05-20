@@ -1,71 +1,65 @@
 # spacetime
 spacetime is a continuous and smooth 4 dimensional vector space with a scalar product
 scalar product is a map which to every two vectors, associates a scalar, and
-, it is symmetric {math("v1 v2 = v2 v1")}
-, bilinear (a is a scalar) math("(a v1 + v2) v3 = a v1 v2 + v2 v3")
-, nonDegenerate math("if x y = 0 then x=0 or y=0")
+, it is symmetric Math("v1 v2 = v2 v1")
+, bilinear (a is a scalar) Math("(a v1 + v2) v3 = a v1 v2 + v2 v3")
+, nonDegenerate Math("if x y = 0 then x=0 or y=0")
 
 a set of mutually orthonormal vectors are defined by
-  math("
-  ev_i ev_j = g_ij
-  g_ij = +-1 when i=j
-         0 otherwise
+  Math("
+  ev[i] ev[j] = g[i, j]
+  g[i, j] = if i = j {+-1} else {0}
   ")
-for spacetime
-  math("
-  g_ij = 1 when i=j=0
-         -1 when i=j=1 to 3
-         0 otherwise
-  ")
+for spacetime Math("g[i, j] = if i=j=0 {1} else if i=j=1 to 3 {-1} else {0}")
 those sets of orthonormal vectors that have the maximum possible number of elements, are called orthonormal bases of the vector space, and that maximum number is called the dimension of the vector space
-vector components with respect to an orthonormal basis are defined by math("v_i = v ev_i")
-  thus the scalar product can be written as math("v1 v2 = g_ij v1_i v2_j")
+vector components with respect to an orthonormal basis are defined by Math("v[i] = v ev[i]")
+  thus the scalar product can be written as Math("v1 v2 = g[i, j] v1[i] v2[j]")
   (by convention repeated indices in a product means summing over those indices)
 
-vector transformations which leave the distance ie math("sqrt((v2 - v1)^2)") invariant, are called symmetry transformations, they can be written as
-  math("
-  v2_i = st_ij v1_j + st0_i
-  g_ij st_ik st_jl = g_kl
+vector transformations which leave the distance ie Math("sqrt((v2 - v1)^2)") invariant, are called symmetry transformations, they can be written as
+  Math("
+  v2[i] = st[i, j] v1[j] + st0[i]
+  g[i, j] st[i, k] st[j, l] = g[k, l]
   ")
 
 # fields
 fields are functions on spacetime that transform linearly under symmetry transformation, this implies that they transform according to a representation of the spacetime symmetry group
-, scalar fields transform as math("f2(x2) = f1(x1)")
-, vector fields as math("f2_i(x2) = st_ij f1_j(x1)")
+, scalar fields transform as Math("f2(x2) = f1(x1)")
+, vector fields as Math("f2[i](x2) = st[i, j] f1[j](x1)")
 , higher order tensor fields as
-  math("f2_ij...(x2) = st_ik st_jl ... f1_kl...(x1)")
+  Math("f2[i, j]...(x2) = st[i, k] st[j, l] ... f1[k, l]...(x1)")
 , spinor (dirac) fields as
-  math("
-  sf2_i(x2) = spin_ij sf1_j(x1)
-  gamma_kli sp_ij = spin_li st_km gamma_mij
-  gamma_ikl gamma_jlk + gamma_jkl gamma_ilk = 2 g_ij
+  Math("
+  sf2[i](x2) = spin[i, j] sf1[j](x1)
+  gamma[k, l, i] sp[i, j] = spin[l, i] st[k, m] gamma[m, i, j]
+  gamma[i, k, l] gamma[j, l, k] + gamma[j, k, l] gamma[i, l, k] = 2 g[i, j]
   ")
 
 linear field equation is an equation which its solutions are a superposition of plane waves
-  math("
-  f(x) = sum(p, alpha_p exp(imag g_ij p_i x_j))
-  g_ij p_i p_j = m^2 (>= 0)
+  Math("
+  f(x) = sum(p, alpha[p] exp(imag g[i, j] p[i] x[j]))
+  g[i, j] p[i] p[j] = m^2
   ")
 an example of a linear field equation (any kind of field, scalar, vector or spinor) that is invariant under spacetime symmetry transformations is
-  math("g_ij d_i d_j f + m^2 f = 0")
+  Math("g[i, j] d[i] d[j] f + m^2 f = 0")
 in fact the most general form for a general vector space is
-  math("g_ij d_i d_j - g_kl d_k d_l g_ij d_i d_j + ...) f + (m^2 + m^4 + ...) f = 0")
-  (i think the absence of higher derivative terms in spacetime field equations, is the result of inverse square law, which itself is related to 3_dimensionality of space)
+  Math("g[i, j] d[i] d[j] - g[k, l] d[k] d[l] g[i, j] d[i] d[j] + ...) f + (m^2 + m^4 + ...) f = 0")
+  (i think the absence of higher derivative terms in spacetime field equations, is the result of inverse square law, which itself is related to 3 dimensionality of space)
 for spinor fields the equation is simplified to
-  math("imag gamma_ikl d_i sf_l - m sf_k = 0")
+  Math("imag gamma[i, k, l] d[i] sf[l] - m sf[k] = 0")
 
 field equations have symmetry transformations that are not related to spacetime
 for example multiplying the field by a constant number leaves the equation invariant
 although this is a trivial property due to the equation being linear, it is a guide to nontrivial symmetries
 we can write a field equation that is invariant under a local phase transformation (spacetime dependent phase transformation) by introducing a gauge field, to compensate for the variations due to the derivative term
-  math("
-  imag gamma_i d_i sf - m sf = e gf_i gamma_i sf
-  g_ij d_i d_j gf_k = e cross(sf) gamma_0 gamma_k sf
+  Math("
+  imag gamma[i] d[i] sf - m sf = e gf[i] gamma[i] sf
+  g[i, j] d[i] d[j] gf[k] = e cross(sf) gamma[0] gamma[k] sf
   ")
   these equations describe how fields can interact with each other
 
 uncertainty principle is a property of fields
-  math("
+  Math("
   delta(x) delta(k) >= 1/2
   delta(t) delta(f) >= 1/2
   ")
@@ -81,19 +75,19 @@ experiments like this show that universe is made of discrete but extended entiti
 quantum fields must be entirely and instantaneously created or destroyed in discrete units (like particles)
   even though each unit is generally infinitely extended (unlike a particle)
 
-while the motion of quantum fields in space_ime can be described by a field equation, quantum fields always interacts in discrete units
+while the motion of quantum fields in spaceTime can be described by a field equation, quantum fields always interacts in discrete units
 thus a field (such as the dirac field) can be considered as the probability amplitude for interaction with another field (such as the electromagnetic field)
-thus the field_particle duality makes the measurement (which relies on interactions), a probabilistic process
-the fact that everything even measurement tools have field behaviours, implies that measurement has an intrinsic uncertainty (because of the field_s uncertainty mentioned above)
+thus the field particle duality makes the measurement (which relies on interactions), a probabilistic process
+the fact that everything even measurement tools have field behaviours, implies that measurement has an intrinsic uncertainty (because of the fieldS uncertainty mentioned above)
 the discrete entities of a quantum field have no independent dynamical characteristic
 dynamical characteristics of the electron appear only as a result of the measurement itself
 thus the measuring process always affects the quantum field subjected to it, and it is in principle impossible to make its effect arbitrarily small (for a given accuracy of measurement) the more exact the measurement, the stronger the effect exerted by it (because it demands stronger interaction) and only in measurements of very low accuracy, can the effect on the measured object be small
-"there are no particles, there are only fields" by Art Hobson http://physics.uark.edu/hobson/pubs/12.07AJP.pdf
-Babis Anastasiou "quantum field theory" http://www.phys.ethz.ch/~babis/Teaching/QFTI/qft1.pdf
+"there are no particles, there are only fields" by Art Hobson https://you.uark.edu/ahobson/
+Babis Anastasiou "quantum field theory"
 Hitoshi Yamamoto "quantum field theory" http://epx.phys.tohoku.ac.jp/~yhitoshi/particleweb/particle.html
 
 # strong and weak interactions
-in quantum chromodynamics (which describes strong forces) a generalization of the dirac equation is used that have s_u3 internal symmetry (3rd order special unitary group, the set of all 3*3 unitary matrices with unit determinant) instead of the trivial u1 internal symmetry
+in quantum chromodynamics (which describes strong forces) a generalization of the dirac equation is used that have sU3 internal symmetry (3rd order special unitary group, the set of all 3*3 unitary matrices with unit determinant) instead of the trivial u1 internal symmetry
 this equation implies the interaction between gauge fields themselves
 but since in this approach, there is no rigorous explanation (yet) for confinement, i think it is better to describe strong force as a binding process, due to the internal structures of quantons, not as an interaction like electromagnetism
 
@@ -104,7 +98,7 @@ also i think weak bosons are not new elementary particles, they are just an (ext
 weak interaction is nothing but the decay of unstable quantons to stable ones
 and since particle decays are not motions in spacetime, there is no violation of space or time reversal symmetries
 the asymmetry is due to the asymmetry in the internal structure of particles, in other words processes that change the internal structure of particles seem to violate space and time reversal symmetries
-this description is equivalent to conventional one as the broken s_u2 local gauge interaction, with elementary weak bosons, but as we will see in the chapter on strand model it helps us to avoid single stranded knots
+this description is equivalent to conventional one as the broken sU2 local gauge interaction, with elementary weak bosons, but as we will see in the chapter on strand model it helps us to avoid single stranded knots
 the important point is that the decay of quantons actually shows us that quantons have some kind of internal structure
 
 # classical physics is inconsistent
@@ -117,12 +111,12 @@ interactions of fields and particles, leads to infinite self energy for point pa
 each electron is located in a place where there is an infinite force of repulsion against electrons
 we might simply declare that although the force of repulsion on a charged particle from its own field is infinite, it is equally infinite in all directions, so the infinite forces cancel out, leaving no net force on the particle due to its own field, at least if the particle is in uniform motion
 then we can further suppose that the acceleration of a charged particle causes it to bias this singularity as it overtakes its own field, thereby incurring a net force (which can be made finite by mass renormalization), this same disturbance of the field results in radiation, so we can see the expected correlation between radiation and reaction
-however, this approach leads to some highly non_intuitive conclusions. for one thing, the equation of motion based on this premise seems to imply that, a uniformly accelerating charge does not radiate at all, even more disquieting, we find that the equations of motion for a free charged particle, possess run-away solutions, in which the particle rapidly accelerates toward the speed of light, in effect the particle is surfing on its own field
-there is another way to get rid of infinite self_energy, but it leads to non_causal effects
+however, this approach leads to some highly nonIntuitive conclusions. for one thing, the equation of motion based on this premise seems to imply that, a uniformly accelerating charge does not radiate at all, even more disquieting, we find that the equations of motion for a free charged particle, possess run-away solutions, in which the particle rapidly accelerates toward the speed of light, in effect the particle is surfing on its own field
+there is another way to get rid of infinite selfEnergy, but it leads to nonCausal effects
 we could point out that an electron does not interact with its own field, it interacts only with the fields of other particles
-if we take this approach we must then explain why a charged particle resists changes in its state of motion, more strongly than an uncharged particle of the same inertial mass, the traditional account of accelerated charges tell us that this radiation reaction force applied through the particle_s motion supplies the energy that is radiated away in the form of electromagnetic waves
+if we take this approach we must then explain why a charged particle resists changes in its state of motion, more strongly than an uncharged particle of the same inertial mass, the traditional account of accelerated charges tell us that this radiation reaction force applied through the particleS motion supplies the energy that is radiated away in the form of electromagnetic waves
 the origin of this force is usually taken to be the interaction of the particle with its own field, thus if we declare that charged particles do not interact with their own fields, we need a different explanation for radiation reaction
-one well_known candidate is the Wheeler_feynman absorber theory, according to which the excess resistance of a charged particle, to changes in its state of motion is due to advanced waves emanating backwards in time, from an all_encompassing array of absorbers in the future, whose waves are excited by the retarded waves emanating forwards in time from the particle
+one wellKnown candidate is the WheelerFeynman absorber theory, according to which the excess resistance of a charged particle, to changes in its state of motion is due to advanced waves emanating backwards in time, from an all encompassing array of absorbers in the future, whose waves are excited by the retarded waves emanating forwards in time from the particle
 note that a field is necessarily both absorbed and emitted, if it were not, we would have no experience of it, it is only the emission and absorption events that are observable, not the existence of some entity in transit
 
 # hints to extended entities
@@ -131,7 +125,7 @@ if it were composite, there would be a lighter component inside it, this lighter
 however, an elementary particle can have constituents, provided that they are not compact
 the difficulties of compact constituents were described by Andrei Sakharov in the 1960s
 if the constituents are extended, the previous argument does not apply, as extended constituents have no localized mass
-as a result, if a flying arrow (Zeno_s famous example) is made of extended constituents, it cannot be said to be at a given position at a given time
+as a result, if a flying arrow (ZenoS famous example) is made of extended constituents, it cannot be said to be at a given position at a given time
   shortening the observation time towards the Planck time, makes an arrow disappear in the cloud that makes up spacetime
 
 in the strand model, elementary particles are (families of) tangles of strands
