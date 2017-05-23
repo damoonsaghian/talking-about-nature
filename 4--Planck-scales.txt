@@ -62,6 +62,6 @@ above all, these invariants are also found to be limit values valid for every ex
 combining quantum theory and general relativity, we discover that at the Planck limits the universe, space and particles are not described by points
 we find that as long as we use points to describe particles and space, and as long as we use sets and elements to describe nature, a unified description of motion is impossible
 the combination of quantum theory and general relativity teaches us that space and particles have common constituents
-by exploring black holes, spin, and the limits of quantum theory and gravity we discover that the common constituents of space and particles are fluctuating, extended, without ends, and one-dimensional, the common constituents of space and particles are fluctuating strands
+by exploring black holes, spin, and the limits of quantum theory and gravity we discover that the common constituents of space and particles are fluctuating, extended, without ends, and one_dimensional, the common constituents of space and particles are fluctuating strands
 we discover that we cannot think or talk without continuity, we need a background to describe nature
-we conclude that to talk about motion, we have to combine continuity and nonContinuity in an appropriate way, this is achieved by imagining that fluctuating strands move in a continuous three dimensional background
+we conclude that to talk about motion, we have to combine continuity and non_continuity in an appropriate way, this is achieved by imagining that fluctuating strands move in a continuous three dimensional background
