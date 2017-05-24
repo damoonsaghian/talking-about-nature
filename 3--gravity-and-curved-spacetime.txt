@@ -4,7 +4,7 @@ namely, in an inertial reference system, the free motion of all bodies is unifor
 clearly, therefore, if we consider this motion in a given noninertial system then relative to this system all the bodies will move in the same way
 thus the properties of the motion in a noninertial system are the same as those in an inertial system in the presence of a gravitational field
 in other words, a non inertial reference system is equivalent to a certain gravitational field, this is called the principle of equivalence
-however, the fields to which non_inertial reference systems are equivalent are not completely identical with actual gravitational fields, which occur also in inertial frames, for there is a very essential difference with respect to their behavior at infinity
+however, the fields to which non'inertial reference systems are equivalent are not completely identical with actual gravitational fields, which occur also in inertial frames, for there is a very essential difference with respect to their behavior at infinity
 at infinite distances from the bodies producing the field actual gravitational fields always go to zero
 contrary to this, the fields to which noninertial frames are equivalent, increase without limit at infinity, or, in any event, remain finite in value
 thus, for example, the centrifugal force which appears in a rotating reference system increases without limit as we move away from the axis of rotation
@@ -15,24 +15,24 @@ this is already clear from what has been said above, concerning the difference i
 since the latter do not approach zero at infinity, it is clear that it is impossible by any choice of reference frame to eliminate an actual field, since it vanishes at infinity
 the fundamental property of gravitational fields that all bodies move in them in the same way, remains valid also in relativistic mechanics
 consequently there remains also the analogy between gravitational fields and non inertial reference systems
-upon transforming to any other inertial reference system (i_e under Lorentz transformation) the interval, retains the same form
+upon transforming to any other inertial reference system (i'e under Lorentz transformation) the interval, retains the same form
 however, if we transform to a nonInertial system of reference, the interval will no longer be a sum of squares of the four coordinate differentials
-thus in a noninertial system of reference the spacetime metric (g_ij) is symmetric, and is a certain function of spacetime
+thus in a noninertial system of reference the spacetime metric (g'ij) is symmetric, and is a certain function of spacetime
 the same applies also to actual gravitational fields
 any gravitational field is just a change in the metric of spacetime, as in nonrelativistic mechanics, there is a fundamental difference between actual gravitational fields and fields to which non inertial reference systems are equivalent
 upon transforming to a non inertial reference system, the metric is obtained from the Lorentzian one by a simple transformation of coordinates, and can be reduced over all space to their lorentzian values, by the inverse coordinate transformation
-that such forms for g_ij are very special is clear from the fact that it is impossible by a mere transformation of the four coordinates to bring the ten quantities g_ij to a preAssigned form
+that such forms for g'ij are very special is clear from the fact that it is impossible by a mere transformation of the four coordinates to bring the ten quantities g'ij to a preAssigned form
 an actual gravitational field cannot be eliminated by any transformation of coordinates
-In other words, in the presence of a gravitational field spacetime is such that the quantities g_ij determining its metric cannot, by any coordinate transformation, be brought to their lorentzian values over all space, such a spacetime is said to be curved, in contrast to flat spacetime  where such a reduction is possible
-by an appropriate choice of coordinates, we can, however, bring the quantities g_ij to lorentzian form at any individual point of the nonLorentzian spacetime, such a coordinate system is said to be lorentzian for the given point
-a simple argument shows pictorially that space will become nonEuclidean when we change to a non_inertial system of reference
+In other words, in the presence of a gravitational field spacetime is such that the quantities g'ij determining its metric cannot, by any coordinate transformation, be brought to their lorentzian values over all space, such a spacetime is said to be curved, in contrast to flat spacetime  where such a reduction is possible
+by an appropriate choice of coordinates, we can, however, bring the quantities g'ij to lorentzian form at any individual point of the nonLorentzian spacetime, such a coordinate system is said to be lorentzian for the given point
+a simple argument shows pictorially that space will become nonEuclidean when we change to a non'inertial system of reference
 let us consider two reference frames, of which one (k1) is inertial, while the other (k2) rotates uniformly with respect to k1 around their common z axis
-a circle in the x1_y1 plane of the k1 system (with its center at the origin) can also be regarded as a circle in the x2_y2 plane of the k2 system
+a circle in the x1'y1 plane of the k1 system (with its center at the origin) can also be regarded as a circle in the x2'y2 plane of the k2 system
 measuring the length of the circle and its diameter with a yardstick in the k1 system, we obtain values whose ratio is equal to Pi , in accordance with the euclidean character of the geometry in the inertial reference system
 now let the measurement be carried out with a yardstick at rest relative to k2
 observing this process from the k1 system, we find that the yardstick laid along the circumference suffers a Lorentz contraction, whereas the yardstick placed radially is not changed
 it is therefore clear that the ratio of the circumference to the diameter, obtained from such a measurement, will be greater than Pi 
-in the general case of an arbitrary, varying gravitational field, the metric of space is not only non_euclidean, but also varies with the time
+in the general case of an arbitrary, varying gravitational field, the metric of space is not only non'euclidean, but also varies with the time
 as a result, the relative position of test bodies introduced into the field, cannot remain unchanged in any coordinate system
 thus if the particles are placed around the circumference of a circle and along a diameter, since the ratio of the circumference to the diameter is not equal to and changes with time, it is clear that if the separations of the particles along the diameter remain unchanged, the separations around the circumference must change, and conversely
 thus in the general theory of relativity it is impossible in general, to have a system of bodies which are fixed relative to one another
@@ -51,4 +51,4 @@ this is called equivalence of free fall and inertial motion, or equivalence of t
 in addition according to special relativity, energy is equivalent to (inertial) mass, so light have to lose energy when it rises in a gravitational field, since otherwise it can be turned into (inertial which then is equal to gravitational) mass, and through falling, gain an extra energy, leading to creation of energy from nothing
 thus rising light is gravitationally redshifted, this shows that gravitation acts like local spacetime transformations, and it implies the curvature of spacetime
 thus spacetime is not just a background for the motion of matter (massive bodies), but is itself influenced (curved) by it
-for a spacetime with a local Lorentz symmetry there is a maximum curvature which can be reached when a body_s mass fits inside the so called Schwarzschild radius Math("2 g m / c^2"), this is called a black hole
+for a spacetime with a local Lorentz symmetry there is a maximum curvature which can be reached when a body's mass fits inside the so called Schwarzschild radius (2 g m / c^2), this is called a black hole
