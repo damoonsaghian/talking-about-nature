@@ -17,7 +17,7 @@ not only does unification require that we stop using space, time and mass for th
 whenever we combine general relativity and quantum theory, the universe teaches us that it is not a set of parts
 for this reason, any sentence or expression containing the term "universe", is probably meaningless, whenever complete precision is required
 we also learned that a description of nature without sets, solves the contradictions between general relativity and quantum theory
-we also found, again, that despite the contradictions between quantum theory and general relativity, the Planck limits (c, ħ and c^4/4G) remain valid
+we also found, again, that despite the contradictions between quantum theory and general relativity, the Planck limits (c, \hbar and c^4 / 4 G) remain valid
 we then found an intriguing relation between Planck scales and cosmological scales, they seem to pose the same challenges to their description, there is a tight relation between large and small scales in nature, there seems to be little difference (if any at all) between the universe and nothing
 
 combining quantum theory and general relativity leads us to several important results
@@ -62,6 +62,6 @@ above all, these invariants are also found to be limit values valid for every ex
 combining quantum theory and general relativity, we discover that at the Planck limits the universe, space and particles are not described by points
 we find that as long as we use points to describe particles and space, and as long as we use sets and elements to describe nature, a unified description of motion is impossible
 the combination of quantum theory and general relativity teaches us that space and particles have common constituents
-by exploring black holes, spin, and the limits of quantum theory and gravity we discover that the common constituents of space and particles are fluctuating, extended, without ends, and one_dimensional, the common constituents of space and particles are fluctuating strands
+by exploring black holes, spin, and the limits of quantum theory and gravity we discover that the common constituents of space and particles are fluctuating, extended, without ends, and one'dimensional, the common constituents of space and particles are fluctuating strands
 we discover that we cannot think or talk without continuity, we need a background to describe nature
-we conclude that to talk about motion, we have to combine continuity and non_continuity in an appropriate way, this is achieved by imagining that fluctuating strands move in a continuous three dimensional background
+we conclude that to talk about motion, we have to combine continuity and non'continuity in an appropriate way, this is achieved by imagining that fluctuating strands move in a continuous three dimensional background
