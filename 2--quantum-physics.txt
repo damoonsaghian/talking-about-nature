@@ -1,62 +1,63 @@
 # spacetime
 spacetime is a continuous and smooth 4 dimensional vector space with a scalar product
 scalar product is a map which to every two vectors, associates a scalar, and
-, it is symmetric: v1 v2 = v2 v1
-, bilinear (a is a scalar): (a v1 + v2) v3 = a v1 v2 + v2 v3
-, non'degenerate: if x y = 0 then x = 0 or y = 0
+, it is symmetric: v1*v2 == v2*v1
+, bilinear (a is a scalar): (a*v1 + v2)*v3 == a*v1*v2 + v2*v3
+, non'degenerate: if x y == 0 then x == 0 or y == 0
 
 a set of mutually orthonormal vectors are defined by
-ev'i ev'j = g'ij
-g'ij =
-  \pm 1 if i = j 
+ev.i * ev.j = g.i.j
+g.i.j =
+  +-1 if i == j 
   0 otherwise
 for spacetime
-g'ij =
-  1 if i=j=0
-  -1 if i=j= 1 to 3
+g.i.j =
+  1 if i==j==0
+  -1 if i==j==1..3
   0 otherwise
 those sets of orthonormal vectors that have the maximum possible number of elements, are called orthonormal bases of the vector space, and that maximum number is called the dimension of the vector space
-vector components with respect to an orthonormal basis are defined by: v'i = v ev'i
-thus the scalar product can be written as: v1 v2 = g'ij v1'i v2'j
+vector components with respect to an orthonormal basis are defined by: v.i = v * ev.i
+thus the scalar product can be written as: v1*v2 = g.i.j * v1.i * v2.j
 (by convention repeated indices in a product means summing over those indices)
 
-vector transformations which leave the distance ie \sqrt{(v2 - v1)^2} invariant, are called symmetry transformations, they can be written as
-v2'i = st'ij v1'j + st0'i
-g'ij st'ik st'jl = g'kl
+vector transformations which leave the distance ie \sqrt((v2-v1)^2) invariant, are called symmetry transformations, they can be written as
+v2.i = st.i.j * v1.j + st0.i
+g.i.j * st.i.k * st.j.l = g.k.l
 
 # fields
 fields are functions on spacetime that transform linearly under symmetry transformation, this implies that they transform according to a representation of the spacetime symmetry group
 , scalar fields transform as: f2(x2) = f1(x1)
-, vector fields as: f2'i(x2) = st'ij f1'j(x1)
+, vector fields as: f2.i(x2) = st.i.j * f1.j(x1)
 , higher order tensor fields as
-  f2'ij...(x2) = st'ik st'jl ... f1'kl...(x1)
+  f2.i.j...(x2) = st.i.k * st.j.l * ... * f1.k.l...(x1)
 , spinor (dirac) fields as
-  sf2'i(x2) = spin'ij sf1'j(x1)
-  \gamma'kli sp'ij = spin'li st'km \gamma'mij
-  \gamma'ikl \gamma'jlk + \gamma'ikl \gamma'ilk = 2 g'ij
+  sf2.i(x2) = spin.i.j * sf1.j(x1)
+  \gamma.k.l.i * sp.i.j = spin.l.i * st.k.m * \gamma.m.i.j
+  \gamma.i.k.l * \gamma.j.l.k + \gamma.i.k.l * \gamma.i.l.k = 2*g.i.j
 
 linear field equation is an equation which its solutions are a superposition of plane waves
-f(x) = \sum_{p} \alpha_p e^{imag g'ij p'i x'j}
-g'ij p'i p'j = m^2
+f(x) = \sum(p, \alpha.p * e^(imag * g.i.j * p.i * x.j))
+g.i.j * p.i * p.j = m^2
 an example of a linear field equation (any kind of field, scalar, vector or spinor) that is invariant under spacetime symmetry transformations is
-g'ij d'i d'j f + m^2 f = 0
+g.i.j * d.i d.j f + m^2 * f = 0
 in fact the most general form for a general vector space is
-g'ij d'i d'j - g'kl d'k d'l g'ij d'i d'j + ...) f + (m^2 + m^4 + ...) f = 0
+(g.i.j * d.i d.j - g.k.l * g.i.j * d.k d.l d.i d.j + ...) f + (m^2 + m^4 + ...)*f = 0
 (i think the absence of higher derivative terms in spacetime field equations, is the result of inverse square law, which itself is related to 3 dimensionality of space)
 for spinor fields the equation is simplified to
-imag \gamma'ikl d'i sf'l - m sf'k = 0
+imag * \gamma.i.k.l * d.i sf.l - m * sf.k = 0
 
 field equations have symmetry transformations that are not related to spacetime
 for example multiplying the field by a constant number leaves the equation invariant
 although this is a trivial property due to the equation being linear, it is a guide to nontrivial symmetries
 we can write a field equation that is invariant under a local phase transformation (spacetime dependent phase transformation) by introducing a gauge field, to compensate for the variations due to the derivative term
-imag \gamma'i d'i sf - m sf = e gf'i \gamma'i sf
-g'ij d'i d'j gf[k] = e sf^\dagger \gamma'0 \gamma'k sf
+imag * \gamma.i * d.i sf - m * sf = e * gf.i * \gamma.i * sf
+g.i.j * d.i d.j gf.k = e * ctr(sf) * \gamma.0 * \gamma.k * sf
+("ctr" means conjugate transpose)
 these equations describe how fields can interact with each other
 
 uncertainty principle is a property of fields
-\Delta(x) \Delta(k) >= 1/2
-\Delta(t) \Delta(f) >= 1/2
+\delta x * \delta k >= 1/2
+\delta t * \delta f >= 1/2
 
 # quantum fields
 let us imagine a screen impermeable to electrons, in which two slits are cut
@@ -66,19 +67,18 @@ on observing the passage of the beam through both slits, we should expect, on th
 however, in reality we obtain a diffraction pattern  which, owing to interference, does not at all correspond to the sum of the patterns given by each slit separately
 it is clear that this result can in no way be reconciled with the idea that electrons move in paths
 experiments like this show that universe is made of discrete but extended entities called quantum fields
-quantum fields must be entirely and instantaneously created or destroyed in discrete units (like particles)
-  even though each unit is generally infinitely extended (unlike a particle)
+quantum fields must be entirely and instantaneously created or destroyed in discrete units (like particles), even though each unit is generally infinitely extended (unlike a particle)
 
-while the motion of quantum fields in spaceTime can be described by a field equation, quantum fields always interacts in discrete units
+while the motion of quantum fields in spacetime can be described by a field equation, quantum fields always interacts in discrete units
 thus a field (such as the dirac field) can be considered as the probability amplitude for interaction with another field (such as the electromagnetic field)
 thus the field particle duality makes the measurement (which relies on interactions), a probabilistic process
 the fact that everything even measurement tools have field behaviours, implies that measurement has an intrinsic uncertainty (because of the field's uncertainty mentioned above)
 the discrete entities of a quantum field have no independent dynamical characteristic
 dynamical characteristics of the electron appear only as a result of the measurement itself
 thus the measuring process always affects the quantum field subjected to it, and it is in principle impossible to make its effect arbitrarily small (for a given accuracy of measurement) the more exact the measurement, the stronger the effect exerted by it (because it demands stronger interaction) and only in measurements of very low accuracy, can the effect on the measured object be small
-"there are no particles, there are only fields" by Art Hobson https://you.uark.edu/ahobson/
-Babis Anastasiou "quantum field theory"
-Hitoshi Yamamoto "quantum field theory" http://epx.phys.tohoku.ac.jp/~yhitoshi/particleweb/particle.html
+"there are no particles, there are only fields" by 'art 'hobson https://you.uark.edu/ahobson/
+'babis 'anastasiou "quantum field theory"
+'hitoshi 'yamamoto "quantum field theory" http://epx.phys.tohoku.ac.jp/~yhitoshi/particleweb/particle.html
 
 # strong and weak interactions
 in quantum chromodynamics (which describes strong forces) a generalization of the dirac equation is used that have s'u3 internal symmetry (3rd order special unitary group, the set of all 3*3 unitary matrices with unit determinant) instead of the trivial u1 internal symmetry
@@ -98,7 +98,7 @@ the important point is that the decay of quantons actually shows us that quanton
 # classical physics is inconsistent
 it is interesting to see how quantum fields lead to classical particles and fields
   as approximations
-Asim Barut "electrodynamics and classical theory of fields and particle"
+'asim 'barut "electrodynamics and classical theory of fields and particle"
 the discussion about self energy of point particles at the end of this book is briefly presented below, but the discussion seems unnecessary if we see classical theory of particles and fields, only as an approximation (which can be even inconsistent) of quantum theory (which is consistent and renormalizable, neglecting gravity of course)
 
 interactions of fields and particles, leads to infinite self energy for point particles which its renormalization leads to non causal effects
@@ -106,20 +106,20 @@ each electron is located in a place where there is an infinite force of repulsio
 we might simply declare that although the force of repulsion on a charged particle from its own field is infinite, it is equally infinite in all directions, so the infinite forces cancel out, leaving no net force on the particle due to its own field, at least if the particle is in uniform motion
 then we can further suppose that the acceleration of a charged particle causes it to bias this singularity as it overtakes its own field, thereby incurring a net force (which can be made finite by mass renormalization), this same disturbance of the field results in radiation, so we can see the expected correlation between radiation and reaction
 however, this approach leads to some highly nonIntuitive conclusions. for one thing, the equation of motion based on this premise seems to imply that, a uniformly accelerating charge does not radiate at all, even more disquieting, we find that the equations of motion for a free charged particle, possess run-away solutions, in which the particle rapidly accelerates toward the speed of light, in effect the particle is surfing on its own field
-there is another way to get rid of infinite self'energy, but it leads to nonCausal effects
+there is another way to get rid of infinite self'energy, but it leads to non'causal effects
 we could point out that an electron does not interact with its own field, it interacts only with the fields of other particles
 if we take this approach we must then explain why a charged particle resists changes in its state of motion, more strongly than an uncharged particle of the same inertial mass, the traditional account of accelerated charges tell us that this radiation reaction force applied through the particle's motion supplies the energy that is radiated away in the form of electromagnetic waves
 the origin of this force is usually taken to be the interaction of the particle with its own field, thus if we declare that charged particles do not interact with their own fields, we need a different explanation for radiation reaction
-one wellKnown candidate is the WheelerFeynman absorber theory, according to which the excess resistance of a charged particle, to changes in its state of motion is due to advanced waves emanating backwards in time, from an all encompassing array of absorbers in the future, whose waves are excited by the retarded waves emanating forwards in time from the particle
+one wellKnown candidate is the 'wheeler'feynman absorber theory, according to which the excess resistance of a charged particle, to changes in its state of motion is due to advanced waves emanating backwards in time, from an all encompassing array of absorbers in the future, whose waves are excited by the retarded waves emanating forwards in time from the particle
 note that a field is necessarily both absorbed and emitted, if it were not, we would have no experience of it, it is only the emission and absorption events that are observable, not the existence of some entity in transit
 
 # hints to extended entities
 any particle that is smaller than its own compton wavelength must be elementary
 if it were composite, there would be a lighter component inside it, this lighter particle would have a larger compton wavelength than the composite particle, this is impossible, since the size of a composite particle must be larger than the compton wavelength of its components
 however, an elementary particle can have constituents, provided that they are not compact
-the difficulties of compact constituents were described by Andrei Sakharov in the 1960s
+the difficulties of compact constituents were described by 'andrei 'sakharov in the 1960s
 if the constituents are extended, the previous argument does not apply, as extended constituents have no localized mass
-as a result, if a flying arrow (Zeno's famous example) is made of extended constituents, it cannot be said to be at a given position at a given time
+as a result, if a flying arrow ('zeno's famous example) is made of extended constituents, it cannot be said to be at a given position at a given time
   shortening the observation time towards the Planck time, makes an arrow disappear in the cloud that makes up spacetime
 
 in the strand model, elementary particles are (families of) tangles of strands
@@ -131,8 +131,8 @@ if one wants to think radically, the strand model can be seen as, eliminating th
 
 a model for spin 1/2 is part of physics folklore since almost a century, any belt provides an example, any localized structure with any number of tails attached to it (tails that reach the border of the region of space under consideration) has the same properties as a spin 1/2 particle, the only condition is that the tails themselves are unobservable
 the tail model even has the same problems with highly curved space, as real spin 1/2 particles have
-it is a famous exercise to show that such a model is indeed invariant under 4 Pi rotations, but not under 2 Pi rotations, and that two such particles get entangled when exchanged, but get untangled when exchanged twice, the tail model thus confirms that rotation is partial exchange
+it is a famous exercise to show that such a model is indeed invariant under 4 'pi rotations, but not under 2 'pi rotations, and that two such particles get entangled when exchanged, but get untangled when exchanged twice, the tail model thus confirms that rotation is partial exchange
 particles can have spin 1/2 provided that they have tails going to the border of space, if the tails do not reach the border, the model does not work
 spin 1/2 thus even seems to require extension
 
-this section was quoted from "motion mountain" by Christoph Schiller http://www.motionmountain.net/
+this section was quoted from "motion mountain" by 'christoph 'schiller http://www.motionmountain.net/
