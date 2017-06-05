@@ -17,21 +17,21 @@ the fundamental property of gravitational fields that all bodies move in them in
 consequently there remains also the analogy between gravitational fields and non inertial reference systems
 upon transforming to any other inertial reference system (i'e under 'lorentz transformation) the interval, retains the same form
 however, if we transform to a nonInertial system of reference, the interval will no longer be a sum of squares of the four coordinate differentials
-thus in a noninertial system of reference the spacetime metric (g'ij) is symmetric, and is a certain function of spacetime
+thus in a noninertial system of reference the spacetime metric (g_i_j) is symmetric, and is a certain function of spacetime
 the same applies also to actual gravitational fields
 any gravitational field is just a change in the metric of spacetime, as in nonrelativistic mechanics, there is a fundamental difference between actual gravitational fields and fields to which non inertial reference systems are equivalent
 upon transforming to a non inertial reference system, the metric is obtained from the 'lorentzian one by a simple transformation of coordinates, and can be reduced over all space to their lorentzian values, by the inverse coordinate transformation
-that such forms for g'ij are very special is clear from the fact that it is impossible by a mere transformation of the four coordinates to bring the ten quantities g'ij to a pre'assigned form
+that such forms for g_i_j are very special is clear from the fact that it is impossible by a mere transformation of the four coordinates to bring the ten quantities g_i_j to a pre'assigned form
 an actual gravitational field cannot be eliminated by any transformation of coordinates
-In other words, in the presence of a gravitational field spacetime is such that the quantities g'ij determining its metric cannot, by any coordinate transformation, be brought to their lorentzian values over all space, such a spacetime is said to be curved, in contrast to flat spacetime  where such a reduction is possible
-by an appropriate choice of coordinates, we can, however, bring the quantities g'ij to lorentzian form at any individual point of the non'lorentzian spacetime, such a coordinate system is said to be lorentzian for the given point
+In other words, in the presence of a gravitational field spacetime is such that the quantities g_i_j determining its metric cannot, by any coordinate transformation, be brought to their lorentzian values over all space, such a spacetime is said to be curved, in contrast to flat spacetime  where such a reduction is possible
+by an appropriate choice of coordinates, we can, however, bring the quantities g_i_j to lorentzian form at any individual point of the non'lorentzian spacetime, such a coordinate system is said to be lorentzian for the given point
 a simple argument shows pictorially that space will become nonEuclidean when we change to a non'inertial system of reference
 let us consider two reference frames, of which one (k1) is inertial, while the other (k2) rotates uniformly with respect to k1 around their common z axis
 a circle in the x1'y1 plane of the k1 system (with its center at the origin) can also be regarded as a circle in the x2'y2 plane of the k2 system
-measuring the length of the circle and its diameter with a yardstick in the k1 system, we obtain values whose ratio is equal to Pi , in accordance with the euclidean character of the geometry in the inertial reference system
+measuring the length of the circle and its diameter with a yardstick in the k1 system, we obtain values whose ratio is equal to 'pi, in accordance with the euclidean character of the geometry in the inertial reference system
 now let the measurement be carried out with a yardstick at rest relative to k2
 observing this process from the k1 system, we find that the yardstick laid along the circumference suffers a 'lorentz contraction, whereas the yardstick placed radially is not changed
-it is therefore clear that the ratio of the circumference to the diameter, obtained from such a measurement, will be greater than Pi 
+it is therefore clear that the ratio of the circumference to the diameter, obtained from such a measurement, will be greater than 'pi 
 in the general case of an arbitrary, varying gravitational field, the metric of space is not only non'euclidean, but also varies with the time
 as a result, the relative position of test bodies introduced into the field, cannot remain unchanged in any coordinate system
 thus if the particles are placed around the circumference of a circle and along a diameter, since the ratio of the circumference to the diameter is not equal to and changes with time, it is clear that if the separations of the particles along the diameter remain unchanged, the separations around the circumference must change, and conversely
