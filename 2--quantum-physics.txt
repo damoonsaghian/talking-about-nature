@@ -6,52 +6,52 @@ scalar product is a map which to every two vectors, associates a scalar, and
 , non'degenerate: if x y == 0 then x == 0 or y == 0
 
 a set of mutually orthonormal vectors are defined by
-ev.i * ev.j = g.i.j
-g.i.j =
+ev_i * ev_j = g_i_j
+g_i_j =
   +-1 if i == j 
   0 otherwise
 for spacetime
-g.i.j =
+g_i_j =
   1 if i==j==0
   -1 if i==j==1..3
   0 otherwise
 those sets of orthonormal vectors that have the maximum possible number of elements, are called orthonormal bases of the vector space, and that maximum number is called the dimension of the vector space
-vector components with respect to an orthonormal basis are defined by: v.i = v * ev.i
-thus the scalar product can be written as: v1*v2 = g.i.j * v1.i * v2.j
+vector components with respect to an orthonormal basis are defined by: v_i = v * ev_i
+thus the scalar product can be written as: v1*v2 = g_i_j * v1_i * v2_j
 (by convention repeated indices in a product means summing over those indices)
 
 vector transformations which leave the distance ie \sqrt((v2-v1)^2) invariant, are called symmetry transformations, they can be written as
-v2.i = st.i.j * v1.j + st0.i
-g.i.j * st.i.k * st.j.l = g.k.l
+v2_i = st_i_j * v1_j + st0_i
+g_i_j * st_i_k * st_j_l = g_k_l
 
 # fields
 fields are functions on spacetime that transform linearly under symmetry transformation, this implies that they transform according to a representation of the spacetime symmetry group
 , scalar fields transform as: f2(x2) = f1(x1)
-, vector fields as: f2.i(x2) = st.i.j * f1.j(x1)
+, vector fields as: f2_i(x2) = st_i_j * f1_j(x1)
 , higher order tensor fields as
-  f2.i.j...(x2) = st.i.k * st.j.l * ... * f1.k.l...(x1)
+  f2_i_j...(x2) = st_i_k * st_j_l * ... * f1_k_l...(x1)
 , spinor (dirac) fields as
-  sf2.i(x2) = spin.i.j * sf1.j(x1)
-  \gamma.k.l.i * sp.i.j = spin.l.i * st.k.m * \gamma.m.i.j
-  \gamma.i.k.l * \gamma.j.l.k + \gamma.i.k.l * \gamma.i.l.k = 2*g.i.j
+  sf2_i(x2) = spin_i_j * sf1_j(x1)
+  \gamma_k_l_i * sp_i_j = spin_l_i * st_k_m * \gamma_m_i_j
+  \gamma_i_k_l * \gamma_j_l_k + \gamma_i_k_l * \gamma_i_l_k = 2*g_i_j
 
 linear field equation is an equation which its solutions are a superposition of plane waves
-f(x) = \sum(p, \alpha.p * e^(imag * g.i.j * p.i * x.j))
-g.i.j * p.i * p.j = m^2
+f(x) = \sum(p, \alpha_p * e^(imag * g_i_j * p_i * x_j))
+g_i_j * p_i * p_j = m^2
 an example of a linear field equation (any kind of field, scalar, vector or spinor) that is invariant under spacetime symmetry transformations is
-g.i.j * d.i d.j f + m^2 * f = 0
+g_i_j * d_i d_j f + m^2 * f = 0
 in fact the most general form for a general vector space is
-(g.i.j * d.i d.j - g.k.l * g.i.j * d.k d.l d.i d.j + ...) f + (m^2 + m^4 + ...)*f = 0
+(g_i_j * d_i d_j - g_k_l * g_i_j * d_k d_l d_i d_j + ...) f + (m^2 + m^4 + ...)*f = 0
 (i think the absence of higher derivative terms in spacetime field equations, is the result of inverse square law, which itself is related to 3 dimensionality of space)
 for spinor fields the equation is simplified to
-imag * \gamma.i.k.l * d.i sf.l - m * sf.k = 0
+im * \gamma_i_k_l * d_i sf_l - m * sf_k = 0
 
 field equations have symmetry transformations that are not related to spacetime
 for example multiplying the field by a constant number leaves the equation invariant
 although this is a trivial property due to the equation being linear, it is a guide to nontrivial symmetries
 we can write a field equation that is invariant under a local phase transformation (spacetime dependent phase transformation) by introducing a gauge field, to compensate for the variations due to the derivative term
-imag * \gamma.i * d.i sf - m * sf = e * gf.i * \gamma.i * sf
-g.i.j * d.i d.j gf.k = e * ctr(sf) * \gamma.0 * \gamma.k * sf
+im * \gamma_i * d_i sf - m * sf = e * gf_i * \gamma_i * sf
+g_i_j * d_i d_j gf_k = e * ctr(sf) * \gamma_0 * \gamma_k * sf
 ("ctr" means conjugate transpose)
 these equations describe how fields can interact with each other
 
