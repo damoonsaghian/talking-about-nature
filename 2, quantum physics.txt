@@ -76,9 +76,9 @@ the fact that everything even measurement tools have field behaviours, implies t
 the discrete entities of a quantum field have no independent dynamical characteristic
 dynamical characteristics of the electron appear only as a result of the measurement itself
 thus the measuring process always affects the quantum field subjected to it, and it is in principle impossible to make its effect arbitrarily small (for a given accuracy of measurement) the more exact the measurement, the stronger the effect exerted by it (because it demands stronger interaction) and only in measurements of very low accuracy, can the effect on the measured object be small
-'art 'hobson, "there are no particles, there are only fields", "https://you.uark.edu/ahobson/"
-'babis 'anastasiou, "quantum field theory"
-'hitoshi 'yamamoto, "quantum field theory" "http://epx.phys.tohoku.ac.jp/~yhitoshi/particleweb/particle.html"
+\link("'art 'hobson, there are no particles, there are only fields", "https://you.uark.edu/ahobson/")
+"'babis 'anastasiou, quantum field theory"
+\link("'hitoshi 'yamamoto, quantum field theory", "http://epx.phys.tohoku.ac.jp/~yhitoshi/particleweb/particle.html")
 
 # strong and weak interactions
 in quantum chromodynamics (which describes strong forces) a generalization of the dirac equation is used that have s'u3 internal symmetry (3rd order special unitary group, the set of all 3*3 unitary matrices with unit determinant) instead of the trivial u1 internal symmetry
@@ -135,4 +135,4 @@ it is a famous exercise to show that such a model is indeed invariant under 4 'p
 particles can have spin 1/2 provided that they have tails going to the border of space, if the tails do not reach the border, the model does not work
 spin 1/2 thus even seems to require extension
 
-this section was quoted from "motion mountain" by 'christoph 'schiller "http://www.motionmountain.net/"
+this section was quoted from \link("'christoph 'schiller, motion mountain", "http://www.motionmountain.net/")
