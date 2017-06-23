@@ -1,9 +1,6 @@
 
 <html>
 <head>
-<meta charset='utf-8'>
-<title>talking about nature</title>
-
 <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet'>
 <style>
   body {
@@ -19,7 +16,6 @@
     text-indent: -1em;
   }
 </style>
-
 </head>
 
 <body>
