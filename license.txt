@@ -1,3 +1,0 @@
-MIT License
-
-\link("'damoon 'saghhian", "https://github.com/damoonsaghian")
