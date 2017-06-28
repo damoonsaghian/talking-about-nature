@@ -9,4 +9,9 @@ some tangles are unstable and decay to stable ones
 a tangle can be untangled with a mirror tangle and produce high frequency photons
 mass is the amount of inter'tangledness, and thus it determines the inertial difficulty to move the tangle, as well as the curvature of nearby vacuum strands
 
+allowing topological isotopes (or even piecewise linear isotopes), 'zeeman proved that spheres can make knots only when the co'dimension (the difference between the dimension of the sphere and the space containing it) is 2
+there is another phenomena which i think is related to this
+exotic smooth structures exist only on 'r^4, i'e when "n" is not 4 then any smooth manifold homeomorphic to 'r^n is diffeomorphic to 'r^n
+i think the origin of this phenomena is the failure of the 'whitney trick, which i think is because of the co'dimension 2, between 2'disks used in the 'whitney trick, and the 4 dimensional space
+
 for lack of a better name, i call it the "tao", it flows through all things, inside and outside, and returns to the origin of all things (from "tao te ching")
