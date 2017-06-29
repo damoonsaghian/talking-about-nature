@@ -6,7 +6,7 @@ inner product is a map which to every two vectors, associates a scalar, and it i
 , linear in addition: (v1 + v2)*v3 == v1*v2 + v2*v3
   and linear in multiplication ("a" is a scalar): (a*v1)*v2 == a*(v1*v2)
 , non'degenerate: if v1*v2 == 0 then v1 == 0 or v2 == 0
-(note that this is what usually called pseudo inner product in the literature, because it doesn't have the positive'definite condition)
+(note that this is what usually called pseudo inner product in the literature, because it's allowed to have an indefinite signature, as opposed to a positive'definite one)
 
 in an inner product space, a set of mutually orthonormal vectors are defined by
   ev_i * ev_j = g_i_j
@@ -28,7 +28,7 @@ fields are functions on spacetime that transform linearly under symmetry transfo
 , scalar fields transform as: f'(x') = f(x)
 , vector fields as: f'_i(x') = st_i_j * f_j(x)
 , higher order tensor fields as
-  f'_i_j...(x') = st_i_k * st_j_l * ... * f_k_l...(x)
+  f'_i_j_...(x') = st_i_k * st_j_l * ... * f_k_l_...(x)
 , spinor (dirac) fields as
   sf'_i(x') = spin_i_j * sf_j(x)
   \gamma_k_l_i * spin_i_j = spin_l_i * st_k_m * \gamma_m_i_j
@@ -51,8 +51,8 @@ field equations have symmetry transformations that are not related to spacetime
 for example multiplying the field by a constant number leaves the equation invariant
 although this is a trivial property due to the equation being linear, it is a guide to nontrivial symmetries
 we can write a field equation that is invariant under a local phase transformation (spacetime dependent phase transformation) by introducing a gauge field, to compensate for the variations due to the derivative term
-im * \gamma_i * d_i sf - m * sf = e * gf_i * \gamma_i * sf
-g_i_j * d_i d_j gf_k = e * ctr(sf) * \gamma_0 * \gamma_k * sf
+im * \gamma_i * d_i sf(x) - m * sf(x) = e * gf_i(x) * \gamma_i * sf(x)
+g_i_j * d_i d_j gf_k(x) = e * ctr(sf(x)) * \gamma_0 * \gamma_k * sf(x)
 ("ctr" means conjugate transpose)
 these equations describe how fields can interact with each other
 
@@ -68,16 +68,18 @@ however, in reality we obtain a diffraction pattern  which, owing to interferenc
 it is clear that this result can in no way be reconciled with the idea that electrons move in paths
 experiments like this show that universe is made of discrete but extended entities called quantum fields
 quantum fields must be entirely and instantaneously created or destroyed in discrete units (like particles), even though each unit is generally infinitely extended (unlike a particle)
+changes in the field are quantized (not continuous)
 
 while the motion of quantum fields in spacetime can be described by a field equation, quantum fields always interacts in discrete units
 thus a field (such as the dirac field) can be considered as the probability amplitude for interaction with another field (such as the electromagnetic field)
 thus the field particle duality makes the measurement (which relies on interactions), a probabilistic process
+by a quantum measurement, we mean any process in which a quantum phenomenon causes a macroscopic change
 the fact that everything even measurement tools have field behaviours, implies that measurement has an intrinsic uncertainty (because of the field's uncertainty mentioned above)
 the discrete entities of a quantum field have no independent dynamical characteristic
 dynamical characteristics of the electron appear only as a result of the measurement itself
 thus the measurement process always affects the quantum field subjected to it, and it is in principle impossible to make its effect arbitrarily small (for a given accuracy of measurement) the more exact the measurement, the stronger the effect exerted by it (because it demands stronger interaction) and only in measurements of very low accuracy, can the effect on the measured object be small
 \link("'art 'hobson, there are no particles, there are only fields", "https://you.uark.edu/ahobson/")
-"'babis 'anastasiou, quantum field theory"
+\link("'babis 'anastasiou, quantum field theory", "https://people.phys.ethz.ch/~babis/Teaching/QFT1/qft1.pdf")
 \link("'hitoshi 'yamamoto, quantum field theory", "http://epx.phys.tohoku.ac.jp/~yhitoshi/particleweb/particle.html")
 
 = strong and weak interactions
