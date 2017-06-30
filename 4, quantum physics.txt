@@ -23,19 +23,14 @@ thus the measurement process always affects the quantum field subjected to it, a
 = strong and weak interactions
 in quantum chromodynamics (which describes strong forces) a generalization of the dirac equation is used that have s'u3 internal symmetry (3rd order special unitary group, the set of all 3*3 unitary matrices with unit determinant) instead of the trivial u1 internal symmetry
 this equation implies the interaction between gauge fields themselves
-but since in this approach, there is no rigorous explanation (yet) for confinement, i think it is better to describe strong force as a binding process, due to the internal structures of quantons, not as an interaction like electromagnetism
+but since in this approach, there is no rigorous explanation (yet) for confinement, i think maybe it's better to describe strong force as a binding process, due to the internal structures of quantons, not as an interaction like electromagnetism
 
-also i think weak bosons are not new elementary particles, they are just an (extremely short lived) entanglement of other particles
-, w- is an entanglement of an electron and an anti'neutrino (or higher generations)
-, w+ is an anti'electron and a neutrino (or higher generations)
-, and z is a particle and its antiparticle
-weak interaction is nothing but the decay of unstable quantons to stable ones
-and since particle decays are not motions in spacetime, there is no violation of mirror inversion or time reversal symmetries
-the apparent asymmetry is due to the asymmetry in the internal structure of particles, in other words processes that change the internal structure of particles seem to violate  mirror inversion and time reversal symmetries
-this description is equivalent to conventional one as the broken s'u2 local gauge interaction, with elementary weak bosons, but as we will see in the chapter on strand model it helps us to avoid single stranded knots
+weak interaction is nothing but the decay of unstable quantons to stable ones, it is described by a broken s'u2 local gauge interaction
+broken s'u2 means that the weak bosons either turn into photons with u1 gauge symmetry, or turn into massive bossons
+
+the apparent violation of mirror inversion or time reversal symmetries in weak interactions is due to the asymmetry in the internal structure of particles (not an asymmetry of spacetime itself)
+in other words processes that change the internal structure of particles seem to violate  mirror inversion and time reversal symmetries
 an important point here is that the decay of quantons actually shows us that quantons have some kind of internal structure
-\link("'harald 'fritzsch, composite weak bosons at the large hadronic collider", "https://arxiv.org/abs/1604.05818")
-\link("'harald 'fritzsch, the size of the weak bosons", "http://www.sciencedirect.com/science/article/pii/S0370269312004960")
 
 = hints to extended entities
 any particle that is smaller than its own compton wavelength must be elementary
