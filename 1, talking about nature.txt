@@ -15,7 +15,7 @@ it's the talking that must be contained in nature (e'g in the form of a brain) n
 nature, universe, reality, everything, god, being, or whatever we call it, is not a group of parts, though it can be approximately described using sets, only the existence of approximate groups and parts in our brains allows us to talk about nature in general
 so talking about nature, with approximate concepts, is possible, and indeed very useful, it's called physics
 
-quantum theory and general relativity (discussed in the following two chapters) are the best theories of physics we have at hand, two different ways to talk about two different areas of nature
+quantum theory and general relativity (discussed in the following chapters) are the best theories of physics we have at hand, two different ways to talk about two different areas of nature
 it's only at extreme areas like 'planck scales that they meet each other and this meeting turns out to be disastrous, and at the same time, a useful guide to a final unified theory (as discussed in the chapter on 'planck scales)
 we will see that quantum theory and general relativity when combined imply that at 'planck scales nature can't be described with parts and groups, because at those scales the assumption that nature is a group of parts is not a good approximation any more
 
