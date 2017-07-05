@@ -1,12 +1,12 @@
 = spacetime
-spacetime is a real vector space with a Lorentzian inner product
+spacetime is a real vector space with a Minkowski inner product
 vector space and inner product are mathematical concepts whose precise definitions can be find easily on the internet
 real vector space is a vector space which its underlying field is totally ordered, and has a complete metric, i'e the field is isomorphic to real numbers
 
-in a vector space with Lorentzian inner product
+in a vector space with Minkowski inner product
 , there exists arrays of vectors (called orthonormal vectors) for which
   ov_i * ov_j = G_i_j
-  G_i_j = if i==j==0 then 1 elseif i==j then -1 else 0
+  G_i_j = if i==j==0 then -1 elseif i==j then 1 else 0
 , the maximum number of orthonormal vectors is 4
 an array of 4 mutually orthonormal vectors, is called an orthonormal basis of the 4 dimensional vector space
   (orthonormal basis is guaranteed to exist in the case of finite dimensions or when the vector space is complete, which both cases are true for spacetime)
@@ -42,13 +42,13 @@ in fact the most general form for is
     (m^2 + m^4 + ...)*f(x) = 0
   (i think the absence of higher derivative terms in spacetime field equations, is the result of inverse square law, which itself is related to 3 dimensionality of space)
   (Ostrogradsky instability)
-for spinor fields the equation is simplified to (! imaginary operator)
-  γ_i_k_l * d_i ψ_l(x) ! - m * ψ_k(x) = 0
+for spinor fields the equation is simplified to (! is the imaginary operator, the left operand is the imaginary part)
+  γ_i_k_l * d_i ψ_l(x) ! -m * ψ_k(x) = 0
 
 field equations have symmetry transformations that are not related to spacetime, for example multiplying the field by a constant number leaves the equation invariant, although this is a trivial property due to the equation being linear, it is a guide to nontrivial symmetries
 we can write a field equation that is invariant under a local phase transformation (spacetime dependent phase transformation) by introducing a gauge field, to compensate for the variations due to the derivative term
-! γ_i * d_i ψ(x) - m * ψ(x) = e * gf_i(x) * γ_i * ψ(x)
-G_i_j * d_i d_j gf_k(x) = e * ψ(x)† * γ_0 * γ_k * ψ(x)
+γ_i * d_i ψ(x) ! -m * ψ(x) = E * gf_i(x) * γ_i * ψ(x)
+G_i_j * d_i d_j gf_k(x) = E * ψ(x)† * γ_0 * γ_k * ψ(x)
   († is conjugate transpose operator)
 these equations describe how fields can interact with each other
 
