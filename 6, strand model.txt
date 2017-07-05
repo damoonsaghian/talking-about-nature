@@ -2,16 +2,16 @@
 (i think knots must be avoided, because to have knots made of one strand, and also to describe their motion, either we need the end of the strand, or we need the strand to be penetrable both lead to serious problems)
 vacuum is a web of straight strands
 any deformation in a strand transfers to the neighboring strands with the speed of light
-it takes an average time equal to 'planck time, and average distance of strands is equal to 'planck length, the corresponding action is equal to 'planck action, so the average speed of a simple curve on a strand (called a photon) is the speed of light
+it takes an average time equal to Planck time, and average distance of strands is equal to Planck length, the corresponding action is equal to Planck action, so the average speed of a simple curve on a strand (called a photon) is the speed of light
 tangled deformations (made of two or three strands) move with a constant velocity (on average) less than the speed of light, they can change their (average) velocity by emitting photons
 tangles are not necessarily between adjacent strands, they can be between distant strands, tangles (as well as photons) are not necessarily localizable, they get localized when they interact with baths
 some tangles are unstable and decay to stable ones
 a tangle can be untangled with a mirror tangle and produce high frequency photons
 mass is the amount of inter'tangledness, and thus it determines the inertial difficulty to move the tangle, as well as the curvature of nearby vacuum strands
 
-allowing topological isotopes (or even piecewise linear isotopes), 'zeeman proved that spheres can make knots only when the co'dimension (the difference between the dimension of the sphere and the space containing it) is 2
+allowing topological isotopes (or even piecewise linear isotopes), Zeeman proved that spheres can make knots only when the co'dimension (the difference between the dimension of the sphere and the space containing it) is 2
 there is another phenomena which i think is related to this
-exotic smooth structures exist only on 'r^4, i'e when "n" is not 4 then any smooth manifold homeomorphic to 'r^n is diffeomorphic to 'r^n
-i think the origin of this phenomena is the failure of the 'whitney trick, which i think is because of the co'dimension 2, between 2'disks used in the 'whitney trick, and the 4 dimensional space
+exotic smooth structures exist only on R^4, i'e when "n" is not 4 then any smooth manifold homeomorphic to R^n is diffeomorphic to R^n
+i think the origin of this phenomena is the failure of the Whitney trick, which i think is because of the co'dimension 2, between 2'disks used in the Whitney trick, and the 4 dimensional space
 
 for lack of a better name, i call it the "tao", it flows through all things, inside and outside, and returns to the origin of all things (from "tao te ching")

@@ -16,17 +16,17 @@ the fact that everything even measurement tools have field behaviours, implies t
 the discrete entities of a quantum field have no independent dynamical characteristic
 dynamical characteristics of the electron appear only as a result of the measurement itself
 thus the measurement process always affects the quantum field subjected to it, and it is in principle impossible to make its effect arbitrarily small (for a given accuracy of measurement) the more exact the measurement, the stronger the effect exerted by it (because it demands stronger interaction) and only in measurements of very low accuracy, can the effect on the measured object be small
-\link("'art 'hobson, there are no particles, there are only fields", "https://you.uark.edu/ahobson/")
-\link("'babis 'anastasiou, quantum field theory", "https://people.phys.ethz.ch/~babis/Teaching/QFT1/qft1.pdf")
-\link("'hitoshi 'yamamoto, quantum field theory", "http://epx.phys.tohoku.ac.jp/~yhitoshi/particleweb/particle.html")
+\link("Art Hobson, there are no particles, there are only fields", "https://you.uark.edu/ahobson/")
+\link("Babis Anastasiou, quantum field theory", "https://people.phys.ethz.ch/~babis/Teaching/QFT1/qft1.pdf")
+\link("Hitoshi Yamamoto, quantum field theory", "http://epx.phys.tohoku.ac.jp/~yhitoshi/particleweb/particle.html")
 
 = strong and weak interactions
-in quantum chromodynamics (which describes strong forces) a generalization of the dirac equation is used that have s'u3 internal symmetry (3rd order special unitary group, the set of all 3*3 unitary matrices with unit determinant) instead of the trivial u1 internal symmetry
+in quantum chromodynamics (which describes strong forces) a generalization of Dirac equation is used that have s'u(3) internal symmetry (3rd order special unitary group, the set of all 3*3 unitary matrices with unit determinant) instead of the trivial u1 internal symmetry
 this equation implies the interaction between gauge fields themselves
 but since in this approach, there is no rigorous explanation (yet) for confinement, i think maybe it's better to describe strong force as a binding process, due to the internal structures of quantons, not as an interaction like electromagnetism
 
-weak interaction is nothing but the decay of unstable quantons to stable ones, it is described by a broken s'u2 local gauge interaction
-broken s'u2 means that the weak bosons either turn into photons with u1 gauge symmetry, or turn into massive bossons
+weak interaction is nothing but the decay of unstable quantons to stable ones, it is described by a broken s'u(2) local gauge interaction
+broken s'u(2) means that the weak bosons either turn into photons with u1 gauge symmetry, or turn into massive bossons
 
 the apparent violation of mirror inversion or time reversal symmetries in weak interactions is due to the asymmetry in the internal structure of particles (not an asymmetry of spacetime itself)
 in other words processes that change the internal structure of particles seem to violate  mirror inversion and time reversal symmetries
@@ -36,9 +36,9 @@ an important point here is that the decay of quantons actually shows us that qua
 any particle that is smaller than its own compton wavelength must be elementary
 if it were composite, there would be a lighter component inside it, this lighter particle would have a larger compton wavelength than the composite particle, this is impossible, since the size of a composite particle must be larger than the compton wavelength of its components
 however, an elementary particle can have constituents, provided that they are not compact
-the difficulties of compact constituents were described by 'andrei 'sakharov in the 1960s
+the difficulties of compact constituents were described by Andrei Sakharov in the 1960s
 if the constituents are extended, the previous argument does not apply, as extended constituents have no localized mass
-as a result, if a flying arrow ('zeno's famous example) is made of extended constituents, it cannot be said to be at a given position at a given time
+as a result, if a flying arrow (Zeno's famous example) is made of extended constituents, it cannot be said to be at a given position at a given time
   shortening the observation time towards the Planck time, makes an arrow disappear in the cloud that makes up spacetime
 
 in the strand model, elementary particles are (families of) tangles of strands
@@ -50,8 +50,8 @@ if one wants to think radically, the strand model can be seen as, eliminating th
 
 a model for spin 1/2 is part of physics folklore since almost a century, any belt provides an example, any localized structure with any number of tails attached to it (tails that reach the border of the region of space under consideration) has the same properties as a spin 1/2 particle, the only condition is that the tails themselves are unobservable
 the tail model even has the same problems with highly curved space, as real spin 1/2 particles have
-it is a famous exercise to show that such a model is indeed invariant under 4 'pi rotations, but not under 2 'pi rotations, and that two such particles get entangled when exchanged, but get untangled when exchanged twice, the tail model thus confirms that rotation is partial exchange
+it is a famous exercise to show that such a model is indeed invariant under 4 Pi rotations, but not under 2 Pi rotations, and that two such particles get entangled when exchanged, but get untangled when exchanged twice, the tail model thus confirms that rotation is partial exchange
 particles can have spin 1/2 provided that they have tails going to the border of space, if the tails do not reach the border, the model does not work
 spin 1/2 thus even seems to require extension
 
-this section was quoted from \link("'christoph 'schiller, motion mountain", "http://www.motionmountain.net/")
+this section was quoted from \link("Christoph Schiller, motion mountain", "http://www.motionmountain.net/")
