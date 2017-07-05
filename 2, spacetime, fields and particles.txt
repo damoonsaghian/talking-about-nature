@@ -17,8 +17,11 @@ thus the inner product can be written as: v1*v2 == G_i_j * v1_i * v2_j
   (by convention repeated indices in a multiplication means summing over those indices)
 
 transformations which leave the distance i'e \sqrt((v2-v1)^2) invariant, are called symmetry transformations, they can be written as
-v'_i = Λ_i_j * v_j + st0_i
+v'_i = Λ_i_j * v_j + Λ0_i
 G_i_j * Λ_i_k * Λ_j_l = G_k_l
+
+\link("symmetry and physics", "https://en.wikipedia.org/wiki/Symmetry_(physics)")
+\link("Lorentz group", "https://en.wikipedia.org/wiki/Lorentz_group")
 
 = fields
 fields are functions on spacetime that transform linearly under symmetry transformations, this means that they transform according to a linear representation of the spacetime symmetry group
