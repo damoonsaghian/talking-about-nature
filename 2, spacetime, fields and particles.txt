@@ -5,20 +5,20 @@ real vector space is a vector space which its underlying field is totally ordere
 
 in a vector space with Minkowski inner product
 , there exists arrays of vectors (called orthonormal vectors) for which
-  ov_i * ov_j = G_i_j
-  G_i_j = if i==j==0 then -1 elseif i==j then 1 else 0
+  ov_i * ov_j = g_i_j
+  g_i_j = if i==j==0 then -1 elseif i==j then 1 else 0
 , the maximum number of orthonormal vectors is 4
 an array of 4 mutually orthonormal vectors, is called an orthonormal basis of the 4 dimensional vector space
   (orthonormal basis is guaranteed to exist in the case of finite dimensions or when the vector space is complete, which both cases are true for spacetime)
 
 vector components with respect to an orthonormal basis are defined by
   v_i = v * ov_i
-thus the inner product can be written as: v1*v2 == G_i_j * v1_i * v2_j
+thus the inner product can be written as: v1*v2 == g_i_j * v1_i * v2_j
   (by convention repeated indices in a multiplication means summing over those indices)
 
 transformations which leave the distance i'e \sqrt((v2-v1)^2) invariant, are called symmetry transformations, they can be written as
 v'_i = Λ_i_j * v_j + Λ0_i
-G_i_j * Λ_i_k * Λ_j_l = G_k_l
+g_i_j * Λ_i_k * Λ_j_l = g_k_l
 
 \link("symmetry and physics", "https://en.wikipedia.org/wiki/Symmetry_(physics)")
 \link("Lorentz group", "https://en.wikipedia.org/wiki/Lorentz_group")
@@ -32,26 +32,26 @@ fields are functions on spacetime that transform linearly under symmetry transfo
 , spinor fields as
   ψ'_i(x') = S_i_j * ψ_j(x)
   γ_k_l_i * S_i_j = S_l_i * Λ_k_m * γ_m_i_j
-  γ_i_k_l * γ_j_l_k + γ_i_k_l * γ_i_l_k = 2*G_i_j
+  γ_i_k_l * γ_j_l_k + γ_i_k_l * γ_i_l_k = 2*g_i_j
 
 free field equation is an equation which every solution of it is a free field, i'e a superposition of plane waves (a free field is what we have when there is no interaction, like free particles which move with constant velocity)
-  plain'wave(x) = a0 cos(G_i_j * p_i * x_j + ph0)
-  where G_i_j * p_i * p_j >= 0
-we define mass as: m^2 = G_i_j * p_i * p_j
+  plain'wave(x) = a0 cos(g_i_j * p_i * x_j + ph0)
+  where g_i_j * p_i * p_j >= 0
+we define mass as: m^2 = g_i_j * p_i * p_j
 an example of a free field equation (for any kind of field, scalar, tensor or spinor) that is invariant under spacetime symmetry transformations is
-  G_i_j * d_i d_j f(x) + m^2 * f(x) = 0
+  g_i_j * d_i d_j f(x) + m^2 * f(x) = 0
 in fact the most general form for is
-  G_i_j * d_i d_j f(x) - g_k_l * G_i_j * d_k d_l d_i d_j f(x) + ... +
+  g_i_j * d_i d_j f(x) - g_k_l * g_i_j * d_k d_l d_i d_j f(x) + ... +
     (m^2 + m^4 + ...)*f(x) = 0
   (i think the absence of higher derivative terms in spacetime field equations, is the result of inverse square law, which itself is related to 3 dimensionality of space)
   (Ostrogradsky instability)
-for spinor fields the equation is simplified to (! is the imaginary operator, the left operand is the imaginary part)
-  γ_i_k_l * d_i ψ_l(x) ! -m * ψ_k(x) = 0
+for spinor fields the equation is simplified to (I^2 = -1)
+  γ_i_k_l * d_i ψ_l(x) *I - m * ψ_k(x) = 0
 
 field equations have symmetry transformations that are not related to spacetime, for example multiplying the field by a constant number leaves the equation invariant, although this is a trivial property due to the equation being linear, it is a guide to nontrivial symmetries
 we can write a field equation that is invariant under a local phase transformation (spacetime dependent phase transformation) by introducing a gauge field, to compensate for the variations due to the derivative term
-γ_i * d_i ψ(x) ! -m * ψ(x) = E * gf_i(x) * γ_i * ψ(x)
-G_i_j * d_i d_j gf_k(x) = E * ψ(x)† * γ_0 * γ_k * ψ(x)
+γ_i * d_i ψ(x) *I -m * ψ(x) = E * gf_i(x) * γ_i * ψ(x)
+g_i_j * d_i d_j gf_k(x) = E * ψ(x)† * γ_0 * γ_k * ψ(x)
   († is conjugate transpose operator)
 these equations describe how fields can interact with each other
 
