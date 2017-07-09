@@ -3,18 +3,13 @@ spacetime is a real vector space with a Minkowski inner product
 vector space and inner product are mathematical concepts whose precise definitions can be find easily on the internet
 real vector space is a vector space which its underlying field is totally ordered, and has a complete metric, i'e the field is isomorphic to real numbers
 
-in a vector space with Minkowski inner product
-, there exists arrays of vectors (called orthonormal vectors) for which
-  ov_i * ov_j = g_i_j
+in a vector space with Minkowski inner product, all normal vectors (i'e v*v = +-1) are divided into distinct groups (each called an orthonoramal basis), for which
+  o'b_i * o'b_j = g_i_j
   g_i_j = if i==j==0 then -1 elseif i==j then 1 else 0
-, the maximum number of orthonormal vectors is 4
-an array of 4 mutually orthonormal vectors, is called an orthonormal basis of the 4 dimensional vector space
-  (orthonormal basis is guaranteed to exist in the case of finite dimensions or when the vector space is complete, which both cases are true for spacetime)
-
-vector components with respect to an orthonormal basis are defined by
-  v_i = v * ov_i
+vector components with respect to an orthonormal basis (o'b) are defined by
+  v_i = v * o'b_i
 thus the inner product can be written as: v1*v2 == g_i_j * v1_i * v2_j
-  (by convention repeated indices in a multiplication means summing over those indices)
+(by convention repeated indices in a multiplication means summing over those indices)
 
 transformations which leave the distance i'e \sqrt((v2-v1)^2) invariant, are called symmetry transformations, they can be written as
 v'_i = Λ_i_j * v_j + Λ0_i
