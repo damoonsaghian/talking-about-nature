@@ -1,4 +1,3 @@
-theories of quantum gravity predict infinite forces and other absurdities, the source of this problem was that quantum field theories had always assumed an individual quantum could, at sufficiently large energies, be squeezed down to an arbitrarily small size, because large energies imply large masses, this point'like nature of quanta at high energies implies infinities that ruin the theory
 at extremely small scales of spacetime, called Planck scales, the momenergy of quantum particles can be so high that black holes appear
 therefore at Planck scales, nature is not observable, spacetime is indistinguishable from particles and fields, they must be described by the same (unobservable) thing
 the rest of this section is quoted from "motion mountain" by Christoph Schiller
@@ -7,10 +6,9 @@ general relativity and quantum theory contradict each other, in practice however
 the reason for the contradiction is the insistence on a circular definition of space and particles, only the circular definition allows us to define points and point particles
 in order to solve the contradictions and to understand nature at Planck scales, we must introduce common constituents for space and particles
 
-elements and sets must be abandoned
-note that this radical conclusion is deduced from only two statements
-, the necessity of using quantum theory whenever the dimensions are of the order of the Compton wavelength
-, and of using general relativity whenever the dimensions are of the order of the Schwarzschild radius
+elements and sets must be abandoned, this radical conclusion is deduced from only two statements
+1, the necessity of using quantum theory whenever the dimensions are of the order of the Compton wavelength
+2, and of using general relativity whenever the dimensions are of the order of the Schwarzschild radius
 together, they mean that no precise description of nature can contain elements and sets
 the difficulties in complying with this result explain why the unification of the two theories has not so far been successful
 not only does unification require that we stop using space, time and mass for the description of nature, it also requires that all distinctions, of any kind, should be only approximate, but all physicists have been educated on the basis of exactly the opposite creed
@@ -21,48 +19,15 @@ we also learned that a description of nature without sets, solves the contradict
 we also found, again, that despite the contradictions between quantum theory and general relativity, the Planck limits (c, ħ and c^4/4*G) remain valid
 we then found an intriguing relation between Planck scales and cosmological scales, they seem to pose the same challenges to their description, there is a tight relation between large and small scales in nature, there seems to be little difference (if any at all) between the universe and nothing
 
-combining quantum theory and general relativity leads us to several important results
-  on the description of nature, the constituents of vacuum and particles cannot be points
-there is no conceivable way to prove that points exist, as the smallest measurable distance in nature is the Planck length
-vacuum and particles mix at Planck scales, as there is no conceivable way to distinguish
-  whether a Planck sized region is part of a particle or of empty space
-matter, radiation and vacuum cannot be distinguished at Planck scales, they are made of common constituents
-particles, vacuum and continuous space do not exist at Planck scales, they disappear in a yet unclear Planck scale mixture
+combining quantum theory and general relativity leads us to several important results on the description of nature
+, the constituents of vacuum and particles cannot be points
+, there is no conceivable way to prove that points exist, as the smallest measurable distance in nature is the Planck length
+, vacuum and particles mix at Planck scales, as there is no conceivable way to distinguish whether a Planck sized region is part of a particle or of empty space
+, matter, radiation and vacuum cannot be distinguished at Planck scales, they are made of common constituents
+, particles, vacuum and continuous space do not exist at Planck scales, they disappear in a yet unclear Planck scale mixture
 
 distinguishing between two entities requires different measurement results, for example, different positions, masses or sizes
-whatever quantity we choose, at Planck energy the distinction becomes impossible, only at everyday energies is it approximately possible
-
-whatever observable is chosen, at the Planck energy the distinction becomes impossible, because of the large measurement errors
-
-vacuum and particles must not differ at Planck scales, because of limits of measurement precision
-vacuum and particles therefore must be described by common fundamental constituents
+whatever quantity we choose, at Planck energy the distinction becomes impossible
 
 we need a description of nature that allows us to state that at Planck energy nothing can be distinguished from anything else
-for example, it must be impossible to distinguish particles from each other, or from the vacuum
 there is only one solution, everything (or at least, what we call "everything" in everyday life) must be made of the same single constituent, all particles are made of one "piece", every point in space, every event, every particle and every instant of time must be made of the same single constituent
-
-if we exclude gauge interactions, we can summarize the rest of physics in a few limit statements
-, the speed limit is equivalent to special relativity
-, the force limit to general relativity
-, the action limit to quantum theory
-, the entropy limit to thermodynamics
-, the distance limit to cosmology
-these limits are observer invariant
-the invariant limits imply that in nature every physical observable is bound on one end by the corresponding (corrected) Planck unit, and on the other end by a cosmological limit
-the existence of lower and upper limit values to all observables implies that measurement precision is limited
-as a consequence, matter and vacuum are indistinguishable, the description of spacetime as a continuous manifold is not correct, and nature can be described by sets only approximately
-a natural way to avoid the use of sets is a description of empty space, radiation and matter
-  as being made of common constituents
-
-in order to reproduce three dimensional space, Planck units, spin, and black hole entropy
-  the fundamental constituents must be extended
-
-twentieth century physics deduced several invariant properties of motion, these invariants, such as the speed of light or the quantum of action are called Planck units
-the invariant Planck units allow motion to be measured
-above all, these invariants are also found to be limit values valid for every example of motion
-combining quantum theory and general relativity, we discover that at the Planck limits the universe, space and particles are not described by points
-we find that as long as we use points to describe particles and space, and as long as we use sets and elements to describe nature, a unified description of motion is impossible
-the combination of quantum theory and general relativity teaches us that space and particles have common constituents
-by exploring black holes, spin, and the limits of quantum theory and gravity we discover that the common constituents of space and particles are fluctuating, extended, without ends, and one'dimensional, the common constituents of space and particles are fluctuating strands
-we discover that we cannot think or talk without continuity, we need a background to describe nature
-we conclude that to talk about motion, we have to combine continuity and non'continuity in an appropriate way, this is achieved by imagining that fluctuating strands move in a continuous three dimensional background
