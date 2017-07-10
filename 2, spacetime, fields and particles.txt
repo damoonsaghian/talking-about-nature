@@ -69,3 +69,8 @@ so the paths taken by falling bodies are the geodesics themselves
 this means that in the presence of gravity, the geodesics are curved
 
 for a spacetime with a local Lorentz symmetry, there is a maximum curvature which can be reached when a body's mass fits inside the so called Schwarzschild radius (2*g*m/c^2), this is called a black hole
+
+i think dark energy is the result of activities at the border of space, so it's kind of a global feature of space, and can be interpreted as the cosmological constant
+although cosmological constant is constant through space, but during the growth of the universe, when it's shape was different, the cosmological constant could had different values (e'g during inflation)
+
+primordial black holes are a good dark matter candidate
