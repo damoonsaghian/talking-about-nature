@@ -3,7 +3,7 @@ spacetime is a real vector space with a Minkowski inner product
 vector space and inner product are mathematical concepts whose precise definitions can be find easily on the internet
 a real vector space is a vector space which its underlying field is totally ordered, and has a complete metric, i'e the field is isomorphic to real numbers
 
-in a vector space with Minkowski inner product, all normal vectors (i'e v*v = +-1) are divided into distinct groups (each called an basis), for which we have
+in a vector space with Minkowski inner product, all normal vectors (i'e v*v = +-1) are divided into distinct groups, called basis, for which we have
   basis_i * basis_j = g_i_j
   g_i_j = if i==j==0 then -1 elseif i==j then 1 else 0
 vector components with respect to a basis are defined by
