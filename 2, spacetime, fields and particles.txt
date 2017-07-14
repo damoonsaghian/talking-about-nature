@@ -44,7 +44,7 @@ for spinor fields the equation is simplified to
   γ_i_k_l * d_i ψ_l(x) *I - m * ψ_k(x) = 0
   (I^2 = -1)
 
-field equations have symmetry transformations that are not related to spacetime, for example multiplying the field by a constant number leaves the equation invariant, although this is a trivial property due to the equation being linear, it is a guide to nontrivial symmetries
+deviation from free motion of a particle or field, must always be done via the deviation of another particle or field from free motion (kind of a generalized form of Newton's third law)
 we can write a field equation that is invariant under a local phase transformation (spacetime dependent phase transformation) by introducing a gauge field, to compensate for the variations due to the derivative term
 γ_i * d_i ψ(x) *I - m * ψ(x) = E * gf_i(x) * γ_i * ψ(x)
 g_i_j * d_i d_j gf_k(x) = E * ψ(x)† * γ_0 * γ_k * ψ(x)
