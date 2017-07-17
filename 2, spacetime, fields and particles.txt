@@ -15,7 +15,6 @@ transformations which leave the distance i'e \sqrt((v2-v1)^2) invariant, are cal
 v'_i = Λ_i_j * v_j + Λ0_i
 g_i_j * Λ_i_k * Λ_j_l = g_k_l
 
-\link("symmetry and physics", "https://en.wikipedia.org/wiki/Symmetry_(physics)")
 \link("Lorentz group", "https://en.wikipedia.org/wiki/Lorentz_group")
 
 = fields
@@ -59,7 +58,7 @@ uncertainty principle is a property of fields
 = particles
 see "Asim Barut, electrodynamics and classical theory of fields and particle"
 
-interactions of fields and particles, leads to infinite self energy for point particles which needs renormalization
+interactions of fields and particles, leads to infinite self energy for point particles, which needs renormalization
 
 = gravity
 spacetime is a geometric space, i'e it has geodesics which determine the motion of free particles (and fields) in it
