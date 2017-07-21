@@ -3,57 +3,61 @@ spacetime is a real vector space with a Minkowski inner product
 vector space and inner product are mathematical concepts whose precise definitions can be found easily on the internet
 a real vector space is a vector space which its underlying field is totally ordered, and has a complete metric, i'e the field is isomorphic to real numbers
 
-in a vector space with Minkowski inner product, all normal vectors (i'e when v*v = +-1) are divided into distinct groups, each called a basis, for which we have
-  basis_i * basis_j = g_i_j
+in a vector space with Minkowski inner product, all normal vectors (i'e when v v = +-1) are divided into distinct groups, each called a basis, for which we have
+  basis_i basis_j = g_i_j
   g_i_j = if i=j=0 then -1 elseif i=j then 1 else 0
 vector components with respect to a basis are defined by
   v_i = v * basis_i
-thus the inner product can be written as: v1*v2 = g_i_j * v1_i * v2_j
+thus the inner product can be written as: v1 v2 = g_i_j v1_i v2_j
   (by convention repeated indices in a multiplication means summing over those indices)
+  (also note that in math formulas, space between names means different things in different situations
+  , space between to vectors means inner product
+  , if there is a scalar, it means scalar multiplication
+  , if the name at the left side is a function, it means function application)
 
 transformations which leave the distance i'e \sqrt((v2-v1)^2) invariant, are called symmetry transformations, they can be written as
-v'_i = Λ_i_j * v_j + v0_i
-g_i_j * Λ_i_k * Λ_j_l = g_k_l
+v'_i = Λ_i_j v_j + v0_i
+g_i_j Λ_i_k Λ_j_l = g_k_l
 
 \link("Lorentz group", "https://en.wikipedia.org/wiki/Lorentz_group")
 
 = fields
 fields are functions on spacetime that transform linearly under symmetry transformations, this means that they transform according to a linear representation of the spacetime symmetry group
 , scalar fields transform as: f'(x') = f(x)
-, vector fields as: f'_i(x') = Λ_i_j * f_j(x)
+, vector fields as: f'_i(x') = Λ_i_j f_j(x)
 , higher order tensor fields as
-  f'_i_j_…(x') = Λ_i_k * Λ_j_l * … * f_k_l_…(x)
+  f'_i_j_…(x') = Λ_i_k Λ_j_l … f_k_l_…(x)
 , spinor fields as
-  ψ'_i(x') = S_i_j * ψ_j(x)
-  γ_k_l_i * S_i_j = S_l_i * Λ_k_m * γ_m_i_j
-  γ_i_k_l * γ_j_l_k + γ_i_k_l * γ_i_l_k = 2*g_i_j
+  ψ'_i(x') = S_i_j ψ_j(x)
+  γ_k_l_i S_i_j = S_l_i Λ_k_m γ_m_i_j
+  γ_i_k_l γ_j_l_k + γ_i_k_l γ_i_l_k = 2g_i_j
 
 free field equation is an equation which every solution of it is a free field, i'e a superposition of plane waves (a free field is what we have when there is no interaction, like free particles which move with constant velocity)
-  plain'wave(x) = a0 cos(g_i_j * p_i * x_j + phase0)
-    where g_i_j * p_i * p_j >= 0
-we define mass as: m^2 = g_i_j * p_i * p_j
+  plain'wave(x) = a0 cos(g_i_j p_i x_j + phase0)
+    where g_i_j p_i p_j >= 0
+we define mass as: m^2 = g_i_j p_i p_j
 an example of a free field equation (for any kind of field, scalar, tensor or spinor) that is invariant under spacetime symmetry transformations is
-  g_i_j * d_i d_j f(x) + m^2 * f(x) = 0
+  g_i_j (d_i d_j f)(x) + m^2 * f(x) = 0
 in fact the most general form is
-  g_i_j * d_i d_j f(x) - g_k_l * g_i_j * d_k d_l d_i d_j f(x) + ... +
-    (m^2 + m^4 + ...)*f(x) = 0
+  g_i_j (d_i d_j f)(x) - g_k_l g_i_j (d_k d_l d_i d_j f)(x) + ... +
+    (m^2 + m^4 + ...) f(x) = 0
   (i think the absence of higher derivative terms in spacetime field equations, is the result of inverse square law, which itself is related to 3 dimensionality of space)
   (Ostrogradsky instability)
 for spinor fields the equation is simplified to
-  γ_i_k_l * d_i ψ_l(x) *I - m * ψ_k(x) = 0
+  γ_i_k_l (d_i ψ_l)(x) I - m ψ_k(x) = 0
   (I^2 = -1)
 
 deviation from free motion for a particle or field, must always be done via the deviation of another particle or field from free motion (kind of a generalized form of Newton's third law)
 interactions are done locally, so an equation describing interaction must be locally symmetric, i'e it must remain valid under spacetime dependent (continuous) symmetry transformations
 we can write a field equation that is invariant under a local phase transformation (spacetime dependent phase transformation) by introducing a gauge field, to compensate for the variations due to the derivative term
-γ_i * d_i ψ(x) *I - m * ψ(x) = E * gf_i(x) * γ_i * ψ(x)
-g_i_j * d_i d_j gf_k(x) = E * ψ(x)† * γ_0 * γ_k * ψ(x)
-  († is conjugate transpose operator)
+γ_i (d_i ψ)(x) I - m ψ(x) = E gf_i(x) γ_i ψ(x)
+g_i_j (d_i d_j gf_k)(x) = E ψ(x)† γ_0 γ_k ψ(x)
+  († is conjugate transpose operator, E is the Euler's number)
 these equations describe how fields can interact with each other
 
 uncertainty principle is a property of fields
-Δx * Δk >= 1/2
-Δt * Δf >= 1/2
+Δx Δk >= 1/2
+Δt Δf >= 1/2
 
 = particles
 see "Asim Barut, electrodynamics and classical theory of fields and particle"
@@ -68,7 +72,7 @@ according to the equivalence principle of gravity, motion of particles (and fiel
 so the paths taken by falling bodies are the geodesics themselves
 this means that in the presence of gravity, the geodesics are curved
 
-for a spacetime with a local Lorentz symmetry, there is a maximum curvature which can be reached when a body's mass fits inside the so called Schwarzschild radius (2*g*m/c^2), this is called a black hole
+for a spacetime with a local Lorentz symmetry, there is a maximum curvature which can be reached when a body's mass fits inside the so called Schwarzschild radius (2 g m / c^2), this is called a black hole
 
 i think dark energy is the result of activities at the border of space, so it's kind of a global feature of space, and can be interpreted as the cosmological constant
 although cosmological constant is constant through space, but during the growth of the universe, when it's shape was different, the cosmological constant could had different values (e'g during inflation)
