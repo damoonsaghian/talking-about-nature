@@ -1,51 +1,51 @@
 = quantum fields
-experiments like the double'slit experiment, show that universe is made of discrete but extended entities called quantum fields
-quantum fields must be entirely and instantaneously created or destroyed in discrete units (like particles), even though each unit is generally infinitely extended (like a field)
+experiments like the double'slit experiment, show that universe is made of discrete but extended entities called quantum fields.
+quantum fields must be entirely and instantaneously created or destroyed in discrete units (like particles), even though each unit is generally infinitely extended (like a field).
 
-while the motion of quantum fields in spacetime can be described by a field equation, changes in quantum fields are quantized (not continuous), i'e they always interacts in discrete units
-fields can be considered as the probability amplitude for interaction with another field
-thus quantized fields, make the measurement (which relies on interaction), a probabilistic process
-by a quantum measurement, we mean any process in which a quantum phenomenon causes a macroscopic change
-the fact that everything even measurement tools have field behaviors, implies that measurement has an intrinsic uncertainty (because of the field's uncertainty mentioned in the previous chapter)
-the measurement process always affects the quantum field subjected to it, and it is in principle impossible to make its effect arbitrarily small (for a given accuracy of measurement); the more exact the measurement, the stronger the effect exerted by it (because it demands stronger interaction), and only in measurements of very low accuracy, can the effect on the measured object be small
+while the motion of quantum fields in spacetime can be described by a field equation, changes in quantum fields are quantized (not continuous), i'e they always interacts in discrete units.
+fields can be considered as the probability amplitude for interaction with another field.
+thus quantized fields, make the measurement (which relies on interaction), a probabilistic process.
+by a quantum measurement, we mean any process in which a quantum phenomenon causes a macroscopic change.
+the fact that everything even measurement tools have field behaviors, implies that measurement has an intrinsic uncertainty (because of the field's uncertainty mentioned in the previous chapter).
+the measurement process always affects the quantum field subjected to it, and it is in principle impossible to make its effect arbitrarily small (for a given accuracy of measurement). the more exact the measurement, the stronger the effect exerted by it (because it demands stronger interaction), and only in measurements of very low accuracy, can the effect on the measured object be small.
 
 \link("Art Hobson, there are no particles, there are only fields", "https://you.uark.edu/ahobson/")
 \link("Babis Anastasiou, quantum field theory", "https://people.phys.ethz.ch/~babis/Teaching/QFT1/qft1.pdf")
 \link("Hitoshi Yamamoto, quantum field theory", "http://epx.phys.tohoku.ac.jp/~yhitoshi/particleweb/particle.html")
 
 = strong and weak interactions
-in quantum chromodynamics (which describes strong forces) a generalization of Dirac equation is used that have s'u(3) internal symmetry (3rd order special unitary group, the set of all 3 by 3 unitary matrices with unit determinant) instead of the trivial u(1) internal symmetry
-this equation implies the interaction of the gauge field with itself
-but since in this approach, there is no rigorous explanation for confinement (yet), i think maybe it's better to describe strong force as a binding process, due to the internal structures of quantons, not as an interaction like electromagnetism
+in quantum chromodynamics (which describes strong forces) a generalization of Dirac equation is used that have s'u(3) internal symmetry (3rd order special unitary group, the set of all 3 by 3 unitary matrices with unit determinant) instead of the trivial u(1) internal symmetry.
+this equation implies the interaction of the gauge field with itself.
+but since in this approach, there is no rigorous explanation for confinement (yet), i think maybe it's better to describe strong force as a binding process, due to the internal structures of quantons, not as an interaction like electromagnetism.
 
-weak interaction explains how quantons can transmute to each other, it is described by a broken s'u(2) local gauge interaction
-broken s'u(2) means that the weak bosons either turn into photons with u(1) gauge symmetry, or turn into massive bosons
+weak interaction explains how quantons can transmute to each other, it is described by a broken s'u(2) local gauge interaction.
+broken s'u(2) means that the weak bosons either turn into photons with u(1) gauge symmetry, or turn into massive bosons.
 
-the apparent violation of mirror inversion and time reversal symmetries, in weak interactions, is due to the asymmetry in the internal structure of particles (not an asymmetry of spacetime itself)
-in other words processes that change the internal structure of particles seem to violate  mirror inversion and time reversal symmetries, because we are not considering their internal structures (in other words, c'p't symmetry is not violated)
-an important point here is that the decay of quantons actually shows us that quantons have some kind of internal structure
+the apparent violation of mirror inversion and time reversal symmetries, in weak interactions, is due to the asymmetry in the internal structure of particles (not an asymmetry of spacetime itself).
+in other words processes that change the internal structure of particles seem to violate  mirror inversion and time reversal symmetries, because we are not considering their internal structures. (in other words, c'p't symmetry is not violated.)
+an important point here is that the decay of quantons actually shows us that quantons have some kind of internal structure.
 
 = hints to extended entities
 this section is quoted from \link("Christoph Schiller, motion mountain", "http://www.motionmountain.net/")
 
-any particle that is smaller than its own Compton wavelength must be elementary; if it were composite, there would be a lighter component inside it; this lighter particle would have a larger Compton wavelength than the composite particle; this is impossible, since the size of a composite particle must be larger than the Compton wavelength of its components
-however, an elementary particle can have constituents, provided that they are not compact; the difficulties of compact constituents were described by Andrei Sakharov in the 1960s
-if the constituents are extended, the previous argument does not apply, as extended constituents have no localized mass
-as a result, if a flying arrow (Zeno's famous example) is made of extended constituents, it cannot be said to be at a given position at a given time; shortening the observation time towards the Planck time, makes an arrow disappear in the cloud that makes up spacetime
+any particle that is smaller than its own Compton wavelength must be elementary. if it were composite, there would be a lighter component inside it. this lighter particle would have a larger Compton wavelength than the composite particle. this is impossible, since the size of a composite particle must be larger than the Compton wavelength of its components.
+however, an elementary particle can have constituents, provided that they are not compact. the difficulties of compact constituents were described by Andrei Sakharov in the 1960s.
+if the constituents are extended, the previous argument does not apply, as extended constituents have no localized mass.
+as a result, if a flying arrow (Zeno's famous example) is made of extended constituents, it cannot be said to be at a given position at a given time. shortening the observation time towards the Planck time, makes an arrow disappear in the cloud that makes up spacetime.
 
-in the strand model, elementary particles are (families of) tangles of strands, in other words, elementary particles are not the basic building blocks of matter, strands are
-if particles could really be elementary, it would be impossible to understand their properties
+in the strand model, elementary particles are (families of) tangles of strands, in other words, elementary particles are not the basic building blocks of matter, strands are.
+if particles could really be elementary, it would be impossible to understand their properties.
 in the strand model, particles are not really elementary, but neither are they, in the usual sense, composed, particles are tangles of unobservable strands
-in this way, the strand model retains the useful aspects of the idea of elementary particle, but gets rid of its limitations; if one wants to think radically, the strand model can be seen as, eliminating the concepts of elementariness and of particle
+in this way, the strand model retains the useful aspects of the idea of elementary particle, but gets rid of its limitations. if one wants to think radically, the strand model can be seen as, eliminating the concepts of elementariness and of particle.
 
-a model for spin 1/2 is part of physics folklore since almost a century; any belt provides an example; any localized structure with any number of tails attached to it (tails that reach the border of the region of space under consideration) has the same properties as a spin 1/2 particle; the only condition is that the tails themselves are unobservable
-the tail model even has the same problems with highly curved space, as real spin 1/2 particles have
-it is a famous exercise to show that such a model is indeed invariant under 4Pi rotations, but not under 2Pi rotations; and that two such particles get entangled when exchanged, but get untangled when exchanged twice; the tail model thus confirms that rotation is partial exchange
-particles can have spin 1/2, provided that they have tails going to the border of space; if the tails do not reach the border, the model does not work; spin 1/2 thus even seems to require extension
+a model for spin 1/2 is part of physics folklore since almost a century. any belt provides an example. any localized structure with any number of tails attached to it (tails that reach the border of the region of space under consideration) has the same properties as a spin 1/2 particle. the only condition is that the tails themselves are unobservable.
+the tail model even has the same problems with highly curved space, as real spin 1/2 particles have.
+it is a famous exercise to show that such a model is indeed invariant under 4Pi rotations, but not under 2Pi rotations. and that two such particles get entangled when exchanged, but get untangled when exchanged twice. the tail model thus confirms that rotation is partial exchange.
+particles can have spin 1/2, provided that they have tails going to the border of space. if the tails do not reach the border, the model does not work. spin 1/2 thus even seems to require extension.
 
-explaining blackhole entropy seems to demand extended entities too
+explaining blackhole entropy seems to demand extended entities too.
 
-extended entities can even explain the 3 dimensionality of space too, space is 3 dimensional because it's the only number of dimensions in which knots are possible
-Zeeman proved that (considering topological isotopes, or even piecewise linear isotopes) spheres can make knots only when the co'dimension (the difference between the dimension of the sphere and the container space) is 2
-there is another phenomena which i think is related to this: exotic smooth structures exist only on R^4; i'e when "n" is not 4 then any smooth manifold homeomorphic to R^n is diffeomorphic to R^n
-i think the origin of this phenomena is the failure of the Whitney trick, which i think is because of the co'dimension 2, between 2'disks used in the Whitney trick, and the 4 dimensional space
+extended entities can even explain the 3 dimensionality of space too, space is 3 dimensional because it's the only number of dimensions in which knots are possible.
+Zeeman proved that (considering topological isotopes, or even piecewise linear isotopes) spheres can make knots only when the co'dimension (the difference between the dimension of the sphere and the container space) is 2.
+there is another phenomena which i think is related to this: exotic smooth structures exist only on R^4. i'e when "n" is not 4 then any smooth manifold homeomorphic to R^n is diffeomorphic to R^n.
+i think the origin of this phenomena is the failure of the Whitney trick, which i think is because of the co'dimension 2, between 2'disks used in the Whitney trick, and the 4 dimensional space.
