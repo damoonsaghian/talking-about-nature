@@ -9,11 +9,11 @@ in a vector space with Minkowski inner product, all normal vectors (for which we
 vector components with respect to a basis are defined by:
   v_i = v basis_i.
 thus the inner product can be written as: v1 v2 = g_i_j v1_i v2_j
-  (by convention repeated indices in a multiplication means summing over those indices.)
-  (also note that in math formulas, space between names means different things in different situations:
-    , space between to vectors means inner product.
-    , if there is a scalar, it means scalar multiplication.
-    , if the name at the left side is a function, it means function application.)
+(by convention repeated indices in a multiplication means summing over those indices.)
+(also note that in math formulas, space between names means different things in different situations:
+  space between to vectors means inner product.
+  if there is a scalar, it means scalar multiplication.
+  if the name at the left side is a function, it means function application.)
 
 transformations which leave the distance, i'e \sqrt((v2-v1)^2), invariant, are called symmetry transformations, they can be written as:
   v'_i = Λ_i_j v_j + v0_i
