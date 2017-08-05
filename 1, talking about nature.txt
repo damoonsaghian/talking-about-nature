@@ -2,7 +2,7 @@ talking is essentially nothing but separating and grouping, they are the foundat
 this is especially evident in mathematics (a way of talking, in which the relation between concepts is clear and thus the foundation of every concept is determined). the concept of a set (a group of parts) is the foundation of all mathematical concepts.
 the subtle point here is that, separating and grouping are circular concepts, each defined using the other (yin and yang).
 
-nature (everything) can't be a set, in other words, there is no set of everything, because at least it can't contain itself.
+nature (everything) can't be a set. in other words, there is no set of everything, because at least it can't contain itself.
 even if we define sets, in a way that they could be members of themselves, again a set of everything would not be possible.
 to see why, suppose that we have a set named set1, and set2 contains those sets in set1 that are not members of themselves. it turns out that set2 cannot be in set1, here is the proof:
 , suppose that set2 is in set1, set2 is either a member of itself or it is not.
