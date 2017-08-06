@@ -14,12 +14,12 @@ the measurement process always affects the quantum field subjected to it, and it
 \link("Hitoshi Yamamoto, quantum field theory", "http://epx.phys.tohoku.ac.jp/~yhitoshi/particleweb/particle.html")
 
 = strong and weak interactions
-in quantum chromodynamics (which describes strong forces) a generalization of Dirac equation is used that have s'u(3) internal symmetry (3rd order special unitary group, the set of all 3 by 3 unitary matrices with unit determinant) instead of the trivial u(1) internal symmetry.
-this equation implies the interaction of the gauge field with itself.
-but since in this approach, there is no rigorous explanation for confinement (yet), i think maybe it's better to describe strong force as a binding process, due to the internal structures of quantons, not as an interaction like electromagnetism.
+strong and weak interactions (unlike electromagnetism) have very short ranges. thus in practise we always work with their quatized forms.
 
-weak interaction explains how quantons can transmute to each other, it is described by a broken s'u(2) local gauge interaction.
-broken s'u(2) means that the weak bosons either turn into photons with u(1) gauge symmetry, or turn into massive bosons.
+strong interaction is described by a s'u(3) gauge symmetry (3rd order special unitary group, the set of all 3 by 3 unitary matrices with unit determinant).
+it implies 8 gauge fields whicheven interact with each other, leading to confinement, and thus the short range of strong interaction.
+
+weak interaction is described by a broken s'u(2) gauge symmetry. the symmetry must be broken, otherwise weak interaction would have long ranges. to explain this symmetry breaking, we need another field called Higgs field.
 
 the apparent violation of mirror inversion and time reversal symmetries, in weak interactions, is due to the asymmetry in the internal structure of particles (not an asymmetry of spacetime itself).
 in other words processes that change the internal structure of particles seem to violate  mirror inversion and time reversal symmetries, because we are not considering their internal structures. (in other words, c'p't symmetry is not violated.)
