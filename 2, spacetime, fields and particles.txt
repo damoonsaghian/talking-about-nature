@@ -19,7 +19,7 @@ transformations which leave the distance, i'e \sqrt((v2-v1)^2), invariant, are c
   v'_i = Λ_i_j v_j + v0_i
   g_i_j Λ_i_k Λ_j_l = g_k_l
 
-\link("Lorentz group", "https://en.wikipedia.org/wiki/Lorentz_group")
+"https://en.wikipedia.org/wiki/Lorentz_group"
 
 = fields
 fields are functions on spacetime that transform linearly under symmetry transformations. this means that they transform according to a linear representation of the spacetime symmetry group.

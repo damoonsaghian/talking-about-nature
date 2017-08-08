@@ -1,4 +1,4 @@
-\link("strand model", "http://motionmountain.com/research.html")
+"strand model" "http://motionmountain.com/research.html"
 
 vacuum is a web of straight strands , any deformation in a strand transfers to the neighboring strands with the speed of light.
 it takes an average time equal to Planck time for strands to reach each other, and the average distance between strands is equal to Planck length , so on average a simple deformation on a strand (called a photon) moves with the speed of light , and on average any change is equal to Planck action.

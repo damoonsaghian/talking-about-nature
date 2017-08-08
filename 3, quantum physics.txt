@@ -9,9 +9,12 @@ by a quantum measurement, we mean any process in which a quantum phenomenon caus
 the fact that everything even measurement tools have field behaviors, implies that measurement has an intrinsic uncertainty (because of the field's uncertainty mentioned in the previous chapter).
 the measurement process always affects the quantum field subjected to it, and it is in principle impossible to make its effect arbitrarily small (for a given accuracy of measurement). the more exact the measurement, the stronger the effect exerted by it (because it demands stronger interaction), and only in measurements of very low accuracy, can the effect on the measured object be small.
 
-\link("Art Hobson, there are no particles, there are only fields", "https://you.uark.edu/ahobson/")
-\link("Babis Anastasiou, quantum field theory", "https://people.phys.ethz.ch/~babis/Teaching/QFT1/qft1.pdf")
-\link("Hitoshi Yamamoto, quantum field theory", "http://epx.phys.tohoku.ac.jp/~yhitoshi/particleweb/particle.html")
+"Art Hobson, there are no particles, there are only fields"
+  "https://you.uark.edu/ahobson/"
+"Babis Anastasiou, quantum field theory"
+  "https://people.phys.ethz.ch/~babis/Teaching/QFT1/qft1.pdf"
+"Hitoshi Yamamoto, quantum field theory"
+  "http://epx.phys.tohoku.ac.jp/~yhitoshi/particleweb/particle.html"
 
 = strong and weak interactions
 strong and weak interactions (unlike electromagnetism) have very short ranges. thus in practise we always work with their quatized forms.
@@ -26,7 +29,8 @@ in other words processes that change the internal structure of particles seem to
 an important point here is that the decay of quantons actually shows us that quantons have some kind of internal structure.
 
 = hints to extended entities
-this section is quoted from \link("Christoph Schiller, motion mountain", "http://www.motionmountain.net/")
+this section is quoted from "Christoph Schiller, motion mountain"
+  "http://www.motionmountain.net/"
 
 any particle that is smaller than its own Compton wavelength must be elementary. if it were composite, there would be a lighter component inside it. this lighter particle would have a larger Compton wavelength than the composite particle. this is impossible, since the size of a composite particle must be larger than the Compton wavelength of its components.
 however, an elementary particle can have constituents, provided that they are not compact. the difficulties of compact constituents were described by Andrei Sakharov in the 1960s.
