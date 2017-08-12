@@ -23,6 +23,7 @@ strong interaction is described by a s'u(3) gauge symmetry (3rd order special un
 it implies 8 gauge fields whicheven interact with each other, leading to confinement, and thus the short range of strong interaction.
 
 weak interaction is described by a broken s'u(2) gauge symmetry. the symmetry must be broken, otherwise weak interaction would have long ranges. to explain this symmetry breaking, we need another field called Higgs field.
+"https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_theory"
 
 the apparent violation of mirror inversion and time reversal symmetries, in weak interactions, is due to the asymmetry in the internal structure of particles (not an asymmetry of spacetime itself).
 in other words processes that change the internal structure of particles seem to violate  mirror inversion and time reversal symmetries, because we are not considering their internal structures. (in other words, c'p't symmetry is not violated.)

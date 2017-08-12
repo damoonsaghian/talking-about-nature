@@ -20,9 +20,11 @@ transformations which leave the distance, i'e \sqrt((v2-v1)^2), invariant, are c
   g_i_j Λ_i_k Λ_j_l = g_k_l
 
 "https://en.wikipedia.org/wiki/Lorentz_group"
+continuous symmetries are described by Lie groups. discrete symmetries are described by finite groups.
 
 = fields
 fields are functions on spacetime that transform linearly under symmetry transformations. this means that they transform according to a linear representation of the spacetime symmetry group.
+linear representations of a symmetry group show us which kind of objects does this groups act on, linearly.
 , scalar fields transform as: f'(x') = f(x)
 , vector fields as: f'_i(x') = Λ_i_j f_j(x)
 , higher order tensor fields as:
@@ -31,6 +33,7 @@ fields are functions on spacetime that transform linearly under symmetry transfo
   ψ'_i(x') = S_i_j ψ_j(x)
   γ_k_l_i S_i_j = S_l_i Λ_k_m γ_m_i_j
   γ_i_k_l γ_j_l_k + γ_i_k_l γ_i_l_k = 2g_i_j
+"https://en.wikipedia.org/wiki/Spinor#Clifford_algebras"
 
 free field equation is an equation which every solution of it is a free field, i'e a superposition of plane waves. (a free field is what we have when there is no interaction, like free particles which move with constant velocity)
 plain'wave(x) = a0 cos(g_i_j p_i x_j + phase0)
@@ -50,6 +53,7 @@ for spinor fields the equation is simplified to:
 deviation from free motion, for a field (or particle), must always be done via the deviation of another field (or particle) from free motion. (kind of a generalized form of Newton's third law)
 the exact mechanism of interaction (and thus the number of interacting fields) is determined by the gauge symmetry of interaction.
 gauge (or local) symmetries are symmetries under spacetime dependent transformations.
+"https://en.wikipedia.org/wiki/Gauge_theory"
 we can write a field equation that is invariant under a local phase transformation (spacetime dependent phase transformation), by introducing one gauge field, to compensate for the variations due to the derivative term.
 γ_i (d_i ψ)x I - m ψ(x) = E gf_i(x) γ_i ψ(x)
 g_i_j (d_i d_j gf_k)x = E ψ(x)† γ_0 γ_k ψ(x)
