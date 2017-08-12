@@ -47,7 +47,7 @@ for spinor fields the equation is simplified to:
   γ_i_k_l (d_i ψ_l)x I - m ψ_k(x) = 0
   (I^2 = -1)
 
-deviation from free motion field (or particle), must always be done via the deviation of another field (or particle) from free motion. (kind of a generalized form of Newton's third law)
+deviation from free motion, for a field (or particle), must always be done via the deviation of another field (or particle) from free motion. (kind of a generalized form of Newton's third law)
 the exact mechanism of interaction (and thus the number of interacting fields) is determined by the gauge symmetry of interaction.
 gauge (or local) symmetries are symmetries under spacetime dependent transformations.
 we can write a field equation that is invariant under a local phase transformation (spacetime dependent phase transformation), by introducing one gauge field, to compensate for the variations due to the derivative term.
