@@ -20,7 +20,7 @@ the measurement process always affects the quantum field subjected to it, and it
 strong and weak interactions (unlike electromagnetism) have very short ranges. thus in practise we always work with their quatized forms.
 
 strong interaction is described by a s'u(3) gauge symmetry (3rd order special unitary group, the set of all 3 by 3 unitary matrices with unit determinant).
-it implies 8 gauge fields whicheven interact with each other, leading to confinement, and thus the short range of strong interaction.
+it implies 8 gauge fields which even interact with each other, leading to confinement, and thus the short range of strong interaction.
 
 weak interaction is described by a broken s'u(2) gauge symmetry. the symmetry must be broken, otherwise weak interaction would have long ranges. to explain this symmetry breaking, we need another field called Higgs field.
 "https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_theory"
@@ -30,7 +30,7 @@ in other words processes that change the internal structure of particles seem to
 an important point here is that the decay of quantons actually shows us that quantons have some kind of internal structure.
 
 = hints to extended entities
-this section is quoted from "Christoph Schiller, motion mountain"
+this section (except the last paragraph) is quoted from "Christoph Schiller, motion mountain"
   "http://www.motionmountain.net/"
 
 any particle that is smaller than its own Compton wavelength must be elementary. if it were composite, there would be a lighter component inside it. this lighter particle would have a larger Compton wavelength than the composite particle. this is impossible, since the size of a composite particle must be larger than the Compton wavelength of its components.

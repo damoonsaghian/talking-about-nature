@@ -70,9 +70,9 @@ interactions of fields and particles, leads to infinite self energy for point pa
 
 = gravity
 spacetime is a geometric space, i'e it has geodesics which determine the motion of free particles (and fields) in it.
-free particles always move the same way, regardless of their mass.
+all free particles always move the same way, regardless of their mass.
 
-according to the equivalence principle of gravity, motion of particles (and fields) near a massive body, are the same, regardless of their mass.
+according to the equivalence principle of gravity, motion of particles near a massive body, are the same, regardless of their mass.
 so the paths taken by falling bodies are the geodesics themselves. this means that in the presence of gravity, the geodesics are curved.
 
 for a spacetime with a local Lorentz symmetry, there is a maximum curvature which can be reached when a body's mass fits inside the so called Schwarzschild radius (2 g m / c^2), this is called a black hole.
