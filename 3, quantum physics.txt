@@ -17,7 +17,7 @@ the measurement process always affects the quantum field subjected to it, and it
   "http://epx.phys.tohoku.ac.jp/~yhitoshi/particleweb/particle.html"
 
 = strong and weak interactions
-strong and weak interactions (unlike electromagnetism) have very short ranges. thus in practise we always work with their quatized forms.
+strong and weak interactions (unlike electromagnetism) have very short ranges. thus in practice we always work with their quantized forms.
 
 strong interaction is described by a s'u(3) gauge symmetry (3rd order special unitary group, the set of all 3 by 3 unitary matrices with unit determinant).
 it implies 8 gauge fields which even interact with each other, leading to confinement, and thus the short range of strong interaction.
