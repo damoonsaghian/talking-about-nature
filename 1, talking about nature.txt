@@ -1,6 +1,3 @@
-"https://github.com/damoonsaghian/talking-about-nature"
-MIT license
-
 talking is essentially nothing but separating and grouping, they are the foundation of all concepts.
 this is especially evident in mathematics (a way of talking, in which the relation between concepts is clear and thus the foundation of every concept is determined). the concept of a set (a group of parts) is the foundation of all mathematical concepts.
 the subtle point here is that, separating and grouping are circular concepts, each defined using the other (yin and yang).
