@@ -30,8 +30,7 @@ in other words processes that change the internal structure of particles seem to
 an important point here is that the decay of quantons actually shows us that quantons have some kind of internal structure.
 
 = hints to extended entities
-this section (except the last paragraph) is quoted from "Christoph Schiller, motion mountain"
-  "http://www.motionmountain.net/"
+this section (except the last paragraph) is quoted from "Christoph Schiller, motion mountain" ("http://www.motionmountain.net/").
 
 any particle that is smaller than its own Compton wavelength must be elementary. if it were composite, there would be a lighter component inside it. this lighter particle would have a larger Compton wavelength than the composite particle. this is impossible, since the size of a composite particle must be larger than the Compton wavelength of its components.
 however, an elementary particle can have constituents, provided that they are not compact. the difficulties of compact constituents were described by Andrei Sakharov in the 1960s.
