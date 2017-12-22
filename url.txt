@@ -1,4 +1,0 @@
-"https://github.com/damoonsaghian/talking-about-nature"
-
-this project is licensed under Creative Commons BY-SA.
-"http://creativecommons.org/licenses/by-sa/4.0/"
