@@ -1,6 +1,6 @@
 = spacetime
 spacetime is a real vector space with a Minkowski inner product.
-vector space and inner product are mathematical concepts whose precise definitions can be found easily on the internet.
+vector space and inner product are mathematical concepts whose precise definitions can be found easily on Internet.
 a real vector space is a vector space which its underlying field is totally ordered, and has a complete metric. that is, the underlying field is isomorphic to real numbers.
 
 in a vector space with Minkowski inner product, all normal vectors (for which we have: v v = +-1) are divided into distinct groups, each called a basis, for which we have:
@@ -13,7 +13,10 @@ by convention repeated indices in a multiplication means summing over those indi
 also note that in math formulas, space between names means different things in different situations:
   , space between to vectors means inner product.
   , if there is a scalar, it means scalar multiplication.
-  , if the name at the left side is a function, it means function application.
+  , if the name at the left side is a function, it means function application (with single argument).
+for multi argument function application, write the arguments in parentheses, right after function name (no space between function name and parentheses). in other words:
+  , "f (x, y)" means application of function "f" on tuple "(x, y)"
+  , "f(x, y)" means application of function "f" on its 2 arguments "x" and "y"
 
 transformations which leave the distance, i'e (v2-v1)^2\2 (where "\" is rooting operation), invariant, are called symmetry transformations. they can be written as:
   v':i = Λ:i:j v:j + v0:i,
@@ -40,32 +43,32 @@ plain'wave(x) = a0 cos(g:i:j p:i x:j + phase0),
   where g:i:j p:i p:j >= 0
 we define mass as: m^2 = g:i:j p:i p:j
 an example of a free field equation (for any kind of field, scalar, tensor or spinor) that is invariant under spacetime symmetry transformations is:
-  g:i:j (d:i d:j f)x + m^2 * f(x) = 0
+  g:i:j d2:i:j f(x) + m^2 f(x) = 0
 in fact the most general form is:
-  g:i:j (d:i d:j f)x - g:k:l g:i:j (d:k d:l d:i d:j f)x + ... +
-    (m^2 + m^4 + ...) f(x) = 0,
+  g:i:j d2:i:j f(x) - g:k:l g:i:j d4:k:l:i:j f(x) + ... + (m^2 + m^4 + ...) f(x) = 0
   (i think the absence of higher derivative terms in spacetime field equations, is the result of inverse square law, which itself is related to 3 dimensionality of space.)
   (Ostrogradsky instability)
 for spinor fields the equation is simplified to:
-  γ:i:k:l (d:i ψ:l)x I - m ψ:k(x) = 0, (I^2 = -1)
+  γ:i:k:l d:i ψ:l(x) im - m ψ:k(x) = 0
+    where im^2 = -1
 
 deviation from free motion, for a field (or particle), must always be done via the deviation of another field (or particle) from free motion. (kind of a generalized form of Newton's third law)
 the exact mechanism of interaction (and thus the number of interacting fields) is determined by the gauge symmetry of interaction.
 gauge (or local) symmetries are symmetries under spacetime dependent transformations.
 "https://en.wikipedia.org/wiki/Gauge_theory"
 we can write a field equation that is invariant under a local phase transformation (spacetime dependent phase transformation), by introducing one gauge field, to compensate for the variations due to the derivative term.
-γ:i (d:i ψ)x I - m ψ(x) = E gf:i(x) γ:i ψ(x),
-g:i:j (d:i d:j gf:k)x = E ψ(x)† γ:0 γ:k ψ(x),
-  († is conjugate transpose operator, E is the Euler's number.)
+γ:i d:i ψ(x) im - m ψ(x) = E gf:i(x) γ:i ψ(x)
+g:i:j d2:i:j gf:k(x) = eu ψ†(x) γ:0 γ:k ψ(x)
+  where "†" is conjugate transpose operator, and "eu" is the Euler's number.
 
 uncertainty principle is a property of fields:
-  Δx Δk >= 1/2,
+  Δx Δk >= 1/2
   Δt Δf >= 1/2
 
 = particles
 see "Asim Barut, electrodynamics and classical theory of fields and particle".
 
-interactions of fields and particles, leads to infinite self energy for point particles, which needs renormalization.
+interactions of fields and particles, leads to infinite self energy, which needs renormalization.
 
 = gravity
 spacetime is a geometric space, i'e it has geodesics which determine the motion of free particles (and fields) in it.
