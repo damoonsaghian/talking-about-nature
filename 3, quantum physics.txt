@@ -10,11 +10,11 @@ the fact that everything even measurement tools have field behaviors, implies th
 the measurement process always affects the quantum field subjected to it, and it is in principle impossible to make its effect arbitrarily small (for a given accuracy of measurement). the more exact the measurement, the stronger the effect exerted by it (because it demands stronger interaction), and only in measurements of very low accuracy, can the effect on the measured object be small.
 
 "Art Hobson, there are no particles, there are only fields"
-  "https://you.uark.edu/ahobson/"
+    "https://you.uark.edu/ahobson/"
 "Babis Anastasiou, quantum field theory"
-  "https://people.phys.ethz.ch/~babis/Teaching/QFT1/qft1.pdf"
+    "https://people.phys.ethz.ch/~babis/Teaching/QFT1/qft1.pdf"
 "Hitoshi Yamamoto, quantum field theory"
-  "http://epx.phys.tohoku.ac.jp/~yhitoshi/particleweb/particle.html"
+    "http://epx.phys.tohoku.ac.jp/~yhitoshi/particleweb/particle.html"
 
 = strong and weak interactions
 strong and weak interactions (unlike electromagnetism) have very short ranges. thus in practice we always work with their quantized forms.
