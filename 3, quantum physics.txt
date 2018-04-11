@@ -1,8 +1,8 @@
 = quantum fields
-experiments like the double'slit experiment, show that universe is made of discrete but extended entities called quantum fields.
+experiments like the double_slit experiment, show that universe is made of discrete but extended entities called quantum fields.
 quantum fields must be entirely and instantaneously created or destroyed in discrete units (like particles), even though each unit is generally infinitely extended (like a field).
 
-while the motion of quantum fields in spacetime can be described by a field equation, changes in quantum fields are quantized (not continuous), i'e they always interacts in discrete units.
+while the motion of quantum fields in spacetime can be described by a field equation, changes in quantum fields are quantized (not continuous), ie they always interacts in discrete units.
 fields can be considered as the probability amplitude for interaction with another field.
 thus quantized fields, make the measurement (which relies on interaction), a probabilistic process.
 by a quantum measurement, we mean any process in which a quantum phenomenon causes a macroscopic change.
@@ -19,14 +19,14 @@ the measurement process always affects the quantum field subjected to it, and it
 = strong and weak interactions
 strong and weak interactions (unlike electromagnetism) have very short ranges. thus in practice we always work with their quantized forms.
 
-strong interaction is described by a s'u(3) gauge symmetry (3rd order special unitary group, the set of all 3 by 3 unitary matrices with unit determinant).
+strong interaction is described by a SU(3) gauge symmetry (3rd order special unitary group, the set of all 3 by 3 unitary matrices with unit determinant).
 it implies 8 gauge fields which even interact with each other, leading to confinement, and thus the short range of strong interaction.
 
-weak interaction is described by a broken s'u(2) gauge symmetry. the symmetry must be broken, otherwise weak interaction would have long ranges. to explain this symmetry breaking, we need another field called Higgs field.
+weak interaction is described by a broken SU(2) gauge symmetry. the symmetry must be broken, otherwise weak interaction would have long ranges. to explain this symmetry breaking, we need another field called Higgs field.
 "https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_theory"
 
 the apparent violation of mirror inversion and time reversal symmetries, in weak interactions, is due to the asymmetry in the internal structure of particles (not an asymmetry of spacetime itself).
-in other words processes that change the internal structure of particles seem to violate  mirror inversion and time reversal symmetries, because we are not considering their internal structures. (in other words, c'p't symmetry is not violated.)
+in other words processes that change the internal structure of particles seem to violate  mirror inversion and time reversal symmetries, because we are not considering their internal structures. (in other words, CPT symmetry is not violated.)
 an important point here is that the decay of quantons actually shows us that quantons have some kind of internal structure.
 
 = hints to extended entities
@@ -50,6 +50,6 @@ particles can have spin 1/2, provided that they have tails going to the border o
 explaining blackhole entropy seems to demand extended entities too.
 
 extended entities can even explain the 3 dimensionality of space too, space is 3 dimensional because it's the only number of dimensions in which knots are possible.
-Zeeman proved that (considering topological isotopes, or even piecewise linear isotopes) spheres can make knots only when the co'dimension (the difference between the dimension of the sphere and the container space) is 2.
-there is another phenomena which i think is related to this: exotic smooth structures exist only on R^4. i'e when "n" is not 4 then any smooth manifold homeomorphic to R^n is diffeomorphic to R^n.
-i think the origin of this phenomena is the failure of the Whitney trick, which i think is because of the co'dimension 2, between 2'disks used in the Whitney trick, and the 4 dimensional space.
+Zeeman proved that (considering topological isotopes, or even piecewise linear isotopes) spheres can make knots only when the co_dimension (the difference between the dimension of the sphere and the container space) is 2.
+there is another phenomena which i think is related to this: exotic smooth structures exist only on R^4. ie when "n" is not 4 then any smooth manifold homeomorphic to R^n is diffeomorphic to R^n.
+i think the origin of this phenomena is the failure of the Whitney trick, which i think is because of the co_dimension 2, between 2_disks used in the Whitney trick, and the 4 dimensional space.

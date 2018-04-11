@@ -3,17 +3,17 @@ spacetime is a real vector space with a Minkowski inner product.
 vector space and inner product are mathematical concepts whose precise definitions can be found easily on Internet.
 a real vector space is a vector space which its underlying field is totally ordered, and has a complete metric. that is, the underlying field is isomorphic to real numbers.
 
-in a vector space with Minkowski inner product, all normal vectors (for which we have: v v = 1 or -1) are divided into distinct groups, each called a basis, for which we have:
-    basis.i  basis.j = g.i.j
+in a vector space with Minkowski inner product, all normal vectors (for which we have: v*v = 1 or -1) are divided into distinct groups, each called a basis, for which we have:
+    basis.i * basis.j = g.i.j
     g.i.j = if i=j=0 {-1} else if i=j {1} else {0}
 vector components with respect to a basis are defined by:
-    v.i = v  basis.i
-thus the inner product can be written as: v1 v2 = g.i.j  v1.i  v2.j
+    v.i = v * basis.i
+thus the inner product can be written as: v1 * v2 = g.i.j * v1.i * v2.j
 by convention repeated indices in a multiplication means summing over those indices.
 
-transformations which leave the distance (i'e (v2 - v1)^2\2 where "\" is rooting operation) invariant, are called symmetry transformations. they can be written as:
-    v'.i = Λ.i.j  v.j + v0.i
-    g.i.j  Λ.i.k  Λ.j.l = g.k.l
+transformations which leave the distance (ie (v2 - v1)^2\2 where "\" is rooting operation) invariant, are called symmetry transformations. they can be written as:
+    vt.i = Λ.i.j * v.j + v0.i
+    g.i.j * Λ.i.k * Λ.j.l = g.k.l
 
 "https://en.wikipedia.org/wiki/Lorentz_group"
 continuous symmetries are described by Lie groups. discrete symmetries are described by finite groups.
@@ -21,57 +21,57 @@ continuous symmetries are described by Lie groups. discrete symmetries are descr
 = fields
 fields are functions on spacetime that transform linearly under symmetry transformations. this means that they transform according to a linear representation of the spacetime symmetry group.
 linear representations of a symmetry group show us which kind of objects does this groups act on, linearly.
-, scalar fields transform such that: f'(x') = f(x)
-, vector fields: f'(x').i = Λ.i.j  f(x).j
+, scalar fields transform such that: ft(xt) = f(x)
+, vector fields: ft(xt).i = Λ.i.j * f(x).j
 , higher order tensor fields:
-    f'(x').i.j.… = Λ.i.k  Λ.j.l  …  f(x).k.l.…
+    ft(xt).i.j.… = Λ.i.k * Λ.j.l * … * f(x).k.l.…
 , spinor fields (note that heres values are actually complex numbers):
-    ψ'(x').i = S.i.j  ψ(x).j
+    ψt(xt).i = S.i.j * ψ(x).j
     where
-        γ.k.l.i  S.i.j = S.l.i  Λ.k.m  γ.m.i.j
-        γ.i.k.l  γ.j.l.k + γ.i.k.l  γ.i.l.k = 2 g.i.j
+        γ.k.l.i * S.i.j = S.l.i * Λ.k.m * γ.m.i.j
+        γ.i.k.l * γ.j.l.k + γ.i.k.l * γ.i.l.k = 2*g.i.j
 "https://en.wikipedia.org/wiki/Spinor#Clifford_algebras"
 
-free field equation is an equation which every solution of it is a free field, i'e a superposition of plane waves. (a free field is what we have when there is no interaction, like free particles which move with constant velocity)
-plain'wave(x) = a0  cos(g.i.j  p.i  x.j + phase0)
-    where g.i.j  p.i  p.j >= 0
-we define mass as: m^2 = g.i.j  p.i  p.j
+free field equation is an equation which every solution of it is a free field, ie a superposition of plane waves. (a free field is what we have when there is no interaction, like free particles which move with constant velocity)
+plain_wave(x) = a0 * cos(g.i.j * p.i * x.j + phase0)
+    where g.i.j * p.i * p.j >= 0
+we define mass as: m^2 = g.i.j * p.i * p.j
 an example of a free field equation (for any kind of field, scalar, tensor or spinor) that is invariant under spacetime symmetry transformations is:
-    g.i.j  (∂.i ∂.j f)(x) + m^2  f(x) = 0
+    g.i.j * (∂.i ∂.j f)(x) + m^2 * f(x) = 0
 in fact the most general form is:
-    g.i.j  (∂.i ∂.j f)(x) - g.k.l  g.i.j  (∂.k ∂.l ∂.i ∂.j f)(x) + ... + (m^2 + m^4 + ...) f(x) = 0
+    g.i.j * (∂.i ∂.j f)(x) - g.k.l * g.i.j * (∂.k ∂.l ∂.i ∂.j f)(x) + ... + (m^2 + m^4 + ...) * f(x) = 0
     (i think the absence of higher derivative terms in spacetime field equations, is the result of inverse square law, which itself is related to 3 dimensionality of space.)
     (Ostrogradsky instability)
 for spinor fields the equation is simplified to (I^2 = -1):
-    γ.i.k.l  (∂.i ψ)(x).l  I - m  ψ(x).k = 0
+    γ.i.k.l * (∂.i ψ)(x).l * I - m * ψ(x).k = 0
 
 deviation from free motion, for a field (or particle), must always be done via the deviation of another field (or particle) from free motion. (kind of a generalized form of Newton's third law)
 the exact mechanism of interaction (and thus the number of interacting fields) is determined by the gauge symmetry of interaction.
 gauge (or local) symmetries are symmetries under spacetime dependent transformations.
 "https://en.wikipedia.org/wiki/Gauge_theory"
 we can write a field equation that is invariant under a local phase transformation (spacetime dependent phase transformation), by introducing one gauge field, to compensate for the variations due to the derivative term.
-γ.i  (∂.i ψ)(x).j  I - m  ψ(x).j = E  gf(x).i  γ.i  ψ(x).j
-g.i.j  (∂.i ∂.j gf)(x).k = E  ψ(x)*.l  γ.0  γ.k  ψ(x).l
-    where "*" is complex conjugate operator, and "E" is the Euler's number.
+γ.i * (∂.i ψ)(x).j * I - m * ψ(x).j = E * gf(x).i * γ.i * ψ(x).j
+g.i.j * (∂.i ∂.j gf)(x).k = E * ψ(x)**.l * γ.0 * γ.k * ψ(x).l
+    where "**" is complex conjugate operator, and "E" is the Euler's number.
 
 uncertainty principle is a property of fields:
-    Δx Δk >= 1/2
-    Δt Δf >= 1/2
+    Δx * Δk >= 1/2
+    Δt * Δf >= 1/2
 
 = particles
 see "Asim Barut, electrodynamics and classical theory of fields and particle".
 interactions of fields and particles, leads to infinite self energy, which needs renormalization.
 
 = gravity
-spacetime is a geometric space, i'e it has geodesics which determine the motion of free particles (and fields) in it.
+spacetime is a geometric space, ie it has geodesics which determine the motion of free particles (and fields) in it.
 all free particles always move the same way, regardless of their mass.
 
 according to the equivalence principle of gravity, motion of particles near a massive body, are the same, regardless of their mass.
 so the paths taken by falling bodies are the geodesics themselves. this means that in the presence of gravity, the geodesics are curved.
 
-for a spacetime with a local Lorentz symmetry, there is a maximum curvature which can be reached when a body's mass fits inside the so called Schwarzschild radius (2 g m / c^2), this is called a black hole.
+for a spacetime with a local Lorentz symmetry, there is a maximum curvature which can be reached when a body's mass fits inside the so called Schwarzschild radius (2*g*m/c^2), this is called a black hole.
 
 i think dark energy is the result of activities at the border of space, so it's kind of a global feature of space, and can be interpreted as the cosmological constant.
-although cosmological constant is the same through out space, but during the growth of the universe, when it's shape was different, the cosmological constant could have different values (e'g during inflation).
+although cosmological constant is the same through out space, but during the growth of the universe, when its shape was different, the cosmological constant could have different values (eg during inflation).
 
 primordial black holes are a good dark matter candidate.
