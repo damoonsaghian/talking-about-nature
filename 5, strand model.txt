@@ -1,10 +1,10 @@
 "http://motionmountain.com/research.html"
 
-vacuum is a web of straight strands. any deformation in a strand transfers to the neighboring strands with the speed of light.
-it takes an average time equal to Planck time for strands to reach each other, and the average distance between strands is equal to Planck length. so on average a simple deformation on a strand (called a photon) moves with the speed of light. and on average any change is equal to Planck action.
+vacuum is a web of straight strands; any deformation in a strand transfers to the neighboring strands with the speed of light;
+it takes an average time equal to Planck time for strands to reach each other, and the average distance between strands is equal to Planck length; so on average a simple deformation on a strand (called a photon) moves with the speed of light; and on average any change is equal to Planck action;
 
-tangled deformations (made of two or three strands) move with a constant velocity (on average) less than the speed of light. they can change their (average) velocity by emitting photons.
-tangles are not necessarily between adjacent strands, they can be between distant strands. tangles (as well as photons) are not necessarily localizable, they get localized when they interact with baths.
-some tangles are unstable and decay to stable ones.
-a tangle can be untangled with a mirror tangle, and produce high frequency photons.
-mass is the amount of inter_tangledness, and thus it determines the inertial difficulty to move the tangle, as well as the curvature of nearby vacuum strands.
+tangled deformations (made of two or three strands) move with a constant velocity (on average) less than the speed of light; they can change their (average) velocity by emitting photons;
+tangles are not necessarily between adjacent strands, they can be between distant strands; tangles (as well as photons) are not necessarily localizable, they get localized when they interact with baths;
+some tangles are unstable and decay to stable ones;
+a tangle can be untangled with a mirror tangle, and produce high frequency photons;
+mass is the amount of inter_tangledness, and thus it determines the inertial difficulty to move the tangle, as well as the curvature of nearby vacuum strands;
