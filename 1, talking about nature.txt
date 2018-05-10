@@ -1,13 +1,13 @@
-talking is essentially nothing but separating and grouping, they are the foundation of all concepts;
-this is especially evident in mathematics (a way of talking, in which the relation between concepts is clear and thus the foundation of every concept is determined); the concept of a set (a group of parts) is the foundation of all mathematical concepts;
+talking is essentially nothing but separating and grouping; separating and grouping are the foundation of all concepts;
+this is especially evident in mathematics (a way of talking, in which the relation between concepts is clear, and thus the foundation of all concept is determined); the concept of a set (a group of parts) is the foundation of all mathematical concepts;
 the subtle point here is that, separating and grouping are circular concepts, each defined using the other (yin and yang);
 
 nature (everything) can't be a set; in other words, there is no set of everything, because at least it can't contain itself;
 even if we define sets, in a way that they could be members of themselves, again a set of everything would not be possible;
 to see why, suppose that we have a set named set1, and set2 contains those sets in set1 that are not members of themselves; it turns out that set2 cannot be in set1, here is the proof:
-  , suppose that set2 is in set1, set2 is either a member of itself or it is not;
-  , if set2 is a member of itself then by its definition set2 must not be a member of set2, a contradiction;
-  , if set2 is not a member of itself, since it is a member of set1 which is not a member of itself; set2 must be a member of set2, again a contradiction;
+, suppose that set2 is in set1, set2 is either a member of itself or it is not;
+, if set2 is a member of itself then by its definition set2 must not be a member of set2, a contradiction;
+, if set2 is not a member of itself, since it is a member of set1 which is not a member of itself; set2 must be a member of set2, again a contradiction;
 this shows that no set contains everything because at least it can't contain set2; this is called Russell's paradox;
 
 it's the talking that must be contained in nature (eg in the form of a brain) not the other way around;
