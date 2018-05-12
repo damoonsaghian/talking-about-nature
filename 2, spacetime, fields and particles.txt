@@ -38,8 +38,8 @@ we define mass as: m^2 = g.i.j p.i p.j;
 an example of a free field equation (for any kind of field, scalar, tensor or spinor) that is invariant under spacetime symmetry transformations is:
   g.i.j ∂∂f(x).i.j + m^2 f(x) = 0;
 in fact the most general form is:
-  g.i.j ∂∂f(x).i.j - g.k.l g.i.j ∂∂∂∂f(x).k.l.i.j + ..; + (m^2 + m^4 + ...) f(x) = 0;
-  (i think the absence of higher derivative terms in spacetime field equations, is the result of inverse square law, which itself is related to 3 dimensionality of space.)
+  g.i.j ∂∂f(x).i.j - g.k.l g.i.j ∂∂∂∂f(x).k.l.i.j + … + (m^2 + m^4 + …) f(x) = 0;
+  (i think the absence of higher derivative terms in spacetime field equations, is the result of inverse square law, which itself is related to 3 dimensionality of space;)
   (Ostrogradsky instability)
 for spinor fields the equation is simplified to (I^2 = -1):
   γ.i.k.l ∂ψ(x).i.l I - m ψ(x).k = 0;
