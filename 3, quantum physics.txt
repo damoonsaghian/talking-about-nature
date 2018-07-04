@@ -1,13 +1,10 @@
 = quantum fields
-experiments like the double_slit experiment, show that universe is made of discrete but extended entities called quantum fields;
+observations like the double_slit experiment, show that universe is made of discrete but extended entities called quantum fields;
 quantum fields must be entirely and instantaneously created or destroyed in discrete units (like particles), even though each unit is generally infinitely extended (like a field);
 
-while the motion of quantum fields in spacetime can be described by a field equation, changes in quantum fields are quantized (not continuous), ie they always interacts in discrete units;
-fields can be considered as the probability amplitude for interaction with another field;
-thus quantized fields, make the measurement (which relies on interaction), a probabilistic process;
-by a quantum measurement, we mean any process in which a quantum phenomenon causes a macroscopic change;
+while the motion of quantum fields in spacetime can be described by a field equation, changes in quantum fields are quantized (not continuous), ie they always interact in discrete units;
+fields can be considered as the probability amplitude for interaction with another field; thus quantized fields, make the measurement (which relies on interaction), a probabilistic process;
 the fact that everything even measurement tools have field behaviors, implies that measurement has an intrinsic uncertainty (because of the field's uncertainty mentioned in the previous chapter);
-the measurement process always affects the quantum field subjected to it, and it is in principle impossible to make its effect arbitrarily small (for a given accuracy of measurement); the more exact the measurement, the stronger the effect exerted by it (because it demands stronger interaction), and only in measurements of very low accuracy, can the effect on the measured object be small;
 
 "Art Hobson, there are no particles, there are only fields"
   "https://you.uark.edu/ahobson/"
@@ -26,11 +23,11 @@ weak interaction is described by a broken SU(2) gauge symmetry; the symmetry mus
 "https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_theory"
 
 the apparent violation of mirror inversion and time reversal symmetries, in weak interactions, is due to the asymmetry in the internal structure of particles (not an asymmetry of spacetime itself);
-in other words processes that change the internal structure of particles seem to violate  mirror inversion and time reversal symmetries, because we are not considering their internal structures; (in other words, CPT symmetry is not violated;)
+in other words processes that change the internal structure of particles, seem to violate  mirror inversion and time reversal symmetries, because we are not considering their internal structures; in other words, CPT symmetry is not violated;
 an important point here is that the decay of quantons actually shows us that quantons have some kind of internal structure;
 
 = hints to extended entities
-this section (except the last paragraph) is quoted from "Christoph Schiller, motion mountain" ("http://www.motionmountain.net/");
+this section (except the last paragraph) is quoted from "motion mountain" by Christoph Schiller ("http://www.motionmountain.net/");
 
 any particle that is smaller than its own Compton wavelength must be elementary; if it were composite, there would be a lighter component inside it; this lighter particle would have a larger Compton wavelength than the composite particle; this is impossible, since the size of a composite particle must be larger than the Compton wavelength of its components;
 however, an elementary particle can have constituents, provided that they are not compact; the difficulties of compact constituents were described by Andrei Sakharov in the 1960s;
