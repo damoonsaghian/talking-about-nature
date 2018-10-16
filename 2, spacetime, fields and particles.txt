@@ -1,7 +1,8 @@
 = spacetime
 spacetime is a real vector space with a Minkowski inner product;
+
 vector space and inner product are mathematical concepts
-  whose precise definitions can easily be found in the Internet;
+  whose precise definitions can easily be found online;
 a real vector space is a vector space which its underlying field is
   totally ordered, and has a complete metric;
   this means that the underlying field is isomorphic to real numbers;
@@ -23,16 +24,17 @@ they can be written as:
   vt.i = L.i.j v.j + v0.i;
   g.i.j L.i.k L.j.l = g.k.l;
 
-a set of symmetry transformations which make a group, is called a symmetry;
-continuous symmetries are described by Lie groups;
-discrete symmetries are described by finite groups;
-"https://en.wikipedia.org/wiki/Lorentz_group"
+symmetry transformations of spacetime, form a group called Poincare group,
+  which is a ten_dimensional non_abelian Lie group;
+thus the representations of Poincare group can be studied using the corresponding Lie algebra;
+"https://en.wikipedia.org/wiki/Representation_of_a_Lie_group"
+"https://en.wikipedia.org/wiki/Representation_theory_of_the_Lorentz_group"
 
 = fields
 fields are functions on spacetime that
   transform linearly under symmetry transformations;
 this means that they transform according to
-  a linear representation of the spacetime symmetry group;
+  a linear representation of the spacetime symmetry group (Poincare group);
 
 linear representations of a symmetry group determine
   the kind of objects, the group acts on linearly:
