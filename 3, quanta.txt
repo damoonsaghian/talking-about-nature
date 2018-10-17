@@ -1,0 +1,159 @@
+= quanta
+observations like the double_slit experiment, show that
+  universe is made of discrete but extended entities called quanta;
+quanta must be
+  entirely and instantaneously created or destroyed in discrete units (like particles),
+  even though each unit is generally infinitely extended (like a field);
+"Art Hobson, there are no particles, there are only fields"
+  "https://you.uark.edu/ahobson/"
+
+fields can be considered as the probability amplitude for interaction of quanta;
+  this make the measurement (which relies on interaction), a probabilistic process;
+the fact that everything even measurement tools have field behaviors, implies that
+  measurement has an intrinsic uncertainty;
+  uncertainty principle is a property of fields:
+  Δx Δk >= 1/2;
+  Δt Δf >= 1/2;
+
+fields must transform according to a representation (or more generally a projective representation)
+  of the spacetime symmetry group;
+in other words fields must be a tensor or spinor on spacetime;
+, scalar fields transform such that: f_(x_) = f(x);
+, vector fields: f_(x_).i = L.i.j f(x).j;
+, higher order tensor fields:
+  f_(x_).i.j.… = L.i.k L.j.l … f(x).k.l.…;
+, spinor fields (note that values here are actually complex numbers):
+  ψ_(x_).i = S.i.j ψ(x).j;
+  γ.k.l.i S.i.j = S.l.i L.k.m γ.m.i.j;
+  γ.i.k.l γ.j.l.k + γ.i.k.l γ.i.l.k = 2 g.i.j;
+
+free fields are what we have when there is no interaction;
+a free field is a superposition of plane waves;
+plain_wave(x) = a0 cos(g.i.j p.i x.j + phase0);
+  g.i.j p.i p.j >= 0;
+we define mass of a field as: m^2 = g.i.j p.i p.j;
+
+free field equation is an equation which every solution of it is a free field;
+an example of a free field equation (for any kind of quantum, scalar, tensor or spinor)
+  that is invariant under spacetime symmetry transformations is:
+  g.i.j ∂∂f(x).i.j + m^2 f(x) = 0;
+in fact the most general form is:
+  g.i.j ∂∂f(x).i.j - g.k.l g.i.j ∂∂∂∂f(x).k.l.i.j + … + (m^2 + m^4 + …) f(x) = 0;
+  (i think the absence of higher derivative terms in spacetime field equations,
+    is the result of inverse square law,
+    which itself is related to 3 dimensionality of space;)
+  (Ostrogradsky instability)
+for spinor fields the equation is simplified to:
+  γ.i.k.l ∂ψ(x).i.l I - m ψ(x).k = 0;
+    where I^2 = -1;
+
+deviations from free motion, for a field,
+  must always be accompanied by the deviation of another field from free motion;
+  (kind of a generalized form of Newton's third law;)
+the exact mechanism of interaction (and thus the number of interacting fields)
+  is determined by the gauge symmetry of interaction;
+gauge (or local) symmetries are symmetries under spacetime dependent transformations;
+  "https://en.wikipedia.org/wiki/Gauge_theory"
+we can write a field equation that is invariant under a local phase transformation
+  (spacetime dependent phase transformation),
+  by introducing one gauge field,
+  to compensate for the variations due to the derivative term:
+γ.i ∂ψ(x).i I - m ψ(x) = E gf(x).i γ.i ψ(x);
+g.i.j ∂∂gf(x).i.j.k = E ~ψ(x).l γ.0 γ.k ψ(x).l;
+  where "~" is complex conjugate operator, and "E" is the Euler's number;
+
+"Babis Anastasiou, quantum field theory"
+  "https://people.phys.ethz.ch/~babis/Teaching/QFT1/qft1.pdf"
+"Hitoshi Yamamoto, quantum field theory"
+  "http://epx.phys.tohoku.ac.jp/~yhitoshi/particleweb/particle.html"
+
+= strong and weak interactions
+strong and weak interactions (unlike electromagnetism) have very short ranges;
+  thus in practice we always work with them in small scales
+  and with relatively small number of quanta;
+
+strong interaction is described by a SU(3) gauge symmetry
+  (3rd order special unitary group,
+    the set of all 3 by 3 unitary matrices with unit determinant);
+it implies 8 gauge quanta which even interact with each other,
+  leading to confinement, and thus the short range of strong interaction;
+
+weak interaction is described by a broken SU(2) gauge symmetry;
+the symmetry must be broken, otherwise weak interaction would have long ranges;
+to explain this symmetry breaking, we need another quanta called Higgs boson;
+"https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_theory"
+
+the apparent violation of mirror inversion and time reversal symmetries,
+  in weak interactions,
+  is due to the asymmetry in the internal structure of particles
+  (not an asymmetry of spacetime itself);
+in other words processes that change the internal structure of particles,
+  seem to violate  mirror inversion and time reversal symmetries,
+  because we are not considering their internal structures;
+  in other words, CPT symmetry is not violated;
+an important point here is that the decay of quantons actually shows us that
+  quantons have some kind of internal structure;
+
+= hints to extended entities
+this section (except the last paragraph) is quoted from
+  "motion mountain" by Christoph Schiller ("http://www.motionmountain.net/");
+
+any particle that is smaller than its own Compton wavelength must be elementary;
+  if it were composite, there would be a lighter component inside it;
+  this lighter particle would have a larger Compton wavelength than the composite particle;
+  this is impossible, since the size of a composite particle
+    must be larger than the Compton wavelength of its components;
+however, an elementary particle can have constituents, provided that they are not compact;
+  the difficulties of compact constituents were described by Andrei Sakharov in the 1960s;
+if the constituents are extended, the previous argument does not apply,
+ as extended constituents have no localized mass;
+as a result, if a flying arrow (Zeno's famous example) is made of extended constituents,
+  it cannot be said to be at a given position at a given time;
+  shortening the observation time towards the Planck time,
+    makes an arrow disappear in the cloud that makes up spacetime;
+
+in the strand model, elementary particles are (families of) tangles of strands;
+in other words, elementary particles are not the basic building blocks of matter,
+  strands are;
+if particles could really be elementary,
+  it would be impossible to understand their properties;
+in the strand model, particles are not really elementary,
+  but neither are they, in the usual sense, composed;
+  particles are tangles of unobservable strands
+in this way, the strand model retains the useful aspects of the idea of elementary particle,
+  but gets rid of its limitations;
+if one wants to think radically, the strand model can be seen as,
+  eliminating the concepts of elementariness and of particle;
+
+a model for spin 1/2 is part of physics folklore since almost a century;
+  any belt provides an example;
+  any localized structure with any number of tails attached to it
+    (tails that reach the border of the region of space under consideration)
+    has the same properties as a spin 1/2 particle;
+    the only condition is that the tails themselves are unobservable;
+the tail model even has the same problems with highly curved space,
+  as real spin 1/2 particles have;
+it is a famous exercise to show that
+  such a model is indeed invariant under 4Pi rotations, but not under 2Pi rotations;
+  and that two such particles get entangled when exchanged,
+    but get untangled when exchanged twice;
+  the tail model thus confirms that rotation is partial exchange;
+particles can have spin 1/2, provided that they have tails going to the border of space;
+  if the tails do not reach the border, the model does not work;
+  spin 1/2 thus even seems to require extension;
+
+explaining blackhole entropy seems to demand extended entities too;
+
+extended entities can even explain the 3 dimensionality of space too;
+  space is 3 dimensional because it's the only number of dimensions in which knots are possible;
+Zeeman proved that (considering topological isotopes, or even piecewise linear isotopes)
+  spheres can make knots only when the co_dimension
+  (the difference between the dimension of the sphere and the container space)
+  is 2;
+there is another phenomena which i think is related to this:
+  exotic smooth structures exist only on R^4;
+  ie when "n" is not 4 then any smooth manifold homeomorphic to R^n is diffeomorphic to R^n;
+i think the origin of this phenomena is the failure of the Whitney trick,
+  which i think is because of the co_dimension 2,
+  between 2_disks used in the Whitney trick,
+  and the 4 dimensional space;
