@@ -1,4 +1,3 @@
-= spacetime
 spacetime is a real vector space with a Minkowski inner product;
 
 vector space and inner product are mathematical concepts
@@ -32,14 +31,21 @@ so the representations of Lorentz group can be studied using the corresponding L
 "https://en.wikipedia.org/wiki/Projective_representation"
 "https://en.wikipedia.org/wiki/Spinor"
 
-point particles in a relativistic theory (where instantanous action at a distace is not possible)
-  leads to infinite self_field;
+non_relativistic physics (where instantanous action at a distace is possible),
+  is a consistent theory;
+Maxwell's equations which only deals with continuous currents,
+  is a consistent theory too;
+but point particles in a relativistic theory leads to infinite self_field
+  (thus external finite fields can't accelerate the particle);
 resolving these infinities needs renormalization, which is a phenomenological process,
   thus the resulting theory would not be fundamental;
-furthermore general relativity (see next section) is not renormalizable;
+"on radiation reaction and the Abraham_Lorentz_Dirac equation"
+  "https://arxiv.org/pdf/1304.2203.pdf"
+"self_force on a classical point charge, Robert M. Wald"
+  "http://www.math.utk.edu/~fernando/barrett/bwald1.pdf"
 "https://en.wikipedia.org/wiki/Regularization_(physics)#Classical_physics_example"
-"https://en.wikipedia.org/wiki/Abraham%E2%80%93Lorentz_force"
-so it's best to avoid point particles altogether;
+furthermore general relativity (see next section) is not renormalizable;
+so it's best to avoid point particles in relativistic theories altogether;
 especially since nature shows us the right approach, as discussed in the next chapter;
 
 = gravity
