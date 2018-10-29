@@ -10,7 +10,7 @@ in a vector space with Minkowski inner product,
   all normal vectors (for which we have: v v = 1 or -1)
   are divided into distinct groups, each called a basis, for which we have:
     basis.i basis.j = g.i.j;
-    g.i.j = [-1 0 0 0; 0 1 0 0; 0 0 1 0; 0 0 0 1];
+    g.i.j = if i=j=1 {-1} else if i=j {1} else {0};
 vector components with respect to a basis are defined by:
   v.i = v basis.i;
 thus the inner product can be written as: v1 v2 = g.i.j v1.i v2.j;
