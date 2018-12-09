@@ -31,10 +31,8 @@ so the representations of Lorentz group can be studied using the corresponding L
 "https://en.wikipedia.org/wiki/Projective_representation"
 "https://en.wikipedia.org/wiki/Spinor"
 
-non_relativistic physics (where instantanous action at a distace is possible),
-  is a consistent theory;
-Maxwell's equations which only deals with continuous currents,
-  is a consistent theory too;
+non_relativistic physics (where instantanous action at a distace is possible), is a consistent theory;
+Maxwell's equations which only deals with continuous currents, is a consistent theory too;
 but point particles in a relativistic theory leads to infinite self_field
   (thus external finite fields can't accelerate the particle);
 resolving these infinities needs renormalization, which is a phenomenological process,
@@ -58,12 +56,10 @@ so the paths taken by falling objects are the geodesics themselves;
   this means that in the presence of gravity, the geodesics are curved;
 
 note that gravity can be described as the curvature of space even in classical physics;
-describing gravity as an interaction (as is usually done in classical physics)
-  is confusing;
+describing gravity as an interaction (as is usually done in classical physics) is confusing;
 
-for a spacetime with a local Lorentz symmetry,
-  there is a maximum curvature which can be reached
-  when a body's mass fits inside the so called Schwarzschild radius (2*G*m/c^2);
+for a spacetime with a local Lorentz symmetry, there is a maximum curvature
+  which can be reached when a body's mass fits inside the so called Schwarzschild radius (2*G*m/c^2);
   this is called a black hole;
 
 i think dark energy is the result of activities at the border of space,
@@ -81,8 +77,7 @@ there are discrepancies in a number of astrophysical observations:
 , gravitational lensing studies of the galaxy cluster collisions (such as Bullet Cluster)
   implies a component which does not follow baryonic matter;
 currently these observations are best described using dark matter,
-  a new kind non_baryonic matter,
-  which constitutes about 85% of all matter in the universe;
+  a new kind of non_baryonic matter, which constitutes about 85% of all matter in the universe;
 
 but i think it's possible to explain these discrepancies using entropic gravity;
 instead of hordes of invisible particles,

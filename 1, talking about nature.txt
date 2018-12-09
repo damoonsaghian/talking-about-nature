@@ -1,17 +1,16 @@
 talking is essentially nothing but separating and grouping;
   separating and grouping are the foundation of all concepts;
 this is especially evident in mathematics
-  (a way of talking, in which the relation between concepts is clear,
+  (a way of talking, in which the relations between concepts are clear,
     and thus the foundation of any concept is determined);
   the concept of a set (a group of parts) is the foundation of all mathematical concepts;
 the subtle point here is that, separating and grouping are circular concepts,
   each defined using the other (yin and yang);
 
 nature (everything) can't be a set;
-  in other words, there is no set of everything,
-    because at least it can't contain itself;
+in other words, there is no set of everything, because at least it can't contain itself;
 even if we define sets, in a way that they could be members of themselves,
-  again a set of everything would not be possible (Russell's paradox);
+  again a set of everything would not be possible (it's called Russell's paradox);
 to see why, suppose that we have a set named set1;
   another set named set2 contains those sets in set1 that are not members of themselves;
   it turns out that set2 cannot be in set1, here is the proof:
@@ -27,8 +26,8 @@ it's the talking that must be contained in nature (eg in the form of a brain)
   not the other way around;
 nature, universe, reality, everything, god, being, or whatever we call it,
   is not a group of parts, though it can be described using them approximately;
-  only the existence of approximate groups and parts in our brains,
-    allows us to talk about nature in general;
+only the existence of approximate groups and parts in our brains,
+  allows us to talk about nature in general;
 so talking about nature, with approximate concepts, is possible, and indeed very useful;
   it's called physics;
 
@@ -46,13 +45,11 @@ we will see that quantum theory and general relativity, when combined, imply tha
 
 but even without mentioning quantum theory and general relativity,
   we can predict the main aspects of a final theory;
-since nature is not a concept,
-  all concepts used in the final theory must be unobservable;
+since nature is not a concept, all concepts used in the final theory must be unobservable;
 if something is observable, it means that it is a part of nature,
   and it is observed through interaction with other parts;
 
-the following sentences quoted from "motion mountain" by Christoph Schiller,
-  describe it very well:
+the following sentences quoted from "motion mountain" by Christoph Schiller, describe it very well:
 indeed there must be one and only one unobservable concept;
   if it was observable, the theory would not be final,
   if there were more unobservable concepts, the theory would be fiction, not science …
@@ -81,8 +78,7 @@ Strand Model proposed by Christoph Schiller is an attempt for
 still, no matter how we describe nature, we are here as pretty evolved parts of it;
   in fact we are so evolved that we can alter the path of evolution itself;
   the problem is that we are not still evolved enough to use this ability properly;
-we are going to create more suffering,
-  and ultimately the destruction of all which has been achieved,
+we are going to create more suffering, and ultimately the destruction of all which has been achieved,
   if we continue what we are doing now; (excluding a few developed countries)
 though it is possible that the evolution goes one step further,
   leading to humans that can add to the beauty and richness of nature;
