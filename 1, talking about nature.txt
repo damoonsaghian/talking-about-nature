@@ -22,8 +22,7 @@ to see why, suppose that we have a set named set1;
       set2 must be a member of set2, again a contradiction;
     this shows that no set contains everything because at least it can't contain set2;
 
-it's the talking that must be contained in nature (eg in the form of a brain)
-  not the other way around;
+it's the talking that must be contained in nature (eg in the form of a brain) not the other way around;
 nature, universe, reality, everything, god, being, or whatever we call it,
   is not a group of parts, though it can be described using them approximately;
 only the existence of approximate groups and parts in our brains,

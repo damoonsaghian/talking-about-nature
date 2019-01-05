@@ -47,8 +47,7 @@ so it's best to avoid point particles in relativistic theories altogether;
 especially since nature shows us the right approach, as discussed in the next chapter;
 
 = gravity
-spacetime is a geometric space, ie it has geodesics,
-  which determine the motion of free objects in it;
+spacetime is a geometric space, ie it has geodesics, which determine the motion of free objects in it;
 all free objects always move the same way, regardless of their mass;
 according to the equivalence principle of gravity,
   motion of objects near a massive body, are the same, regardless of their mass;
@@ -56,7 +55,8 @@ so the paths taken by falling objects are the geodesics themselves;
   this means that in the presence of gravity, the geodesics are curved;
 
 note that gravity can be described as the curvature of space even in classical physics;
-describing gravity as an interaction (as is usually done in classical physics) is confusing;
+describing gravity as an interaction (as is usually done in classical physics) is confusing
+  (though maybe mathematically simpler);
 
 for a spacetime with a local Lorentz symmetry, there is a maximum curvature
   which can be reached when a body's mass fits inside the so called Schwarzschild radius (2*G*m/c^2);
