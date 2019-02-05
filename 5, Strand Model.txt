@@ -1,19 +1,18 @@
 "http://motionmountain.com/research.html"
-note that the explanation bellow is my personal thoughts,
-  it completely differs from how Schiller presents his Strand Model;
+note that the following explanation is my personal thoughts;
+it can be completely different from how Schiller presents his Strand Model;
 
 vacuum is a web of straight strands;
 it takes an average time equal to Planck time for strands to reach each other,
   and the average distance between strands is equal to Planck length;
-thus on average a simple deformation on a strand (called a photon) moves with the speed of light;
+thus on average a simple curve on a strand (called a photon),
+  transmits to other strands at the speed of light;
 
-tangled deformations (made of two or three strands)
-  move with a constant velocity (on average) less than the speed of light;
+tangles (made of three or more strands)
+  transfer between strands  with a constant velocity (on average) less than the speed of light;
   they can change their (average) velocity by emitting photons;
-tangles are not necessarily between adjacent strands, they can be between distant strands;
-tangles (as well as photons) are not necessarily localizable,
-  they get localized when they interact with baths;
-
+tangles (as well as photons) are not necessarily localized,
+  they become localized when they interact with baths;
 some tangles are unstable and decay to stable ones;
 a tangle can be untangled with a mirror tangle, which results in high frequency photons;
 mass is the amount of inter_tangledness,
