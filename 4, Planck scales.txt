@@ -12,26 +12,6 @@ whenever we combine general relativity and quantum theory,
 for this reason, any sentence or expression containing the term "universe",
   is probably meaningless, whenever complete precision is required;
 
-there is an intriguing relation between Planck scales and cosmological scales,
-  they seem to pose the same challenges to their description;
-  there is a tight relation between large and small scales in nature;
-  there seems to be little difference (if any at all) between the universe and nothing;
-
-elements and sets must be abandoned;
-this radical conclusion is deduced from only two statements:
-1, the necessity of using quantum theory
-  whenever the dimensions are of the order of the Compton wavelength;
-2, and of using general relativity
-  whenever the dimensions are of the order of the Schwarzschild radius;
-together, they mean that
-  no precise description of nature can contain elements and sets;
-the difficulties in complying with this result,
-  explain why the unification of the two theories has not so far been successful;
-not only does unification require that
-  we stop using space, time and mass for the description of nature,
-  it also requires that all distinctions, of any kind, should be only approximate;
-  but all physicists have been educated on the basis of exactly the opposite creed;
-
 combining quantum theory and general relativity
   leads us to several important results on the description of nature:
 , there is no conceivable way to prove that points exist,
@@ -44,6 +24,20 @@ combining quantum theory and general relativity
 , particles, vacuum and continuous space do not exist at Planck scales,
   they disappear in a yet unclear Planck scale mixture;
 
+elements and sets must be abandoned;
+this radical conclusion is deduced from only two statements:
+1, the necessity of using quantum theory
+  whenever the dimensions are of the order of the Compton wavelength;
+2, and of using general relativity
+  whenever the dimensions are of the order of the Schwarzschild radius;
+together, they mean that no precise description of nature can contain elements and sets;
+the difficulties in complying with this result,
+  explain why the unification of the two theories has not so far been successful;
+not only does unification require that
+  we stop using space, time and mass for the description of nature,
+  it also requires that all distinctions, of any kind, should be only approximate;
+  but all physicists have been educated on the basis of exactly the opposite creed;
+
 distinguishing between two entities requires different measurement results;
   for example, different positions, masses or sizes;
 whatever quantity we choose, at Planck energy the distinction becomes impossible;
@@ -55,3 +49,8 @@ there is only one solution, everything
   must be made of the same single constituent;
 every point in space, every event, every particle and every instant of time
   must be made of the same single constituent;
+
+there is an intriguing relation between Planck scales and cosmological scales,
+they seem to pose the same challenges to their description;
+there is a tight relation between large and small scales in nature;
+there seems to be little difference (if any at all) between the universe and nothing;
