@@ -34,8 +34,6 @@ so the representations of Lorentz group can be studied using the corresponding L
 = particles
 point particles in a relativistic theory (in which instantanous action at a distance isn't allowed),
   leads to infinite self_field (thus external finite fields can't accelerate the particle);
-resolving these infinities needs renormalization, which is a phenomenological process,
-  thus the resulting theory would not be fundamental;
 "self_force on a classical point charge, Robert M. Wald"
   "http://www.math.utk.edu/~fernando/barrett/bwald1.pdf"
 "https://en.wikipedia.org/wiki/Regularization_(physics)#Classical_physics_example"
