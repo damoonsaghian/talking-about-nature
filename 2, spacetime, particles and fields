@@ -32,7 +32,8 @@ so the representations of Lorentz group can be studied using the corresponding L
 "https://en.wikipedia.org/wiki/Spinor"
 
 = particles
-point particles in a relativistic theory (in which instantanous action at a distance isn't allowed),
+point particles in a relativistic theory
+  (in which instantaneous action at a distance isn't allowed),
   leads to infinite self_field (thus external finite fields can't accelerate the particle);
 "self_force on a classical point charge, Robert M. Wald"
   "http://www.math.utk.edu/~fernando/barrett/bwald1.pdf"
@@ -43,7 +44,7 @@ particles which can change velocity, ie massive charged particles, must have a n
 note that this differs from the concept of a rigid body;
   in fact in a relativistic theory, rigid bodies don't exist;
 the insides of particles must be considered special,
-  in the sense that even spacetime seaze to exist inside particles;
+  in the sense that even spacetime cease to exist inside particles;
 considering gravity (discussed below), we can say this size is the Schwarzschild radius;
 furthermore, in general relativity, massive point particles (even with no charge) make no sense;
 
@@ -69,7 +70,7 @@ we define mass of a field as: m^2 = g.i.j p.i p.j;
 free field equation is an equation which every solution of it is a free field;
 free field equation (for any kind of field: scalar, tensor or spinor):
   g.i.j ∂∂f(x).i.j + m^2 f(x) = 0;
-absence of other derivative terms is because of positive energy constraint mentioned aove;
+absence of other derivative terms is because of positive energy constraint mentioned above;
   (Ostrogradsky instability)
 for spinor fields the equation is simplified to:
   1i γ.i.k.l ∂ψ(x).i.l - m ψ(x).k = 0;
@@ -89,10 +90,11 @@ g.i.j ∂∂gf(x).i.j.k = E ~ψ(x).l γ.0 γ.k ψ(x).l;
   where "~" is complex conjugate operator, and "E" is the Euler's number;
 
 = gravity
-spacetime is a geometric space, ie it has geodesics, which determine the motion of free objects in it;
-all free objects always move the same way, regardless of their mass and other propeties;
+spacetime is a geometric space,
+  ie it has geodesics, which determine the motion of free objects in it;
+all free objects always move the same way, regardless of their mass and other properties;
 according to the equivalence principle of gravity,
-  objects near a massive body, move the same way, regardless of their mass and other propeties;
+  objects near a massive body, move the same way, regardless of their mass and other properties;
 so the paths taken by falling objects are the geodesics themselves;
   this means that in the presence of gravity, the geodesics are curved;
 
@@ -102,7 +104,8 @@ note that gravity can be described as the curvature of space even in non_relativ
   though it's usually mathematically simpler to consider it as a force;
 
 for a spacetime with a local Lorentz symmetry, there is a maximum curvature
-  which can be reached when a body's mass fits inside the so called Schwarzschild radius (2*G*m/c^2);
+  which can be reached when a body's mass fits inside the so called Schwarzschild radius
+    (2*G*m/c^2);
   this is called a black hole;
 
 i think dark energy is the result of activities at the border of space,
@@ -116,7 +119,7 @@ although cosmological constant is the same through out space,
 there are discrepancies in a number of astrophysical observations:
 , rotation velocities in galaxies doesn't decrease as distance from the center increases;
 , gravitational lensing studies, need a lot more mass than can be seen;
-, cosmic microwave background imprints, seems to show the existance of non_baryonic matter;
+, cosmic microwave background imprints, seems to show the existence of non_baryonic matter;
 , gravitational lensing studies of the galaxy cluster collisions (such as Bullet Cluster)
   implies a component which does not follow baryonic matter;
 currently these observations are best described using dark matter,
