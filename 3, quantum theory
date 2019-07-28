@@ -15,8 +15,8 @@ fields can be considered as the probability amplitude for interaction of quanta;
 the fact that everything even measurement tools have field behaviors, implies that
   measurement has an intrinsic uncertainty;
   uncertainty principle is a property of fields:
-  Δx Δk >= 1/2;
-  Δt Δf >= 1/2;
+  Δx Δk >= 1/2
+  Δt Δf >= 1/2
 
 = strong and weak interactions
 strong and weak interactions (unlike electromagnetism) have very short ranges;
@@ -31,7 +31,6 @@ it implies 8 gauge quanta which even interact with each other,
 weak interaction is described by a broken SU(2) gauge symmetry;
 the symmetry must be broken, otherwise weak interaction would have long ranges;
 to explain this symmetry breaking, we need another quanta called Higgs boson;
-"https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_theory"
 
 the apparent violation of mirror inversion and time reversal symmetries in weak interactions,
   is due to the asymmetry in the internal structure of particles
