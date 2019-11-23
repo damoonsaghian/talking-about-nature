@@ -75,7 +75,8 @@ free field equation (for any kind of field: scalar, tensor or spinor):
 absence of other derivative terms is because of positive energy constraint mentioned above;
   (Ostrogradsky instability)
 for spinor fields the equation is simplified to:
-  1i γ.i.k.l ∂ψ(x).i.l - m ψ(x).k = 0
+  I γ.i.k.l ∂ψ(x).i.l - m ψ(x).k = 0
+  where I^2 = -1
 
 deviations from free motion, for a field,
   must always be accompanied by the deviation of another field from free motion;
@@ -85,29 +86,31 @@ the exact mechanism of interaction (and thus the number of interacting fields)
 gauge (or local) symmetries are symmetries under spacetime dependent transformations;
   "https://en.wikipedia.org/wiki/Gauge_theory"
 we can write a field equation that is invariant under a local phase transformation
-  (spacetime dependent phase transformation),
-  by introducing one gauge field, to compensate for the variations due to the derivative term:
-1i γ.i ∂ψ(x).i - m ψ(x) = E gf(x).i γ.i ψ(x)
+  (spacetime dependent phase transformation), by introducing one gauge field,
+  to compensate for the variations due to the derivative term;
+I γ.i ∂ψ(x).i - m ψ(x) = E gf(x).i γ.i ψ(x)
 g.i.j ∂∂gf(x).i.j.k = E ~ψ(x).l γ.0 γ.k ψ(x).l
-  where "~" is complex conjugate operator, and "E" is the Euler's number;
+where "E" is the Euler's number, and "~" is complex conjugate operator;
 
 = gravity
 spacetime is a geometric space,
   ie it has geodesics, which determine the motion of free objects in it;
 all free objects always move the same way, regardless of their mass and other properties;
-according to the equivalence principle of gravity,
-  objects near a massive body, move the same way, regardless of their mass and other properties;
-so the paths taken by falling objects are the geodesics themselves;
-  this means that in the presence of gravity, the geodesics are curved;
+on the other hand, according to the equivalence principle of gravity,
+  objects near a massive (uncharged) body, move the same way,
+  regardless of their mass and other properties;
+so falling objects determine the geodesics;
+this implies that in the presence of gravity, the geodesics are curved;
 
 so instead of introducing a gravitational field,
   we can consider gravity as the curvature of spacetime itself;
-note that gravity can be described as the curvature of space even in non_relativistic physics;
-  though it's usually mathematically simpler to consider it as a force;
+note that gravity can be described as the curvature of space and time
+  even in non_relativistic physics (Newton_Cartan theory);
+though it's a bit uneasy and ugly, because there is two separate metrics;
+"https://www.physicsforums.com/insights/revival-newton-cartan-theory/"
 
-for a spacetime with a local Lorentz symmetry, there is a maximum curvature
-  which can be reached when a body's mass fits inside the so called Schwarzschild radius
-    (2*G*m/c^2);
+for a spacetime with a local Lorentz symmetry, there is a maximum curvature which can be reached
+  when a body's mass fits inside the so called Schwarzschild radius (2*G*m/c^2);
   this is called a black hole;
 
 i think dark energy is the result of activities at the border of space,
@@ -128,6 +131,6 @@ currently these observations are best described using dark matter,
   a new kind of non_baryonic matter, which constitutes about 85% of all matter in the universe;
 
 but i think it's possible to explain these discrepancies using entropic gravity;
-instead of hordes of invisible particles,
-  dark matter can be an interplay between ordinary matter and dark energy;
+instead of hordes of invisible particles, dark matter can be
+  an interplay between ordinary matter and dark energy;
 "https://www.quantamagazine.org/erik-verlindes-gravity-minus-dark-matter-20161129/"
