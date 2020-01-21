@@ -25,7 +25,7 @@ they can be written as:
   g.i.j L.i.k L.j.l = g.k.l
 
 symmetry transformations of spacetime, form a group called symmetry group of spacetime,
-  which is a ten_parameter non'Abelian Lie group;
+  which is a ten_parameter non_Abelian Lie group;
 so the representations of Lorentz group can be studied using the corresponding Lie group;
 "https://en.wikipedia.org/wiki/Representation_of_a_Lie_group"
 "https://en.wikipedia.org/wiki/Representation_theory_of_the_Lorentz_group"
@@ -35,13 +35,13 @@ so the representations of Lorentz group can be studied using the corresponding L
 = particles
 point particles in a relativistic theory
   (in which instantaneous action at a distance isn't allowed),
-  lead to infinite self'field (thus external finite fields can't accelerate the particle);
-"self'force on a classical point charge, Robert M. Wald"
+  lead to infinite self_field (thus external finite fields can't accelerate the particle);
+"self_force on a classical point charge, Robert M. Wald"
   "http://www.math.utk.edu/~fernando/barrett/bwald1.pdf"
 "https://en.wikipedia.org/wiki/Regularization_(physics)#Classical_physics_example"
 
-in a relativistic theory only massless particles can be point'like;
-particles which can change velocity, ie massive charged particles, must have a non'zero size;
+in a relativistic theory only massless particles can be point_like;
+particles which can change velocity, ie massive charged particles, must have a non_zero size;
 note that this differs from the concept of a rigid body;
   in fact in a relativistic theory, rigid bodies don't exist;
 the insides of particles must be considered special,
@@ -64,7 +64,7 @@ in other words fields must be a tensor or spinor on spacetime;
 
 free fields are what we have when there is no interaction;
 a free field is a superposition of plane waves;
-plain'wave(x) = a0 cos(g.i.j p.i x.j + phase0)
+plain_wave(x) = a0 cos(g.i.j p.i x.j + phase0)
   g.i.j p.i p.j >= 0 // ie positive energy
 we define mass of a field as:
   m^2 = g.i.j p.i p.j
@@ -105,7 +105,7 @@ this implies that in the presence of gravity, the geodesics are curved;
 so instead of introducing a gravitational field,
   we can consider gravity as the curvature of spacetime itself;
 note that gravity can be described as the curvature of space and time
-  even in non_relativistic physics (Newton'Cartan theory);
+  even in non_relativistic physics (NewtonCartan theory);
 though it's a bit uneasy and ugly, because there is two separate metrics;
 "https://www.physicsforums.com/insights/revival-newton-cartan-theory/"
 
@@ -124,11 +124,11 @@ although cosmological constant is the same throughout space,
 there are discrepancies in a number of astrophysical observations:
 , rotation velocities in galaxies doesn't decrease as distance from the center increases;
 , gravitational lensing studies, need a lot more mass than can be seen;
-, cosmic microwave background imprints, seems to show the existence of non'baryonic matter;
+, cosmic microwave background imprints, seems to show the existence of non_baryonic matter;
 , gravitational lensing studies of the galaxy cluster collisions (such as Bullet Cluster)
   implies a component which does not follow baryonic matter;
 currently these observations are best described using dark matter,
-  a new kind of non'baryonic matter, which constitutes about 85% of all matter in the universe;
+  a new kind of non_baryonic matter, which constitutes about 85% of all matter in the universe;
 
 but i think it's possible to explain these discrepancies using entropic gravity;
 instead of hordes of invisible particles, dark matter can be
