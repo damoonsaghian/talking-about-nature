@@ -1,0 +1,35 @@
+"http://motionmountain.com/research.html"
+note that these are my personal understandings, and not necessarily correct;
+
+strands have no endings, thus there is actually only one ring tangled into itself;
+strands have no restriction other than themselves;
+  a strand is everywhere at all times, unless when other strands restrict it;
+note that strand restriction is a collective process;
+  ie it's determined by the whole structure of a strand configuration;
+
+collective restrictions lead to a number of different rational (ie unknotted) tangles,
+  called elementary tangles, which are made of 3 or less strands;
+note that the restrictions only determine the shape of the tangle, not its size;
+so tangles are not necessarily localized, they become localized when they interact with baths;
+
+a photon is a twist on a strand; it moves (on average) at the speed of light;
+the twist turns around the strand, and the frequency of this rotation is the photon's frequency;
+
+massive elementary particles are tangles of two or three strands;
+they move with a constant velocity (on average) less than the speed of light;
+
+charged particles have chiral tangles;
+due to collective restrictions, chiral tangles can absorb or emit photons,
+  and as a result change their (average) velocity;
+
+some tangles are unstable and decay to stable ones;
+mirror tangles neutralize each other's restrictions, and allow the cores to be untangled,
+  which results in high frequency photons;
+
+virtual particles are temporary tangles, ie tangles which annihilate after a short time;
+note that virtual particles are completely destroyed (and not decayed to to other particles),
+  after a short time;
+
+mass is the amount of inter_tangledness, and thus it determines
+  the inertial difficulty to move the tangle,
+  as well as the amount of produced virtual gravitons;
