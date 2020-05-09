@@ -8,12 +8,12 @@ note that strand restriction is a collective process;
 
 collective restrictions lead to a number of different rational (ie unknotted) tangles,
   called elementary tangles, which are made of 3 or less strands;
+note that the restrictions only determine the shape of the tangle, not its size;
 
 a photon is a twist on a strand; it moves (on average) at the speed of light;
-the twist turns around the strand, and the frequency of this rotation is the photon's frequency;
 
 massive elementary particles are tangles of two or three strands;
-they move with a constant velocity (on average) less than the speed of light;
+in free space they move with a constant velocity (on average) less than the speed of light;
 
 charged particles have chiral tangles;
 due to collective restrictions, chiral tangles can absorb or emit photons,

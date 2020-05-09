@@ -38,8 +38,8 @@ the apparent violation of mirror inversion and time reversal symmetries in weak 
 in other words processes that change the internal structure of particles,
   seem to violate  mirror inversion and time reversal symmetries,
   because we are not considering the internal structure of particles;
-  in other words, CPT symmetry is not violated;
-an important point here is that the decay of quantons actually shows us that
+in other words, CPT symmetry is not violated;
+the important point here is that the decay of quantons actually shows us that
   quantons have some kind of internal structure;
 
 = hints to extended entities
