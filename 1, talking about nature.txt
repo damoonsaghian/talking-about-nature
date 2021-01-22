@@ -1,8 +1,7 @@
 talking is essentially nothing but separating and grouping;
   separating and grouping are the foundation of all concepts;
-this is especially evident in mathematics
-  (a way of talking, in which the relations between concepts are clear,
-    and thus the foundation of any concept is determined);
+this is especially evident in mathematics (a way of talking, in which the relations between concepts are clear,
+  and thus the foundation of any concept is determined);
   the concept of a set (a group of parts) is the foundation of all mathematical concepts;
 the subtle point here is that, separating and grouping are circular concepts,
   each defined using the other (yin and yang);
@@ -10,7 +9,7 @@ the subtle point here is that, separating and grouping are circular concepts,
 nature (everything) can't be a set;
 in other words, there is no set of everything, because at least it can't contain itself;
 even if we define sets, in a way that they could be members of themselves,
-  again a set of everything would not be possible (it's called Russell's paradox);
+  again a set of everything would not be possible (it's called Russell paradox);
 this is why:
 suppose that we have a set named set1;
 another set named set2 contains those sets in set1 that are not members of themselves;
@@ -35,22 +34,21 @@ so talking about nature, with approximate concepts, is possible, and indeed very
 quantum theory and general relativity (discussed in the following chapters)
   are the best theories of physics we have at hand;
   two different ways to talk about two different areas of nature;
-it's only at extreme areas like Planck scales that they meet each other,
-  and this meeting turns out to be disastrous,
-  and at the same time, a useful guide to a final unified theory
-    (as discussed in the chapter on Planck scales);
+it's only at extreme areas namely Planck scales, that they meet each other,
+  and this meeting turns out to be disastrous, and at the same time, a useful guide to a unified theory
+  (as discussed in the chapter on Planck scales);
 we will see that quantum theory and general relativity, when combined, imply that
   at Planck scales nature can't be described with parts and groups,
-  because at those scales the assumption that nature is a group of parts,
-    is not a good approximation any more;
+because at those scales the assumption that nature is a group of parts,
+  is not a good approximation any more;
 
 but even without mentioning quantum theory and general relativity,
-  we can predict the main aspects of the final theory;
-since nature is not a concept, all concepts used in the final theory must be unobservable;
+  we can predict the main aspects of the unified theory;
+since nature is not a concept, all concepts used in the unified theory must be unobservable;
 if something is observable, it means that it is a part of nature,
   and it is observed through interaction with other parts;
 
-the following sentences from "motion mountain" by Christoph Schiller, describe it very well:
+the following paragraph is quoted from "motion mountain" by Christoph Schiller "http://www.motionmountain.net/";
 indeed there must be one and only one unobservable concept;
   if it was observable, the theory would not be final,
   if there were more unobservable concepts, the theory would be fiction, not science …
@@ -72,7 +70,7 @@ in more vivid imagery, nature could be described by
     and approximately blocking it, for example using a small hole,
     so that the escape takes a long time;
 strand theory proposed by Christoph Schiller is an attempt for
-  the final unified theory of physics (it's discussed in the final chapter);
+  a unified theory of physics (it's discussed in the last chapter);
 
 still, no matter how we describe nature, we are here as pretty evolved parts of it;
   in fact we are so evolved that we can alter the path of evolution itself;

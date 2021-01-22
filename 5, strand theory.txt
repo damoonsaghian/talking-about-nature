@@ -1,4 +1,4 @@
-"http://www.motionmountain.com/research.html"
+"http://www.motionmountain.net/research.html"
 
 strands have no endings, thus there is actually only one ring tangled into itself;
 strands have no restriction other than themselves;
@@ -20,7 +20,7 @@ due to collective restrictions, chiral tangles can absorb or emit photons,
   and as a result change their (average) velocity;
 
 note that when a photon is absorbed, its original strand will be unrestricted,
-  and thus disapears into the border of space;
+  and thus disappears into the border of space;
 this is also what happens when emitting photons;
 when a photon appears on a strand of a particle, and move away from it,
   the strand between the particle and the photon will be unrestricted;

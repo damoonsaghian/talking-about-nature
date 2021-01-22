@@ -8,7 +8,7 @@ quanta must be entirely and instantaneously created or destroyed in discrete uni
 "Babis Anastasiou, quantum field theory"
   "https://people.phys.ethz.ch/~babis/Teaching/QFT1/qft1.pdf"
 "Hitoshi Yamamoto, quantum field theory"
-  "http://epx.phys.tohoku.ac.jp/~yhitoshi/particleweb/particle.html"
+  "http://epx.phys.tohoku.ac.jp/~yhitoshi/particleweb/ptestup.pdf"
 
 fields can be considered as the probability amplitude for interaction of quanta;
   this makes the measurement (which relies on interaction), a probabilistic procedure;
@@ -33,18 +33,16 @@ the symmetry must be broken, otherwise weak interaction would have long ranges;
 to explain this symmetry breaking, we need another quanta called Higgs boson;
 
 the apparent violation of mirror inversion and time reversal symmetries in weak interactions,
-  is due to the asymmetry in the internal structure of particles
-  (not an asymmetry of spacetime itself);
+  is due to the asymmetry in the internal structure of particles (not an asymmetry of spacetime itself);
 in other words processes that change the internal structure of particles,
   seem to violate  mirror inversion and time reversal symmetries,
   because we are not considering the internal structure of particles;
 in other words, CPT symmetry is not violated;
-the important point here is that the decay of quantons actually shows us that
+the important point here is that the decay of quantons actually shows us that,
   quantons have some kind of internal structure;
 
 = hints to extended entities
-this section (except the last two paragraphs) is quoted from
-  "motion mountain" by Christoph Schiller ("http://www.motionmountain.net/");
+this section is quoted from "motion mountain" by Christoph Schiller;
 
 any particle that is smaller than its own Compton wavelength must be elementary;
   (the Compton wavelength of a particle is equal to the wavelength of a photon
@@ -76,16 +74,3 @@ particles can have spin 1/2, provided that they have tails going to the border o
 spin 1/2 thus even seems to require extension;
 
 explaining black hole entropy seems to demand extended entities too;
-
-extended entities can even explain the 3 dimensionality of space too;
-  space is 3 dimensional because it's the only number of dimensions in which knots are possible;
-Zeeman proved that (considering topological isotopes, or even piecewise linear isotopes)
-  spheres can make knots only when the co_dimension is 2;
-  (co_dimension is the difference between the dimension of the sphere and the container space)
-
-there is another phenomena which i think is related to this:
-  exotic smooth structures exist only on R^4;
-  ie when "n" is not 4 then any smooth manifold homeomorphic to R^n is diffeomorphic to R^n;
-i think the origin of this phenomena is the failure of the Whitney trick,
-  which i think is because of co_dimension 2,
-  between 2_disks used in the Whitney trick, and the 4 dimensional space;
