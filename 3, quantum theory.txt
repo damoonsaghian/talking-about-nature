@@ -6,9 +6,10 @@ quanta must be entirely and instantaneously created or destroyed in discrete uni
 "Art Hobson, there are no particles, there are only fields"
   "https://arxiv.org/pdf/1204.4616.pdf"
 "Babis Anastasiou, quantum field theory"
+  "https://www.theoretical-physics.net/dev/index.html"
+  "http://www.rcnp.osaka-u.ac.jp/~ipc/meetipc/pdf/seminar_titov.pdf"
+  "https://www.damtp.cam.ac.uk/user/tong/qft.html"
   "https://people.phys.ethz.ch/~babis/Teaching/QFT1/qft1.pdf"
-"Hitoshi Yamamoto, quantum field theory"
-  "http://epx.phys.tohoku.ac.jp/~yhitoshi/particleweb/ptestup.pdf"
 
 fields can be considered as the probability amplitude for interaction of quanta;
   this makes the measurement (which relies on interaction), a probabilistic procedure;

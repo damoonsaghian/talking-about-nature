@@ -34,9 +34,7 @@ symmetry transformations of spacetime, form a group called spacetime symmetry gr
 so the representations of spacetime symmetry group can be deduced
   using the representations of its corresponding Lie algebra,
   plus the projective representations (since it's not a simply connected group);
-"https://en.wikipedia.org/wiki/Representation_of_a_Lie_group"
 "https://en.wikipedia.org/wiki/Representation_theory_of_the_Lorentz_group"
-"https://en.wikipedia.org/wiki/Projective_representation"
 "https://en.wikipedia.org/wiki/Spinor"
 
 = why 3 dimensions for space?
@@ -80,6 +78,8 @@ in other words fields must be a tensor or spinor on spacetime;
   ψ'.i(x') = S.ij ψ.j(x)
   where: γ.ijk S.kl = S.jk L.im γ.mkl
   where: γ.ijk γ.lkj + γ.ijk γ.ikj = 2 g.ij
+for higher order spinors gamma matrices are generalized into matrices (γ.ij…)
+  which are symmetric in any two tensor indices:
 
 free fields are what we have when there is no interaction;
 a free field is a superposition of plane waves:
@@ -92,9 +92,13 @@ free field equation for scalar fields:
   ∂∂f(x) + m^2 f(x) = 0
   where: ∂∂ = ∂.i ∂.i'
 (note that all formulas are written in Planck units in which: c=G=ħ=k=1)
-free field equation for tensor or spinor fields with spin "s":
-  "https://en.wikipedia.org/wiki/Joos%E2%80%93Weinberg_equation"
-for spin 1/2 it gives the Dirac's equation:
+free field equation for vector, tensor or spinor fields with spin "s" (Joos-Weinberg equation):
+  I^2s γ.(i.1 … i.2s j k) ∂.i'.1 … ∂.i'.2s f.k.…(x) + m^2s f.k.…(x) = 0
+for spin 1 we have:
+  ∂∂f.i(x) + m^2 f.i(x) = 0
+which in the case of a massless field, leads to Maxwell's equation for a free electromagnetic field:
+  ∂∂f.i(x) = 0
+for spin 1/2 we have the Dirac's field equation:
   I γ.ijk ∂.i' ψ.k(x) - m ψ.j(x) = 0
 
 deviations from free motion, for a field,
