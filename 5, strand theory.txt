@@ -31,6 +31,6 @@ mirror tangles neutralize each other's restrictions, and allow the cores to be u
 
 virtual particles are temporary tangles, ie tangles which annihilate after a short time;
 
-mass is the amount of inter_tangledness, and thus it determines
+mass is the amount of inter'tangledness, and thus it determines
   the inertial difficulty to move the tangle,
   as well as the amount of produced virtual gravitons;
