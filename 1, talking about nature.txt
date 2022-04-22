@@ -1,14 +1,14 @@
 talking is in fact nothing but separating and grouping, they are the foundation of all concepts
 this is especially evident in mathematics (a way of talking, in which the relations between concepts are clear,
   and thus the foundation of any concept is determined)
-the concept of a set (a group of parts) is the foundation of all mathematical concepts
+  the concept of a set (a group of parts) is the foundation of all mathematical concepts
 the subtle point here is that, separating and grouping are circular concepts,
   each defined using the other (yin and yang)
 
 nature (everything) can't be a set
 in other words, there is no set of everything, because at least it can't contain itself
 even if we define sets, in a way that they could be members of themselves,
-  again a set of everything would not be possible (it's called Russell paradox)
+  again a set of everything would not be possible (it's called Russell's paradox)
 this is why:
 suppose that we have a set named set1
 another set named set2 contains those sets in set1 that are not members of themselves
@@ -73,8 +73,7 @@ strand theory proposed by Christoph Schiller is an attempt for a unified theory 
 still, no matter how we describe nature, we are here as pretty evolved parts of it
   in fact we are so evolved that we can alter the path of evolution itself
   the problem is that we are not still evolved enough to use this ability properly
-we are going to create more suffering,
-  and ultimately the destruction of all which has been achieved,
+we are going to create more suffering, and ultimately the destruction of all which has been achieved,
   if we continue what we are doing now (excluding a few developed countries)
 though it is possible that the evolution goes one step further,
   leading to humans that can add to the beauty and richness of nature
