@@ -119,11 +119,13 @@ on the other hand, according to the equivalence principle of gravity,
 so falling objects determine the geodesics
 this implies that in the presence of gravity, the geodesics are curved
 
-so instead of introducing a gravitational field, we can consider gravity as the curvature of spacetime itself
-note that gravity can be described as the curvature of space and time,
-	even in non'relativistic physics (NewtonCartan theory)
-though it's a bit uneasy and ugly, because there is two separate metrics
-"https://www.physicsforums.com/insights/revival-newton-cartan-theory/"
+gravity can't be described as a field, because there is no charge for it
+in non'relativistic physics, we have two choices to describe gravity:
+, as an action at a distance
+, as the curvature of space and time (NewtonCartan theory)
+	though it's ugly, because there is two separate metrics
+	"https://www.physicsforums.com/insights/revival-newton-cartan-theory/"
+but in relativistic physics we can only describe gravity as the curvature of space'time
 
 for a spacetime with a local Lorentz symmetry, there is a maximum curvature which can be reached,
 	when a body's mass fits inside the so called Schwarzschild radius (2 G m / c^2),
