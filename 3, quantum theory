@@ -6,7 +6,6 @@ quanta must be entirely and instantaneously created or destroyed in discrete uni
 "Art Hobson, there are no particles, there are only fields"
 	"https://arxiv.org/pdf/1204.4616.pdf"
 "https://www.damtp.cam.ac.uk/user/tong/qft.html"
-"http://www.rcnp.osaka-u.ac.jp/~ipc/meetipc/pdf/seminar_titov.pdf"
 "https://people.phys.ethz.ch/~babis/Teaching/QFT1/qft1.pdf"
 
 fields can be considered as the probability amplitude for interaction of quanta
@@ -20,7 +19,7 @@ uncertainty principle is a property of fields:
 = strong and weak interactions
 strong and weak interactions (unlike electromagnetism) have very short ranges,
 	thus in practice we always work with them in small scales,
-	and with relatively small number of quanta
+	containing a relatively small number of quanta
 
 strong interaction is described by a SU(3) gauge symmetry
 	(3rd order special unitary group, the set of all 3 by 3 unitary matrices with unit determinant)
@@ -73,4 +72,4 @@ particles can have spin 1/2, provided that they have tails going to the border o
 	if the tails do not reach the border, the model does not work
 spin 1/2 thus even seems to require extension
 
-explaining black hole entropy seems to demand extended entities too
+explaining black'hole entropy seems to demand extended entities too
