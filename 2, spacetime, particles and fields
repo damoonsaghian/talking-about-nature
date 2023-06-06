@@ -6,7 +6,7 @@ a real vector space is a vector space which its underlying field is totally orde
 
 in a vector space with Minkowski inner product, all normal vectors (for which we have: v^2 = ±1),
 	are divided into distinct groups, each called a basis, for which we have:
-	b_i b_j = g_ij
+	b_i b_j = g_i_j
 	where:
 	g_ij = {
 		0 if i!=j
@@ -16,16 +16,16 @@ in a vector space with Minkowski inner product, all normal vectors (for which we
 vector components with respect to a basis are defined by:
 	v.i = v b_i
 thus the inner product can be written as:
-	v1 v2 = g_ij v1_i v2_j
+	v1 v2 = g_i_j v1_i v2_j
 by convention repeated indexes in a multiplication means summing over those indexes
 and for convenience we use this notation:
-	v1_i v2_i' = g_ij v1_i v2_j
+	v1_i v2_i' = g_i_j v1_i v2_j
 
 transformations which leave the distance (ie |v2 - v1|) invariant,
 	are called symmetry transformations of spacetime
 they can be written as ("d_i" is an arbitrary displacement):
-	v'_i = L_ij v_j + d_i
-	where: L_ik L_il = g_kl
+	v'_i = L_i_j v_j + d_i
+	where: L_i_k L_i_l = g_k_l
 
 symmetry transformations of spacetime, form a group called spacetime symmetry group,
 	which is a ten'parameter non'Abelian Lie group
@@ -68,18 +68,18 @@ furthermore, in general relativity, massive point particles (even with no charge
 fields must transform according to a representation of spacetime symmetry group
 in other words fields must be a tensor or spinor on spacetime:
 , scalar fields transform such that: f'(x') = f(x)
-, vector fields: f'_i(x') = L_ij f_j(x)
-, higher order tensor fields: f'_ij…(x') = L_ik L_jl … f_kl…(x)
+, vector fields: f'(x')_i = L_i_j f(x)_j
+, higher order tensor fields: f'(x')_i_j_… = L_i_k L_j_l … f(x)_k_l_…
 , spinor fields (note that the values here are actually complex numbers):
-	ψ'_i(x') = S_ij ψ_j(x)
-	where: γ_ijk S_kl = S_jk L_im γ_mkl
-	where: γ_ijk γ_lkj + γ_ijk γ_ikj = 2 g_ij
-for higher order spinor gamma matrices are generalized into matrices (γ_ij…),
+	ψ'(x')_i = S_i_j ψ(x)_j
+	where: γ_i_j_k S_k_l = S_j_k L_i_m γ_m_k_l
+	where: γ_i_j_k γ_l_k_j + γ_i_j_k γ_i_k_j = 2 g_i_j
+for higher order spinor gamma matrices are generalized into matrices (γ_i_j_…),
 	which are symmetric in any two tensor indexes
 
 free fields are what we have when there is no interaction
 a free field is a superposition of plane waves:
-	f_i(x) = a_i E^(I k_j x_j')
+	f(x)_i = a_i E^(I k_j x_j')
 	where "E" is the Euler's number and "I^2 = -1"
 we define the mass of a field as: m^2 + k_i k_i' = 0
 
@@ -89,13 +89,13 @@ free field equation for scalar fields:
 	where: ∂∂ = ∂_i ∂_i'
 (note that all formulas are written in Planck units in which: c=G=ħ=k=1)
 free field equation for vector, tensor, or spinor fields with spin "s" (Joos-Weinberg equation):
-	I^2s γ_(i_1 … i_2s j k) ∂_i'_1 … ∂_i'_2s f_k_…(x) + m^2s f_k_…(x) = 0
+	I^2s γ_(i_1)_…_(i_2s)_j_k ∂_(i'_1) … ∂_(i'_2s) f(x)_k_… + m^2s f(x)_j_… = 0
 for spin 1 we have:
-	∂∂f_i(x) + m^2 f_i(x) = 0
+	∂∂f(x)_i + m^2 f(x)_i = 0
 which in the case of a massless field, leads to Maxwell's equation for a free electromagnetic field:
-	∂∂f_i(x) = 0
+	∂∂f(x)_i = 0
 for spin 1/2 we have the Dirac's field equation:
-	I γ_ijk ∂_i' ψ_k(x) - m ψ_j(x) = 0
+	I γ_i_j_k ∂_i' ψ(x)_k - m ψ(x)_j = 0
 
 deviations from free motion, for a field,
 	must always be accompanied by the deviation of another field from free motion
@@ -107,9 +107,9 @@ gauge (or local) symmetries are symmetries under spacetime dependent transformat
 we can write a field equation that is invariant under
 	a local phase transformation (spacetime dependent phase transformation),
 	by introducing a vector field, to compensate for the variations due to the derivative term
-I γ_ijk ∂_i' ψ_k(x) - m ψ_j(x) = E γ_ijk f_i'(x) ψ_k(x)
-∂∂f_i(x) = E ψ~_k(x) γ_ikj ψ_j(x)
-where "ψ~" is complex conjugate of "ψ"
+I γ_i_j_k ∂_i' ψ(x)_k - m ψ(x)_j = E γ_i_j_k f(x)_i' ψ(x)_k
+∂∂f(x)_i = E ~ψ(x)_k γ_i_k_j ψ(x)_j
+where "~" is complex conjugate operator
 
 = gravity
 spacetime is a geometric space, ie it has geodesics, which determine the motion of free objects in it
@@ -119,7 +119,11 @@ on the other hand, according to the equivalence principle of gravity,
 so falling objects determine the geodesics
 this implies that in the presence of gravity, the geodesics are curved
 
-gravity can't be described as a field, because there is no charge for it
+gravity can't be described as a local (gauge) interaction with a field
+to see why, imagine that you are in a closed box
+	there is nothing in nature which you can use to determine if you are experiencing gravity
+	in the case of EM field, you just need a charged particle
+in other words, there is no charge for gravity
 in non'relativistic physics, we have two choices to describe gravity:
 , as an action at a distance
 , as the curvature of space and time (NewtonCartan theory)
@@ -153,3 +157,10 @@ but i think it's possible to explain these discrepancies as accumulative quantum
 quantum gravity + rotating atomic BoseEinstein condensate (superfluids) -> anti'gravity?
 "https://en.wikipedia.org/wiki/Ning_Li_(physicist)"
 "https://en.wikipedia.org/wiki/Eugene_Podkletnov"
+in the light of strand theory:
+in macroscopic objects the direction of motion does not affect the extension strands
+	they are homogeneously spread aroud the object
+but for quanta the extension strands lie in the direction of its motion
+	and depending on the rotation axis being in the direction of motion or the oposite of it,
+	the quanta is said to have up or down spin
+what about superfluids?
