@@ -1,0 +1,106 @@
+spacetime is a real vector space with a Minkowski inner product;
+vector space and inner product are mathematical concepts whose precise definitions can easily be found online;
+a real vector space is a vector space which its underlying field is totally ordered, and has a complete metric;
+	this means that the underlying field is isomorphic to real numbers;
+
+in a vector space with Minkowski inner product, normal vectors (v^2 = ±1) can be grouped into distinct sets;
+each set is called a basis, and contains four vectors, for which we have (for i,j=0,1,2,3):
+	b[i] b[j] = g[i,j];
+	where:
+	g[i,j] = {
+		0	if i><j;
+		-1	if i=j=0;
+		1	otherwise;
+	}
+vector components (which are real numbers) with respect to a basis are defined by (for i=0,1,2,3):
+	v[i] = v b[i];
+thus the inner product can be written as:
+	v1 v2 = g[i,j] v1[i] v2[j];
+by convention repeated indices in a multiplication means summing over those indices;
+an even more convenient notation would be:
+	v1 v2 = v1[i] v2[i'];
+
+transformations which leave the distance (ie |v2 - v1|) invariant, are called symmetry transformations of spacetime;
+they can be written as ("d[i]" is an arbitrary displacement):
+	v'[i] = L[i,j] v[j] + d[i];
+	where: L[i,k] L[i,l] = g[k,l];
+
+symmetry transformations of spacetime, form a group called spacetime symmetry group,
+	which is a ten'parameter non'Abelian Lie group;
+so the representations of spacetime symmetry group can be deduced,
+	using the representations of its corresponding Lie algebra,
+	plus the projective representations (since it's not a simply connected group);
+"https://en.wikipedia.org/wiki/Representation_theory_of_the_Lorentz_group"
+"https://en.wikipedia.org/wiki/Spinor"
+
+= why 3 dimensions for space?
+
+this simple but usually overlooked question can actually be a guide to the unified theory, by implying extended entities;
+3 is the only number of dimensions in which knots are possible;
+Zeeman proved that (considering topological isotopes, or even piecewise linear isotopes),
+	spheres can make knots only when the co'dimension is 2;
+	(co'dimension is the difference between the dimension of the sphere and the container space)
+
+there is another phenomena which i think is related to this: exotic smooth structures exist only on R^4;
+ie when "n" is not 4 then any smooth manifold homeomorphic to R^n is diffeomorphic to R^n;
+i think the origin of this phenomena is the failure of the Whitney trick,
+	which i think is because of co'dimension 2, between 2'disks used in Whitney trick, and the 4 dimensional space;
+
+= fields
+
+fields must transform according to a representation of spacetime symmetry group;
+in other words, fields must be a tensor or spinor on spacetime:
+, scalar fields transform such that: f'(x') = f(x);
+, vector fields: f'[i](x') = L[i,j] f[j](x);
+, higher order tensor fields: f'[i,j,…](x') = L[i,k] L[j,l] … f[k,l,…](x);
+, spinor fields (note that the values here are actually complex numbers):
+	ψ'[i](x') = S[i,j] ψ[j](x);
+	where: γ[i,j,k] S[k,l] = S[j,k] L[i,m] γ[m,k,l];
+	where: γ[i,j,k] γ[l,k,j] + γ[i,j,k] γ[i,k,j] = 2 g[i,j];
+for higher order spinor, gamma matrices are generalized (γ[i,j,…]) into matrices which are symmetric in any two indices;
+
+free fields are what we have when there is no interaction;
+a free field is a superposition of plane waves:
+	f[i](x) = a[i] E^(I k[j] x[j']);
+	where "E" is the Euler's number and "I^2 = -1";
+we define the mass of a field as: m^2 + k[i] k[i'] = 0;
+
+free field equation is an equation whose every solution is a free field;
+free field equation for scalar fields:
+	∂∂f(x) + m^2 f(x) = 0;
+	where: ∂∂ = ∂[i] ∂[i'];
+note that all formulas are written in Planck units in which: c=G=ħ=k=1;
+free field equation for vector, tensor, or spinor fields with spin "s" (Joos-Weinberg equation):
+	I^2s γ[i[1],…,i[2s],j[k]] ∂[i'[1]] … ∂[i'[2s]] f[k,…](x) + m^2s f[j,…](x) = 0;
+for spin 1 we have:
+	∂∂f[i](x) + m^2 f[i](x) = 0;
+which in the case of a massless field, leads to Maxwell's equation for a free electromagnetic field:
+	∂∂f[i](x) = 0;
+for spin 1/2 we have the Dirac's field equation:
+	I γ[i,j,k] ∂[i'] ψ[k](x) - m ψ[j](x) = 0;
+
+deviation of a field from free motion, must always be accompanied by the deviation of another field;
+the exact mechanism of interaction, and thus the number of interacting fields,
+	is determined by the gauge symmetry of interaction;
+gauge (or local) symmetries are symmetries under spacetime dependent transformations;
+	"https://en.wikipedia.org/wiki/Gauge_theory"
+we can write a field equation that is invariant under a local (spacetime dependent) phase transformation,
+	by introducing a vector field, to compensate for the variations due to the derivative term:
+	I γ[i,j,k] ∂[i'] ψ[k](x) - m ψ[j](x) = E γ[i,j,k] f[i'](x) ψ[k](x);
+	∂∂f[i](x) = E ~ψ[k](x) γ[i,k,j] ψ[j](x);
+	where "~" is complex conjugate operator;
+
+= particles
+
+point particles in a relativistic theory (where instantaneous action at a distance isn't allowed),
+	lead to infinite self'field (thus external finite fields can't accelerate the particle);
+see "self'force on a classical point charge, Robert M. Wald";
+	"http://www.math.utk.edu/~fernando/barrett/bwald1.pdf"
+"https://en.wikipedia.org/wiki/Regularization_(physics)#Classical_physics_example"
+
+thus in a relativistic theory, particles which can change velocity, ie massive charged particles, must have a non'zero size;
+note that this differs from the concept of a rigid body; in fact in a relativistic theory, rigid bodies don't exist;
+the insides of particles must be considered special,
+	in the sense that even spacetime ceases to exist inside particles;
+considering gravity (discussed below), we can say this size is the Schwarzschild radius;
+furthermore, in general relativity, massive point particles (even with no charge) make no sense;
